@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "key": "options_title",
+      "value": "OPTIONS"
+    },
+    {
+      "key": "options_reset",
+      "value": "RESET"
+    },
+    {
+      "key": "options_close",
+      "value": "CLOSE"
+    },
+    {
+      "key": "options_display_button",
+      "value": "DISPLAY"
+    },
+    {
+      "key": "options_sound_button",
+      "value": "SOUND"
+    },
+    {
+      "key": "options_controls_button",
+      "value": "CONTROLS"
+    },
+    {
+      "key": "options_themes_button",
+      "value": "THEMES"
+    },
+    {
+      "key": "options_language_button",
+      "value": "LANGUAGE"
+    },
+    {
+      "key": "options_language_langmenuitem",
+      "value": "Language"
+    }
+  ]
+}

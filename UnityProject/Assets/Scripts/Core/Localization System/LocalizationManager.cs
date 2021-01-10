@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.IO;
 
 public class LocalizationManager : MonoBehaviour
@@ -25,8 +26,13 @@ public class LocalizationManager : MonoBehaviour
 		DontDestroyOnLoad(gameObject);
 	}
 
-	public void LoadLocalizedText(string fileName)
+	public void LoadLocalizedText()
 	{
+		Dropdown dropdown = this.gameObject.GetComponent("Dropdown") as Dropdown;
+		int choicedLanguage = dropdown.value;
+
+		string fileName = choicedLanguage.ToString() + ".json";
+
 		localizedText = new Dictionary<string, string>();
 		string filePath = Path.Combine(Application.streamingAssetsPath, fileName);
 
@@ -51,7 +57,7 @@ public class LocalizationManager : MonoBehaviour
 
 	public string GetLocalizedValue(string key)
 	{
-		string result = missingTextString;
+		string result = "Text not found";
 		if (localizedText.ContainsKey(key))
 		{
 			result = localizedText[key];
