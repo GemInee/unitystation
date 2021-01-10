@@ -7,6 +7,7 @@ using System.IO;
 public class LocalizationManager : MonoBehaviour
 {
 	public static LocalizationManager instance;
+	public GameObject dropDown;
 	private Dictionary<string, string> localizedText;
 	private bool isReady = false;
 
@@ -28,7 +29,7 @@ public class LocalizationManager : MonoBehaviour
 
 	public void LoadLocalizedText()
 	{
-		Dropdown dropdown = this.gameObject.GetComponent("Dropdown") as Dropdown;
+		Dropdown dropdown = dropDown.GetComponent("Dropdown") as Dropdown;
 		int choicedLanguage = dropdown.value;
 
 		string fileName = choicedLanguage.ToString() + ".json";
