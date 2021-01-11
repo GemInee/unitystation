@@ -6,11 +6,16 @@ using System.IO;
 
 public class LocalizationManager : MonoBehaviour
 {
+	public delegate void LanguageIsChangeEventHandler();
+	public event LanguageIsChangeEventHandler OnLanguageChanged;
 	public static LocalizationManager instance;
 	public GameObject dropDown;
 	private Dictionary<string, string> localizedText;
+	private static List<LocalizedText> cacheLocalizedGameObjectsComponents;
 	private bool isReady = false;
 
+	//public delegate void LanguageIsChangeEventHandler();
+	//public event LanguageIsChangeEventHandler LanguageIsChanged;
 
 	//initialization
 	void Awake()
@@ -54,6 +59,13 @@ public class LocalizationManager : MonoBehaviour
 		}
 
 		isReady = true;
+
+		foreach (LocalizedText component in cacheLocalizedGameObjectsComponents)
+		{
+
+			component.SetLocalizationText((GetLocalizedValue(component.key)));
+			
+		}
 	}
 
 	public string GetLocalizedValue(string key)
@@ -65,6 +77,11 @@ public class LocalizationManager : MonoBehaviour
 		}
 
 		return result;
+	}
+
+	public static void OnWakeGameObjectCachForLocalization(LocalizedText component)
+	{
+		cacheLocalizedGameObjectsComponents.Add(component);
 	}
 
 	public bool GetIsReady()
