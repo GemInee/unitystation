@@ -2,39 +2,39 @@
   "items": [
     {
       "key": "options_title",
-      "value": "Õ¿—“–Œ… »"
+      "value": "–ù–ê–°–¢–†–û–ô–ö–ò"
     },
     {
       "key": "options_reset",
-      "value": "—¡–Œ—"
+      "value": "–°–ë–†–û–°"
     },
     {
       "key": "options_close",
-      "value": "«¿ –€“‹"
+      "value": "–ó–ê–ö–†–´–¢–¨"
     },
     {
       "key": "options_display_button",
-      "value": "Œ“Œ¡–¿∆≈Õ»≈"
+      "value": "–û–¢–û–ë–†–ê–ñ–ï–ù–ò–ï"
     },
     {
       "key": "options_sound_button",
-      "value": "«¬” "
+      "value": "–ó–í–£–ö"
     },
     {
       "key": "options_controls_button",
-      "value": "”œ–¿¬À≈Õ»≈"
+      "value": "–£–ü–†–ê–í–õ–ï–ù–ò–ï"
     },
     {
       "key": "options_themes_button",
-      "value": "“≈Ã€"
+      "value": "–¢–ï–ú–´"
     },
     {
       "key": "options_language_button",
-      "value": "ﬂ«€ "
+      "value": "–Ø–ó–´–ö"
     },
     {
       "key": "options_language_langmenuitem",
-      "value": "ﬂÁ˚Í"
+      "value": "–Ø–∑—ã–∫"
     }
   ]
 }
