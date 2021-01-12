@@ -29,6 +29,7 @@ public class LocalizationManager : MonoBehaviour
 			Destroy(gameObject);
 		}
 
+		cacheLocalizedGameObjectsComponents = new List<LocalizedText>();
 		DontDestroyOnLoad(gameObject);
 	}
 
