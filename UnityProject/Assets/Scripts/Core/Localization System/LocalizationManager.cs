@@ -33,6 +33,7 @@ public class LocalizationManager : MonoBehaviour
 		cacheLocalizedGameObjectsComponents = new List<LocalizedText>();
 		DontDestroyOnLoad(gameObject);
 		FillDropDown();
+
 	}
 
 	public void LoadLocalizedText()
@@ -82,7 +83,7 @@ public class LocalizationManager : MonoBehaviour
 		return result;
 	}
 
-	public static void OnWakeGameObjectCachForLocalization(LocalizedText component)
+	public static void OnWakeGameObjectCacheForLocalization(LocalizedText component)
 	{
 		cacheLocalizedGameObjectsComponents.Add(component);
 	}
