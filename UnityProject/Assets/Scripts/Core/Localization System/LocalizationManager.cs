@@ -12,6 +12,7 @@ public class LocalizationManager : MonoBehaviour
 	public GameObject dropDown;
 	private Dictionary<string, string> localizedText;
 	private static List<LocalizedText> cacheLocalizedGameObjectsComponents;
+	private FileInfo[] LocalizedFiles;
 	private bool isReady = false;
 
 	//public delegate void LanguageIsChangeEventHandler();
@@ -31,6 +32,7 @@ public class LocalizationManager : MonoBehaviour
 
 		cacheLocalizedGameObjectsComponents = new List<LocalizedText>();
 		DontDestroyOnLoad(gameObject);
+		FillDropDown();
 	}
 
 	public void LoadLocalizedText()
@@ -38,10 +40,10 @@ public class LocalizationManager : MonoBehaviour
 		Dropdown dropdown = dropDown.GetComponent("Dropdown") as Dropdown;
 		int choicedLanguage = dropdown.value;
 
-		string fileName = choicedLanguage.ToString() + ".json";
+		string fileName = LocalizedFiles[dropdown.value].Name;
 
 		localizedText = new Dictionary<string, string>();
-		string filePath = Path.Combine(Application.streamingAssetsPath, fileName);
+		string filePath = Path.Combine(Application.streamingAssetsPath, "Localizations", fileName);
 
 		if (File.Exists(filePath))
 		{
@@ -65,7 +67,7 @@ public class LocalizationManager : MonoBehaviour
 		{
 
 			component.SetLocalizationText((GetLocalizedValue(component.key)));
-			
+
 		}
 	}
 
@@ -83,6 +85,24 @@ public class LocalizationManager : MonoBehaviour
 	public static void OnWakeGameObjectCachForLocalization(LocalizedText component)
 	{
 		cacheLocalizedGameObjectsComponents.Add(component);
+	}
+
+	public void FillDropDown()
+	{
+		Dropdown dropdown = dropDown.GetComponent("Dropdown") as Dropdown;
+		string filePath = Path.Combine(Application.streamingAssetsPath, "Localizations");
+		Dropdown.OptionDataList ddOptionsList = new Dropdown.OptionDataList();
+		DirectoryInfo dir = new DirectoryInfo(filePath);
+		LocalizedFiles = dir.GetFiles("*.json");
+
+		Dropdown.OptionData optionData;
+		foreach (FileInfo f in LocalizedFiles)
+		{
+			optionData = new Dropdown.OptionData(f.Name.Remove(f.Name.Length - f.Extension.Length), null);
+			ddOptionsList.options.Add(optionData);
+		}
+		dropdown.ClearOptions();
+		dropdown.options = ddOptionsList.options;
 	}
 
 	public bool GetIsReady()
