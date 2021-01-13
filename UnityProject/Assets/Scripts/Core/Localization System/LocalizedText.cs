@@ -11,9 +11,9 @@ public class LocalizedText : MonoBehaviour
 	void Start()
 	{
 
-		LocalizedText localizedGameObjectComponent = GetComponent<LocalizedText>();
-		LocalizationManager.OnWakeGameObjectCacheForLocalization(localizedGameObjectComponent);
-		//SetLocalizationText(LocalizationManager.instance.GetLocalizedValue(key));
+		LocalizedText localizedGemaObjectComponent = GetComponent<LocalizedText>();
+		LocalizationManager.OnWakeGameObjectCachForLocalization(localizedGemaObjectComponent);
+
 
 	}
 
