@@ -36,7 +36,7 @@ namespace Localization
 			}
 			else
 			{
-				Debug.LogError("ERROR: Scrip in " + gameObject + " not found components for localizations!");
+				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found components for localizations!", gameObject);
 			}
 
 		}

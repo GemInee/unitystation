@@ -87,7 +87,7 @@ namespace Localization
 			else
 			{
 				result = key;
-				Debug.LogError("ERROR: Scrip in " + gameObject + " not found text for localaizeing with KEY: " + key +"!");
+				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key +"!", gameObject);
 			}
 
 			return result;
