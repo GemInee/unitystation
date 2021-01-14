@@ -82,7 +82,7 @@ public class LocalizationManager : MonoBehaviour
 		return result;
 	}
 
-	public static void OnWakeGameObjectCachForLocalization(LocalizedText component)
+	public static void OnWakeGameObjectCacheForLocalization(LocalizedText component)
 	{
 		cacheLocalizedGameObjectsComponents.Add(component);
 	}
