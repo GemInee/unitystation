@@ -13,6 +13,7 @@ namespace Localization
 		public static LocalizationManager instance;
 		public GameObject dropDown;
 		private Dictionary<string, string> localizedText;
+		private Dictionary<string, LocalizedItemData> localizedItemData;
 		private static List<LocalizedText> cacheLocalizedGameObjectsUIComponents;
 		private static List<LocalizedText> cacheLocalizedItems;
 		private static List<LocalizedText> cacheLocalizedStrings;
@@ -43,17 +44,19 @@ namespace Localization
 
 		public void LoadLocalizedText()
 		{
+			//Выбор локализации
 			Dropdown dropdown = dropDown.GetComponent("Dropdown") as Dropdown;
 			int choicedLanguage = dropdown.value;
 
-			string fileName = LocalizedFiles[dropdown.value].Name;
+			//Грузим локализацию для UI
+			string fileNameUI = LocalizedFiles[dropdown.value].Name;
 
 			localizedText = new Dictionary<string, string>();
-			string filePath = Path.Combine(Application.streamingAssetsPath, "Localizations", fileName);
+			string filePathUI = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameUI);
 
-			if (File.Exists(filePath))
+			if (File.Exists(filePathUI))
 			{
-				string dataJson = File.ReadAllText(filePath);
+				string dataJson = File.ReadAllText(filePathUI);
 				LocalizationData loadedData = JsonUtility.FromJson<LocalizationData>(dataJson);
 
 				for (int i = 0; i < loadedData.items.Length; i++)
@@ -68,13 +71,41 @@ namespace Localization
 			}
 
 			isReady = true;
-
+			//Применяем локализацию для UI
 			foreach (LocalizedText component in cacheLocalizedGameObjectsUIComponents)
 			{
 
 				component.SetLocalizationText((GetLocalizedValue(component.GetKey())));
 
 			}
+
+			//Грузим локализацию для Items
+			string fileNameItems = LocalizedFiles[dropdown.value].Name + "_items";
+
+			//Готовим словарик приёмник для локализаций
+			localizedItemData = new Dictionary<string, LocalizedItemData>();
+			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
+
+			if (File.Exists(filePathItems))
+			{
+				string dataJson = File.ReadAllText(filePathItems);
+				LocalizedItemData loadedData = JsonUtility.FromJson<LocalizedItemData>(dataJson);
+
+				for (int i = 0; i < loadedData.it .Length; i++)
+				{
+					localizedItemData.Add(loadedData.items[i].key, loadedData.items[i].value);
+				}
+
+			}
+			else
+			{
+				Debug.LogError("Cannot find file");
+			}
+
+
+
+
+
 		}
 
 		public string GetLocalizedValue(string key)

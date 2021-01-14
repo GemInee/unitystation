@@ -1,0 +1,30 @@
+{
+  "items": 
+  [
+    {
+      "ItemName": "eyewear",
+      "value": [
+        {
+          "InitialItemName": "Eyewear",
+          "InitialItemDescription": "Oops, someone spawned something they shouldn't!",
+          "ExportName": "Eyewear",
+          "ExportDescription": "Oops, someone spawned something they shouldn't!",
+          "ExportMessage": "Unknown message text!"
+        }
+      ]
+    },
+    {
+      "ItemName": "Handwear",
+      "value": [
+        {
+          "InitialItemName": "Handwear",
+          "InitialItemDescription": "Just an ordinary black handwears",
+          "ExportName": "Handwear",
+          "ExportDescription": "Just an ordinary black handwears",
+          "ExportMessage": "Unknown message text!"
+        }
+      ]
+    }
+  ]
+}
+

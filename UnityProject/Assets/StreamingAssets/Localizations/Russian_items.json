@@ -1,0 +1,30 @@
+{
+  "items": 
+  [
+    {
+      "ItemName": "Eyewear",
+      "value": [
+        {
+          "InitialItemName": "Очки",
+          "InitialItemDescription": "Ой, кто-то наспавнил то, что не должен был!",
+          "ExportName": "Очки",
+          "ExportDescription": "Ой, кто-то наспавнил то, что не должен был!",
+          "ExportMessage": "Неизвестное сообщение!"
+        }
+      ]
+    },
+    {
+      "ItemName": "Handwear",
+      "value": [
+        {
+          "InitialItemName": "Перчатки",
+          "InitialItemDescription": "Просто обычные черные перчатки.",
+          "ExportName": "Перчатки",
+          "ExportDescription": "Просто обычные черные перчатки.",
+          "ExportMessage": "Неизвестное сообщение!"
+        }
+      ]
+    }
+  ]
+}
+
