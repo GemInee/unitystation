@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartupManager : MonoBehaviour
+namespace Localization
 {
-	private IEnumerator Start()
+	public class StartupManager : MonoBehaviour
 	{
-		while (!LocalizationManager.instance.GetIsReady())
+		private IEnumerator Start()
 		{
-			yield return null;
+			while (!LocalizationManager.instance.GetIsReady())
+			{
+				yield return null;
+			}
+
+			SceneManager.LoadScene("Lobby");
 		}
 
-		SceneManager.LoadScene("Lobby");
 	}
-
 }
