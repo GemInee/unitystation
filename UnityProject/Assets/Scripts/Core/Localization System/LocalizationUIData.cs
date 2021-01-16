@@ -1,13 +1,13 @@
 ﻿namespace Localization
 {
 	[System.Serializable]
-	public class LocalizationData
+	public class LocalizationUIData
 	{
-		public LocalizationItem[] items;
+		public LocalizationUIItem[] items;
 	}
 
 	[System.Serializable]
-	public class LocalizationItem
+	public class LocalizationUIItem
 	{
 		public string key;
 		public string value;

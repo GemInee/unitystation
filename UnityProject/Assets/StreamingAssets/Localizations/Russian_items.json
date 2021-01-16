@@ -5,11 +5,11 @@
       "ItemName": "Eyewear",
       "value": [
         {
-          "InitialItemName": "Очки",
-          "InitialItemDescription": "Ой, кто-то наспавнил то, что не должен был!",
-          "ExportName": "Очки",
-          "ExportDescription": "Ой, кто-то наспавнил то, что не должен был!",
-          "ExportMessage": "Неизвестное сообщение!"
+          "InitialItemName": "РћС‡РєРё",
+          "InitialItemDescription": "РћР№, РєС‚Рѕ-С‚Рѕ РЅР°СЃРїР°РІРЅРёР» С‚Рѕ, С‡С‚Рѕ РЅРµ РґРѕР»Р¶РµРЅ Р±С‹Р»!",
+          "ExportName": "РћС‡РєРё",
+          "ExportDescription": "РћР№, РєС‚Рѕ-С‚Рѕ РЅР°СЃРїР°РІРЅРёР» С‚Рѕ, С‡С‚Рѕ РЅРµ РґРѕР»Р¶РµРЅ Р±С‹Р»!",
+          "ExportMessage": "РќРµРёР·РІРµСЃС‚РЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ!"
         }
       ]
     },
@@ -17,11 +17,11 @@
       "ItemName": "Handwear",
       "value": [
         {
-          "InitialItemName": "Перчатки",
-          "InitialItemDescription": "Просто обычные черные перчатки.",
-          "ExportName": "Перчатки",
-          "ExportDescription": "Просто обычные черные перчатки.",
-          "ExportMessage": "Неизвестное сообщение!"
+          "InitialItemName": "РџРµСЂС‡Р°С‚РєРё",
+          "InitialItemDescription": "РџСЂРѕСЃС‚Рѕ РѕР±С‹С‡РЅС‹Рµ С‡РµСЂРЅС‹Рµ РїРµСЂС‡Р°С‚РєРё.",
+          "ExportName": "РџРµСЂС‡Р°С‚РєРё",
+          "ExportDescription": "РџСЂРѕСЃС‚Рѕ РѕР±С‹С‡РЅС‹Рµ С‡РµСЂРЅС‹Рµ РїРµСЂС‡Р°С‚РєРё.",
+          "ExportMessage": "РќРµРёР·РІРµСЃС‚РЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ!"
         }
       ]
     }

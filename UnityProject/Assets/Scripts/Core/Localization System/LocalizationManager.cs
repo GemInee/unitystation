@@ -13,11 +13,11 @@ namespace Localization
 		public static LocalizationManager instance;
 		public GameObject dropDown;
 		private Dictionary<string, string> localizedText;
-		private Dictionary<string, LocalizedItemData> localizedItemData;
+		private Dictionary<string, LocalizedItem> localizedItemsData;
 		private static List<LocalizedText> cacheLocalizedGameObjectsUIComponents;
 		private static List<LocalizedText> cacheLocalizedItems;
 		private static List<LocalizedText> cacheLocalizedStrings;
-		private FileInfo[] LocalizedFiles;
+		private FileInfo[] LocalizedFilesCache;
 		private bool isReady = false;
 
 		//public delegate void LanguageIsChangeEventHandler();
@@ -46,10 +46,12 @@ namespace Localization
 		{
 			//Выбор локализации
 			Dropdown dropdown = dropDown.GetComponent("Dropdown") as Dropdown;
-			int choicedLanguage = dropdown.value;
+			//int choicedLanguage = dropdown.value;
 
 			//Грузим локализацию для UI
-			string fileNameUI = LocalizedFiles[dropdown.value].Name;
+			string fileNameUI = dropdown.options[dropdown.value].text + ".json";
+				//currentAvailableLocalizationFileNames.;
+				//LocalizedFilesCache[dropdown.value].Name;
 
 			localizedText = new Dictionary<string, string>();
 			string filePathUI = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameUI);
@@ -57,7 +59,7 @@ namespace Localization
 			if (File.Exists(filePathUI))
 			{
 				string dataJson = File.ReadAllText(filePathUI);
-				LocalizationData loadedData = JsonUtility.FromJson<LocalizationData>(dataJson);
+				LocalizationUIData loadedData = JsonUtility.FromJson<LocalizationUIData>(dataJson);
 
 				for (int i = 0; i < loadedData.items.Length; i++)
 				{
@@ -78,22 +80,23 @@ namespace Localization
 				component.SetLocalizationText((GetLocalizedValue(component.GetKey())));
 
 			}
-
+			//f.Name.Remove(f.Name.Length - f.Extension.Length)
 			//Грузим локализацию для Items
-			string fileNameItems = LocalizedFiles[dropdown.value].Name + "_items";
+			string fileNameItems = dropdown.options[dropdown.value].text + "_items.json";
 
 			//Готовим словарик приёмник для локализаций
-			localizedItemData = new Dictionary<string, LocalizedItemData>();
+			localizedItemsData = new Dictionary<string, LocalizedItem>();
 			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
 
 			if (File.Exists(filePathItems))
 			{
 				string dataJson = File.ReadAllText(filePathItems);
-				LocalizedItemData loadedData = JsonUtility.FromJson<LocalizedItemData>(dataJson);
+				LocalizationItemData loadedData = JsonUtility.FromJson<LocalizationItemData>(dataJson);
 
-				for (int i = 0; i < loadedData.it .Length; i++)
+				for (int i = 0; i < loadedData.items.Length; i++)
 				{
-					localizedItemData.Add(loadedData.items[i].key, loadedData.items[i].value);
+					_ = gameObject.AddComponent<LocalizedItem>();
+					localizedItemsData.Add(loadedData.items[i].ItemName, value: _ = loadedData.items[i].localizedItem);
 				}
 
 			}
@@ -145,13 +148,19 @@ namespace Localization
 			string filePath = Path.Combine(Application.streamingAssetsPath, "Localizations");
 			Dropdown.OptionDataList ddOptionsList = new Dropdown.OptionDataList();
 			DirectoryInfo dir = new DirectoryInfo(filePath);
-			LocalizedFiles = dir.GetFiles("*.json");
+			LocalizedFilesCache = dir.GetFiles("*.json"); //Возможно потом будем пересобирать перечень локалей так, чтобы однозначно сопоставлять номер в списке и номер в дропдауне. Если будет косячить.
 
 			Dropdown.OptionData optionData;
-			foreach (FileInfo f in LocalizedFiles)
+			foreach (FileInfo f in LocalizedFilesCache)
 			{
-				optionData = new Dropdown.OptionData(f.Name.Remove(f.Name.Length - f.Extension.Length), null);
-				ddOptionsList.options.Add(optionData);
+				//Check for current file is a base Localisation file
+				if (!f.Name.Contains("_items"))
+				{
+					//If true - add file name in dropdown list
+					optionData = new Dropdown.OptionData(f.Name.Remove(f.Name.Length - f.Extension.Length), null);
+					ddOptionsList.options.Add(optionData);
+				}
+
 			}
 			dropdown.ClearOptions();
 			dropdown.options = ddOptionsList.options;
