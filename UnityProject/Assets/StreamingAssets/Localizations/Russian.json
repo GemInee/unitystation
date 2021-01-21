@@ -35,6 +35,50 @@
     {
       "key": "options_language_langmenuitem",
       "value": "Язык:"
+    },
+    {
+      "key": "options_language_exampleExport_Button",
+      "value": "Выгрузить пример"
+    },
+    {
+      "key": "options_themes_chatBubbleTheme",
+      "value": "Тема чат бабла:"
+    },
+    {
+      "key": "options_controls_headerTitle",
+      "value": "НАСТРОЙКИ УПРАВЛЕНИЯ"
+    },
+    {
+      "key": "options_controls_waitForInput_text",
+      "value": "НАЖМИТЕ КНОПКУ"
+    },
+    {
+      "key": "options_controls_ESCtoCancel_text",
+      "value": "(Esc для отмены)"
+    },
+    {
+      "key": "options_controls_keyBinHead_Action",
+      "value": "ДЕСТВИЕ"
+    },
+    {
+      "key": "options_controls_keyBinHead_Primary",
+      "value": "ОСНОВНАЯ"
+    },
+    {
+      "key": "options_controls_keyBinHead_Secondary",
+      "value": "ВТОРОСТЕПЕННАЯ"
+    },
+    {
+      "key": "options_controls_buttonHolder_SaveAndClose",
+      "value": "СОХРАНИТЬ И ЗАКРЫТЬ"
+    },
+    {
+      "key": "options_controls_buttonHolder_ResetToDefaults",
+      "value": "СБРОС ПО УМОЛЧАНИЮ"
+    },
+    {
+      "key": "options_controls_buttonHolder_Cancel",
+      "value": "ОТМЕНА"
     }
   ]
 }

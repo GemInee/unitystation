@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Localization
 {
 	[System.Serializable]
-	public class LocalizedItem : MonoBehaviour
+	public class ItemData : MonoBehaviour
 	{
 		public string InitialItemName { get; set; }
 		public string InitialItemDescription { get; set; }
@@ -15,16 +15,16 @@ namespace Localization
 	}
 
 	[System.Serializable]
-	public class LocalizedItemDataSet : MonoBehaviour
+	public class Item : MonoBehaviour
 	{
-		public string ItemName { get; set; }
-		public LocalizedItem localizedItem { get; set; }
+		public string itemName { get; set; }
+		public ItemData itemData { get; set; }
 	}
 
 	[System.Serializable]
-	public class LocalizationItemData
+	public class Root
 	{
-		public LocalizedItemDataSet[] items;
+		public Item[] items;
 	}
 
 }

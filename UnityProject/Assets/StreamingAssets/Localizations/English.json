@@ -35,6 +35,50 @@
     {
       "key": "options_language_langmenuitem",
       "value": "Language:"
+    },
+    {
+      "key": "options_language_exampleExport_Button",
+      "value": "Export example"
+    },
+    {
+      "key": "options_themes_chatBubbleTheme",
+      "value": "Chat Bubble Theme:"
+    },
+    {
+      "key": "options_controls_headerTitle",
+      "value": "CONTROL SETTINGS"
+    },
+    {
+      "key": "options_controls_waitForInput_text",
+      "value": "WAITING FOR INPUT"
+    },
+    {
+      "key": "options_controls_ESCtoCancel_text",
+      "value": "(Esc to cancel)"
+    },
+    {
+      "key": "options_controls_keyBinHead_Action",
+      "value": "ACTION"
+    },
+    {
+      "key": "options_controls_keyBinHead_Primary",
+      "value": "PRIMARY"
+    },
+    {
+      "key": "options_controls_keyBinHead_Secondary",
+      "value": "SECONDARY"
+    },
+    {
+      "key": "options_controls_buttonHolder_SaveAndClose",
+      "value": "SAVE AND CLOSE"
+    },
+    {
+      "key": "options_controls_buttonHolder_ResetToDefaults",
+      "value": "RESET TO DEFAULT"
+    },
+    {
+      "key": "options_controls_buttonHolder_Cancel",
+      "value": "CANCEL"
     }
   ]
 }

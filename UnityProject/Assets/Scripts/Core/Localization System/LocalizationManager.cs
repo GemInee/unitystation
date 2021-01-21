@@ -13,7 +13,7 @@ namespace Localization
 		public static LocalizationManager instance;
 		public GameObject dropDown;
 		private Dictionary<string, string> localizedText;
-		private Dictionary<string, LocalizedItem> localizedItemsData;
+		private Dictionary<string, ItemData> localizedItemsData;
 		private static List<LocalizedText> cacheLocalizedGameObjectsUIComponents;
 		private static List<LocalizedText> cacheLocalizedItems;
 		private static List<LocalizedText> cacheLocalizedStrings;
@@ -85,18 +85,17 @@ namespace Localization
 			string fileNameItems = dropdown.options[dropdown.value].text + "_items.json";
 
 			//Готовим словарик приёмник для локализаций
-			localizedItemsData = new Dictionary<string, LocalizedItem>();
+			localizedItemsData = new Dictionary<string, ItemData>();
 			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
 
 			if (File.Exists(filePathItems))
 			{
 				string dataJson = File.ReadAllText(filePathItems);
-				LocalizationItemData loadedData = JsonUtility.FromJson<LocalizationItemData>(dataJson);
+				Root loadedData = JsonUtility.FromJson<Root>(dataJson);
 
 				for (int i = 0; i < loadedData.items.Length; i++)
 				{
-					_ = gameObject.AddComponent<LocalizedItem>();
-					localizedItemsData.Add(loadedData.items[i].ItemName, value: _ = loadedData.items[i].localizedItem);
+					localizedItemsData.Add(loadedData.items[i].itemName, loadedData.items[i].itemData);
 				}
 
 			}
@@ -169,6 +168,11 @@ namespace Localization
 		public bool GetIsReady()
 		{
 			return isReady;
+		}
+
+		public void ExportLocalizationExample()
+		{
+
 		}
 	}
 }

@@ -2,8 +2,8 @@
   "items": 
   [
     {
-      "ItemName": "Eyewear",
-      "value": [
+      "itemName": "Eyewear",
+      "itemData":
         {
           "InitialItemName": "Очки",
           "InitialItemDescription": "Ой, кто-то наспавнил то, что не должен был!",
@@ -11,11 +11,10 @@
           "ExportDescription": "Ой, кто-то наспавнил то, что не должен был!",
           "ExportMessage": "Неизвестное сообщение!"
         }
-      ]
     },
     {
-      "ItemName": "Handwear",
-      "value": [
+      "itemName": "Handwear",
+      "itemData":
         {
           "InitialItemName": "Перчатки",
           "InitialItemDescription": "Просто обычные черные перчатки.",
@@ -23,7 +22,6 @@
           "ExportDescription": "Просто обычные черные перчатки.",
           "ExportMessage": "Неизвестное сообщение!"
         }
-      ]
     }
   ]
 }
