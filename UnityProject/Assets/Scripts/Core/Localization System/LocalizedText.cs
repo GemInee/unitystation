@@ -13,27 +13,29 @@ namespace Localization
 		public string Key => key;
 
 		private Component textForLocalize;
+		//private Component itemForLocalize;
 
 		void Start()
 		{
 
-			LocalizedText localizedGameObjectComponent = GetComponent<LocalizedText>();
+
 
 			if (GetComponent<Text>() != null)
 			{
 				textForLocalize = GetComponent<Text>();
-				LocalizationManager.OnWakeGameObjectUICacheForLocalization(localizedGameObjectComponent);
+				LocalizationManager.OnWakeGameObjectUICacheForLocalization(GetComponent<LocalizedText>());
 			}
 			else if (GetComponent<Items.ItemAttributesV2>() != null)
 			{
 				// тут надо получить дикшинари со списком всего необходимого к локализации текста
-				LocalizationManager.OnWakeItemsCacheForLocalization(localizedGameObjectComponent);
+				//itemForLocalize = GetComponent<Items.ItemAttributesV2>
+				LocalizationManager.OnWakeItemsCacheForLocalization(GetComponent<LocalizedText>());
 			}
 			//GetComponent<Strings.ChatTemplates>() != null || GetComponent<Strings.ReportTemplates>() != null с этим надо что то делать
-			else if (null != null)
-			{
-				LocalizationManager.OnWakeStringsCacheForLocalization(localizedGameObjectComponent);
-			}
+			//else if (null != null)
+			//{
+			//	LocalizationManager.OnWakeStringsCacheForLocalization(localizedGameObjectComponent);
+			//}
 			else
 			{
 				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found components for localizations!", gameObject);
@@ -52,9 +54,12 @@ namespace Localization
 			text.text = localizedText;
 		}
 
-		public void SetLocalizationItems(Dictionary<string, string> localizedDictionary)
+		public void SetLocalizationItems(ItemData itemData)
 		{
-			//присрать отправку набора переведенных текстов в префаб item'ов
+			var itemForLocalize = gameObject.GetComponent<Items.ItemAttributesV2>();
+			itemForLocalize.ServerSetArticleName(itemData.InitialItemName);
+			itemForLocalize.ServerSetArticleDescription(itemData.InitialItemDescription);
+
 		}
 
 		public void SetLocalizationStrings(Dictionary<string, string> localizedDictionary)
