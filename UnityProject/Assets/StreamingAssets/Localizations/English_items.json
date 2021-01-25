@@ -1,7 +1,17 @@
 {
   "items": [
     {
-      "itemName": "eyewear",
+      "itemName": "Clothing",
+      "itemData": {
+        "InitialItemName": "Eyewear",
+        "InitialItemDescription": "Oops, someone spawned something they shouldn't!",
+        "ExportName": "Eyewear",
+        "ExportDescription": "Oops, someone spawned something they shouldn't!",
+        "ExportMessage": "Unknown message text!"
+      }
+    },
+    {
+      "itemName": "Eyewear",
       "itemData": {
         "InitialItemName": "Eyewear",
         "InitialItemDescription": "Oops, someone spawned something they shouldn't!",
@@ -17,6 +27,46 @@
         "InitialItemDescription": "Just an ordinary black handwears",
         "ExportName": "Handwear",
         "ExportDescription": "Just an ordinary black handwears",
+        "ExportMessage": "Unknown message text!"
+      }
+    },
+    {
+      "itemName": "FakeWitchHat",
+      "itemData": {
+        "InitialItemName": "witch hat",
+        "InitialItemDescription": "Странного вида шляпа. Вызывает желание метать огненные шары.",
+        "ExportName": "witch hat",
+        "ExportDescription": "Странного вида шляпа. Вызывает желание метать огненные шары.",
+        "ExportMessage": "Unknown message text!"
+      }
+    },
+    {
+      "itemName": "WitchHat",
+      "itemData": {
+        "InitialItemName": "witch hat",
+        "InitialItemDescription": "Strange-looking hat-wear. Makes you want to cast fireballs.",
+        "ExportName": "witch hat",
+        "ExportDescription": "Strange-looking hat-wear. Makes you want to cast fireballs.",
+        "ExportMessage": "Unknown message text!"
+      }
+    },
+    {
+      "itemName": "FakeWizardHat",
+      "itemData": {
+        "InitialItemName": "wizard hat",
+        "InitialItemDescription": "It has WIZZARD written across it in sequins. Comes with a cool beard.",
+        "ExportName": "wizard hat",
+        "ExportDescription": "It has WIZZARD written across it in sequins. Comes with a cool beard.",
+        "ExportMessage": "Unknown message text!"
+      }
+    },
+    {
+      "itemName": "WizardHat",
+      "itemData": {
+        "InitialItemName": "wizard hat",
+        "InitialItemDescription": "Strange-looking hat-wear that most certainly belongs to a real magic user.",
+        "ExportName": "wizard hat",
+        "ExportDescription": "Strange-looking hat-wear that most certainly belongs to a real magic user.",
         "ExportMessage": "Unknown message text!"
       }
     }

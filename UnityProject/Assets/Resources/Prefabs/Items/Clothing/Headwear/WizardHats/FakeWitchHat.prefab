@@ -137,6 +137,11 @@ PrefabInstance:
       propertyPath: initialTraits.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2542368048283595997, guid: 2d8fc0504f0a16f4ab9cf62502ad3df2,
+        type: 3}
+      propertyPath: key
+      value: FakeWitchHat
+      objectReference: {fileID: 0}
     - target: {fileID: 6064084910847167962, guid: 2d8fc0504f0a16f4ab9cf62502ad3df2,
         type: 3}
       propertyPath: PresentSpriteSet

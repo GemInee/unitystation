@@ -1,27 +1,74 @@
 {
-  "items": 
-  [
+  "items": [
+    {
+      "itemName": "Clothing",
+      "itemData": {
+        "InitialItemName": "Одежда",
+        "InitialItemDescription": "Ой, кто-то наспавнил то, что не должен был!",
+        "ExportName": "Одежда",
+        "ExportDescription": "Ой, кто-то наспавнил то, что не должен был!",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
+    },
     {
       "itemName": "Eyewear",
-      "itemData":
-        {
-          "InitialItemName": "Очки",
-          "InitialItemDescription": "Ой, кто-то наспавнил то, что не должен был!",
-          "ExportName": "Очки",
-          "ExportDescription": "Ой, кто-то наспавнил то, что не должен был!",
-          "ExportMessage": "Неизвестное сообщение!"
-        }
+      "itemData": {
+        "InitialItemName": "Очки",
+        "InitialItemDescription": "Ой, кто-то наспавнил то, что не должен был!",
+        "ExportName": "Очки",
+        "ExportDescription": "Ой, кто-то наспавнил то, что не должен был!",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
     },
     {
       "itemName": "Handwear",
-      "itemData":
-        {
-          "InitialItemName": "Перчатки",
-          "InitialItemDescription": "Просто обычные черные перчатки.",
-          "ExportName": "Перчатки",
-          "ExportDescription": "Просто обычные черные перчатки.",
-          "ExportMessage": "Неизвестное сообщение!"
-        }
+      "itemData": {
+        "InitialItemName": "Перчатки",
+        "InitialItemDescription": "Просто обычные черные перчатки.",
+        "ExportName": "Перчатки",
+        "ExportDescription": "Просто обычные черные перчатки.",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
+    },
+    {
+      "itemName": "FakeWitchHat",
+      "itemData": {
+        "InitialItemName": "Ведьмина шляпа",
+        "InitialItemDescription": "Странного вида шляпа. Вызывает желание метать огненные шары.",
+        "ExportName": "Ведьмина шляпа",
+        "ExportDescription": "Странного вида шляпа. Вызывает желание метать огненные шары.",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
+    },
+    {
+      "itemName": "WitchHat",
+      "itemData": {
+        "InitialItemName": "Ведьмина шляпа",
+        "InitialItemDescription": "Странного вида шляпа. Вызывает желание метать огненные шары.",
+        "ExportName": "Ведьмина шляпа",
+        "ExportDescription": "Странного вида шляпа. Вызывает желание метать огненные шары.",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
+    },
+    {
+      "itemName": "FakeWizardHat",
+      "itemData": {
+        "InitialItemName": "Шляпа волшебника",
+        "InitialItemDescription": "На ней надпись из блесток \"ВОЛШШЕБНИК\". Крутая борода в комплекте.",
+        "ExportName": "Шляпа волшебника",
+        "ExportDescription": "На ней надпись из блесток \"ВОЛШШЕБНИК\". Крутая борода в комплекте.",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
+    },
+    {
+      "itemName": "WizardHat",
+      "itemData": {
+        "InitialItemName": "Шляпа волшебника",
+        "InitialItemDescription": "Странно выглядящая шляпа, которая наверняка принадлежит настоящему магу.",
+        "ExportName": "Шляпа волшебника",
+        "ExportDescription": "Странно выглядящая шляпа, которая наверняка принадлежит настоящему магу.",
+        "ExportMessage": "Неизвестное сообщение!"
+      }
     }
   ]
 }
