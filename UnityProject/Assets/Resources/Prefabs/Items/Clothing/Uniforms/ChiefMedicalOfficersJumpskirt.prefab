@@ -94,6 +94,11 @@ PrefabInstance:
       value: It's a jumpskirt worn by those with the experience to be \"Chief Medical
         Officer\". It provides minor biological protection.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 6ab2f9c28085a419ca49eda6e97a06cf,
+        type: 3}
+      propertyPath: key
+      value: ChiefMedicalOfficersJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 6ab2f9c28085a419ca49eda6e97a06cf,
         type: 3}
       propertyPath: clothData

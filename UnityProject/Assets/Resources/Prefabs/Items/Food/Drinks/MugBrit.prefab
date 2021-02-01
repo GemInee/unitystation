@@ -20,6 +20,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -35,6 +40,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -47,16 +57,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5262053233861054308, guid: a3c2eebd1ee083c4f873a4e8475bae26,
         type: 3}
@@ -88,6 +88,11 @@ PrefabInstance:
         type: 3}
       propertyPath: initialDescription
       value: A classy mug. This one has the British flag emblazoned on it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6326061773439193151, guid: a3c2eebd1ee083c4f873a4e8475bae26,
+        type: 3}
+      propertyPath: key
+      value: MugBrit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3c2eebd1ee083c4f873a4e8475bae26, type: 3}

@@ -89,6 +89,11 @@ PrefabInstance:
       value: A purple jumpsuit with a study set of overalls; great for industrial
         work.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 2a2d871db32f24302b1aeb03f3652c48,
+        type: 3}
+      propertyPath: key
+      value: RoboticistsOveralls
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 2a2d871db32f24302b1aeb03f3652c48,
         type: 3}
       propertyPath: clothData

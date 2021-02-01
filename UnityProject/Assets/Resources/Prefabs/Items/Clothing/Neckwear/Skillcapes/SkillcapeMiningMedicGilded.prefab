@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: initialName
       value: mining medic's gilded skillcape
       objectReference: {fileID: 0}
+    - target: {fileID: 4468779788437635434, guid: 253d86ba50ab4264eadde80fab61600f,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeMiningMedicGilded
+      objectReference: {fileID: 0}
     - target: {fileID: 8475185977076029634, guid: 253d86ba50ab4264eadde80fab61600f,
         type: 3}
       propertyPath: PresentSpriteSet

@@ -39,6 +39,11 @@ PrefabInstance:
       propertyPath: initialReagentMix.reagents.m_values.Array.data[0]
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 7766596527899992368, guid: 32a48818544878d4c8e14ac2fd2b195a,
+        type: 3}
+      propertyPath: key
+      value: Mayonnaise
+      objectReference: {fileID: 0}
     - target: {fileID: 8357089723576347773, guid: 32a48818544878d4c8e14ac2fd2b195a,
         type: 3}
       propertyPath: initialName
@@ -53,6 +58,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
         type: 3}
@@ -71,6 +81,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -83,16 +98,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8431935078031720043, guid: 32a48818544878d4c8e14ac2fd2b195a,
         type: 3}

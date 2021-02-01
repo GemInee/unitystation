@@ -122,5 +122,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A soft brown jumpsuit made of synthetic feathers and strong conviction.
       objectReference: {fileID: 0}
+    - target: {fileID: 6807094252898077261, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: OwlUniform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de234d793cfd842599c9c8726207f217, type: 3}

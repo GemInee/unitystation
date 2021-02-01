@@ -111,6 +111,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 92f4436825a9515489971311f25595c2,
         type: 3}
+    - target: {fileID: 4259885104135319617, guid: 6c06d764ea0ea9e4f9dff0e83cbb46e6,
+        type: 3}
+      propertyPath: key
+      value: RadioHeadsetCargo
+      objectReference: {fileID: 0}
     - target: {fileID: 8108596829518490089, guid: 6c06d764ea0ea9e4f9dff0e83cbb46e6,
         type: 3}
       propertyPath: PresentSpriteSet

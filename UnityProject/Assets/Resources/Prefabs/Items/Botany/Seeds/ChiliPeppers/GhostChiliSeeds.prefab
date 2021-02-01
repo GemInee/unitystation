@@ -94,6 +94,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c0f4dc18f17d70f469a26a42485ff373,
         type: 3}
+    - target: {fileID: 8349785543188104852, guid: a8b053482da561b4eba3bd81d8fe51ab,
+        type: 3}
+      propertyPath: key
+      value: GhostChiliSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 8846178307786653186, guid: a8b053482da561b4eba3bd81d8fe51ab,
         type: 3}
       propertyPath: plantData.Yield

@@ -39,6 +39,11 @@ PrefabInstance:
       propertyPath: initialReagentMix.reagents.m_values.Array.data[1]
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 875083004324999144, guid: eaf8c1f2a0f9374488e16061fd5b4dcd,
+        type: 3}
+      propertyPath: key
+      value: StrawberryIceCreamSandwich
+      objectReference: {fileID: 0}
     - target: {fileID: 1155915217242832539, guid: eaf8c1f2a0f9374488e16061fd5b4dcd,
         type: 3}
       propertyPath: m_Sprite

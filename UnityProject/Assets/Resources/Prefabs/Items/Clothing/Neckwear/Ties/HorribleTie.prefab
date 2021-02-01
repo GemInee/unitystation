@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2892732331128867500, guid: 9ff6c7b6f3069134c989fd8ba59946b8,
+        type: 3}
+      propertyPath: key
+      value: HorribleTie
+      objectReference: {fileID: 0}
     - target: {fileID: 3465284675447965665, guid: 9ff6c7b6f3069134c989fd8ba59946b8,
         type: 3}
       propertyPath: initialName

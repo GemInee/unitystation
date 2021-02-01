@@ -93,6 +93,11 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A skirt which is given only to the most hardcore cooks in space.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 82223aa9f2653409893db380f44262de,
+        type: 3}
+      propertyPath: key
+      value: CooksSkirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 82223aa9f2653409893db380f44262de,
         type: 3}
       propertyPath: clothData

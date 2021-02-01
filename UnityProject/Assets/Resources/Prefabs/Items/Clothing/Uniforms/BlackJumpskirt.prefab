@@ -88,6 +88,11 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A standard issue colored jumpskirt. Variety is the spice of life!
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 16ff11a6d1a3e7a479eac4e27f8a1349,
+        type: 3}
+      propertyPath: key
+      value: BlackJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 16ff11a6d1a3e7a479eac4e27f8a1349,
         type: 3}
       propertyPath: clothData

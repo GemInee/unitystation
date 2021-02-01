@@ -36,6 +36,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -51,6 +56,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -63,16 +73,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
@@ -96,6 +96,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
+      propertyPath: initialName
+      value: cryptographic sequencer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: initialDescription
+      value: It's a card with a magnetic strip attached to some circuitry. Closer
+        inspection shows that this card is a poorly made replica, with a "DonkCo"
+        logo stamped on the back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
       propertyPath: itemSprites.SpriteLeftHand
       value: 
       objectReference: {fileID: 11400000, guid: 790bcfa8bf0a3c84bb0d26de70787385,
@@ -112,17 +124,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c54a74cc5c50f204b9ae369968f291ad,
         type: 2}
-    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: initialDescription
-      value: It's a card with a magnetic strip attached to some circuitry. Closer
-        inspection shows that this card is a poorly made replica, with a "DonkCo"
-        logo stamped on the back.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: initialName
-      value: cryptographic sequencer
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08128a9a69925eb4c93bc817c6ec2a88, type: 3}

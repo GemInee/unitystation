@@ -100,7 +100,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7746a94bdeb80994da2ac95b3b261dff,
         type: 2}
+    - target: {fileID: 6745869943638027713, guid: bb018450ceda0b24d83c74bfd253bdc1,
+        type: 3}
+      propertyPath: brokenItem
+      value: 
+      objectReference: {fileID: 8012353638308087684}
     m_RemovedComponents:
     - {fileID: 6445873545581884561, guid: bb018450ceda0b24d83c74bfd253bdc1, type: 3}
     - {fileID: 6745869943638027713, guid: bb018450ceda0b24d83c74bfd253bdc1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bb018450ceda0b24d83c74bfd253bdc1, type: 3}
+--- !u!1 &8012353638308087684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1241979378841723491, guid: bb018450ceda0b24d83c74bfd253bdc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 9083193671168370151}
+  m_PrefabAsset: {fileID: 0}

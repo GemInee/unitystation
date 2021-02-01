@@ -93,6 +93,11 @@ PrefabInstance:
       propertyPath: initialDescription
       value: It's a jumpskirt worn by CentCom's highest-tier Commanders.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 4d89dbc7c286345419732c18f76c52a2,
+        type: 3}
+      propertyPath: key
+      value: CentComCommandersJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 4d89dbc7c286345419732c18f76c52a2,
         type: 3}
       propertyPath: clothData

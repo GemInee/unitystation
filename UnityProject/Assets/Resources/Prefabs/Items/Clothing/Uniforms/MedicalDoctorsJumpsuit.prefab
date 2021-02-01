@@ -135,5 +135,10 @@ PrefabInstance:
         biohazards. It has a cross on the chest denoting that the wearer is trained
         medical personnel.
       objectReference: {fileID: 0}
+    - target: {fileID: 6807094252898077261, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: MedicalDoctorsJumpsuit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de234d793cfd842599c9c8726207f217, type: 3}

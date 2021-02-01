@@ -124,10 +124,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: SecurityHUDSunglasses
       objectReference: {fileID: 0}
+    - target: {fileID: 3549356845424368166, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
+        type: 3}
+      propertyPath: key
+      value: SecurityHUDSunglasses
+      objectReference: {fileID: 0}
     - target: {fileID: 4183262993057210465, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
         type: 3}
       propertyPath: bodyPartsCovered
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924545735505987101, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
+        type: 3}
+      propertyPath: key
+      value: SecurityHUDSunglasses
       objectReference: {fileID: 0}
     - target: {fileID: 8638853748845472652, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
         type: 3}

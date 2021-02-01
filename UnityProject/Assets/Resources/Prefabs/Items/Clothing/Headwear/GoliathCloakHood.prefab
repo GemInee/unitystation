@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 44887938787995120, guid: a7a048f6c330048e9a2358fb6f71d385,
+        type: 3}
+      propertyPath: key
+      value: GoliathCloakHood
+      objectReference: {fileID: 0}
     - target: {fileID: 1778182844913246397, guid: a7a048f6c330048e9a2358fb6f71d385,
         type: 3}
       propertyPath: initialName

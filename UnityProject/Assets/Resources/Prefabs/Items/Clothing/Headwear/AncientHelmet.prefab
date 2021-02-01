@@ -117,5 +117,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: None may pass!
       objectReference: {fileID: 0}
+    - target: {fileID: 8585916119616143845, guid: d3d950d792abb79fba51d3166022f581,
+        type: 3}
+      propertyPath: key
+      value: AncientHelmet
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3d950d792abb79fba51d3166022f581, type: 3}

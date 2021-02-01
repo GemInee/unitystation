@@ -117,5 +117,10 @@ PrefabInstance:
       propertyPath: plantData.PlantTrays.Array.data[0]
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9135750157309298258, guid: 896c6e3b4d7bb56428ed81d5353e7db0,
+        type: 3}
+      propertyPath: key
+      value: PorciniMycelium
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 896c6e3b4d7bb56428ed81d5353e7db0, type: 3}

@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2914654527980160963, guid: 4303d0eb23d121949950815cebc03a0f,
+        type: 3}
+      propertyPath: key
+      value: TrashPlate
+      objectReference: {fileID: 0}
     - target: {fileID: 3476999288069474958, guid: 4303d0eb23d121949950815cebc03a0f,
         type: 3}
       propertyPath: initialName

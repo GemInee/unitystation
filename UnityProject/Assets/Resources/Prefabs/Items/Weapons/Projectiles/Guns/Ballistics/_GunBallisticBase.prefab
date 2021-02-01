@@ -61,6 +61,11 @@ PrefabInstance:
       propertyPath: SuppressedSoundA.AssetAddress
       value: Assets/Prefabs/GunShots/ShootHeavySuppressed.prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 8053040882125843125, guid: da85b7a590e7c8444af73629fcb5dd22,
+        type: 3}
+      propertyPath: key
+      value: _GunBallisticBase
+      objectReference: {fileID: 0}
     - target: {fileID: 8109205671878849838, guid: da85b7a590e7c8444af73629fcb5dd22,
         type: 3}
       propertyPath: m_AssetId

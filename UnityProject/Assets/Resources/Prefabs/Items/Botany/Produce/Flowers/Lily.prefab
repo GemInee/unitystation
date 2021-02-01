@@ -94,6 +94,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5796527741549717871, guid: 28cdae7ec5501a447b6d5c181d3083ac,
+        type: 3}
+      propertyPath: key
+      value: Lily
+      objectReference: {fileID: 0}
     - target: {fileID: 6234838380049663799, guid: 28cdae7ec5501a447b6d5c181d3083ac,
         type: 3}
       propertyPath: seedPacket

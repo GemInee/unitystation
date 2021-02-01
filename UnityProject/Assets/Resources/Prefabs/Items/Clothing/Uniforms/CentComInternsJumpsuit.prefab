@@ -123,6 +123,11 @@ PrefabInstance:
       value: It's a jumpsuit worn by those interning for CentCom. The top is styled
         after a polo shirt for easy identification.
       objectReference: {fileID: 0}
+    - target: {fileID: 6807094252898077261, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: CentComInternsJumpsuit
+      objectReference: {fileID: 0}
     - target: {fileID: 8215174308799955191, guid: de234d793cfd842599c9c8726207f217,
         type: 3}
       propertyPath: bodyPartsCovered

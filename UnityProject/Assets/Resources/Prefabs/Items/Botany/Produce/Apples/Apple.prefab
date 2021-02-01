@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6530002286927011991, guid: aea6ac6f49bb5e443ac179f2e10caae0,
         type: 3}
+    - target: {fileID: 1054318668193971811, guid: 27208d0fc3f7c3544a8d1a7861253b52,
+        type: 3}
+      propertyPath: key
+      value: Apple
+      objectReference: {fileID: 0}
     - target: {fileID: 1183759635035529528, guid: 27208d0fc3f7c3544a8d1a7861253b52,
         type: 3}
       propertyPath: m_RootOrder

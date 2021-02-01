@@ -101,6 +101,11 @@ PrefabInstance:
       propertyPath: spriteHandler
       value: 
       objectReference: {fileID: 5618677938591364506}
+    - target: {fileID: 2223700588045672085, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: key
+      value: Cyborg Head
+      objectReference: {fileID: 0}
     - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
       propertyPath: PresentSpriteSet

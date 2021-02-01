@@ -90,6 +90,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c5b69fab5cf1ea74abac6f7010305906,
         type: 3}
+    - target: {fileID: 3647062038357625524, guid: 18cfa395284a2ed4a85bb1f7999ac5bf,
+        type: 3}
+      propertyPath: key
+      value: Enviroslacks
+      objectReference: {fileID: 0}
     - target: {fileID: 8376256678827195166, guid: 18cfa395284a2ed4a85bb1f7999ac5bf,
         type: 3}
       propertyPath: clothData

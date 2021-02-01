@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: NutritionLevel
       value: 145
       objectReference: {fileID: 0}
+    - target: {fileID: 4853610997234455345, guid: 6912188aeedf08e4597674ede9f0c62d,
+        type: 3}
+      propertyPath: key
+      value: BerryCreamsicle
+      objectReference: {fileID: 0}
     - target: {fileID: 5525576654264826294, guid: 6912188aeedf08e4597674ede9f0c62d,
         type: 3}
       propertyPath: initialReagentMix.reagents.m_keys.Array.data[0]

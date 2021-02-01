@@ -118,5 +118,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8763585842106478496, guid: a168a3bbdfd796d48bf524dd9bef1803,
+        type: 3}
+      propertyPath: key
+      value: SecuritySatchel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a168a3bbdfd796d48bf524dd9bef1803, type: 3}

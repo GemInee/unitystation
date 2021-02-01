@@ -19,6 +19,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3521094987913139954, guid: 8ebe2d3c9a4ef5f4bb4e83301adadb66,
         type: 3}
+    - target: {fileID: 5403277786004893188, guid: f9ce0aa9f9bf2be4ea2468ff10f9ab93,
+        type: 3}
+      propertyPath: key
+      value: BambooLog
+      objectReference: {fileID: 0}
     - target: {fileID: 5966823324645565257, guid: f9ce0aa9f9bf2be4ea2468ff10f9ab93,
         type: 3}
       propertyPath: initialName

@@ -10,14 +10,15 @@ namespace Localization
 
 		[SerializeField]
 		private string key;
-		public string Key => key;
+		//public string KeyString;
+
 
 		private Component textForLocalize;
 		//private Component itemForLocalize;
 
 		void Start()
 		{
-
+			//this.gameObject.GetType();
 
 
 			if (GetComponent<Text>() != null)
@@ -46,6 +47,11 @@ namespace Localization
 		public string GetKey()
 		{
 			return key;
+		}
+
+		public void SetKey(string Key)
+		{
+			key = Key;
 		}
 
 		public void SetLocalizationText(string localizedText)

@@ -108,6 +108,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7571569920162806750, guid: fce8719dcefd31744a60072a76ed5f89,
         type: 3}
+    - target: {fileID: 3130735199794144334, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: key
+      value: BerrySeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 3693160207910545667, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: initialName

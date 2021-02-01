@@ -118,5 +118,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: It's a baseball hat in a tasteless white colour.
       objectReference: {fileID: 0}
+    - target: {fileID: 8585916119616143845, guid: 788649a7f84574c48a54361479106732,
+        type: 3}
+      propertyPath: key
+      value: WhiteCap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788649a7f84574c48a54361479106732, type: 3}

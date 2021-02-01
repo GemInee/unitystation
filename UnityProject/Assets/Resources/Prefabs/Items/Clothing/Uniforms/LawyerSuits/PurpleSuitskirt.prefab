@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 124184807361746661, guid: e585654aca660b04298c0256d0f33b3c,
+        type: 3}
+      propertyPath: key
+      value: PurpleSuitskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 1840591103684451240, guid: e585654aca660b04298c0256d0f33b3c,
         type: 3}
       propertyPath: initialName

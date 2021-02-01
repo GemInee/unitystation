@@ -88,6 +88,11 @@ PrefabInstance:
       propertyPath: initialName
       value: scientist's jumpskirt
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: d39638a7abcdf4a25b189fa975eab5e7,
+        type: 3}
+      propertyPath: key
+      value: ScientistsJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: d39638a7abcdf4a25b189fa975eab5e7,
         type: 3}
       propertyPath: clothData

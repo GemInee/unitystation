@@ -148,5 +148,10 @@ PrefabInstance:
       value: A beret made from durathread, its resilient fibres provide some protection
         to the wearer.
       objectReference: {fileID: 0}
+    - target: {fileID: 8585916119616143845, guid: 9445628fd16314b7388c7086f5fd2f26,
+        type: 3}
+      propertyPath: key
+      value: DurathreadBeret
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9445628fd16314b7388c7086f5fd2f26, type: 3}

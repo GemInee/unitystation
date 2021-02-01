@@ -124,6 +124,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: NightVisionMesonScanner
       objectReference: {fileID: 0}
+    - target: {fileID: 3549356845424368166, guid: e6f80a7fd02e2c14ea72a1410452b690,
+        type: 3}
+      propertyPath: key
+      value: NightVisionMesonScanner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924545735505987101, guid: e6f80a7fd02e2c14ea72a1410452b690,
+        type: 3}
+      propertyPath: key
+      value: NightVisionMesonScanner
+      objectReference: {fileID: 0}
     - target: {fileID: 8638853748845472652, guid: e6f80a7fd02e2c14ea72a1410452b690,
         type: 3}
       propertyPath: clothData

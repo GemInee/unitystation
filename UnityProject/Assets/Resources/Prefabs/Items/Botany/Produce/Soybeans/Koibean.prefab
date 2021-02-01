@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3681259374278854335, guid: b9d02f4a5a4b3b143b5ea0d38f91a3a0,
         type: 3}
+    - target: {fileID: 2861502327096397017, guid: dcc2401b5302cca48b189fb9f2ef52ed,
+        type: 3}
+      propertyPath: key
+      value: Koibean
+      objectReference: {fileID: 0}
     - target: {fileID: 4106597517811782466, guid: dcc2401b5302cca48b189fb9f2ef52ed,
         type: 3}
       propertyPath: m_AssetId

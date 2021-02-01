@@ -35,6 +35,11 @@ PrefabInstance:
       propertyPath: plantData.MutatesInToGameObject.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5558901787760835420, guid: 5ae657a4ccb195c40a5d8b8372be5cce,
+        type: 3}
+      propertyPath: key
+      value: BlumpkinSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 5839873657076935215, guid: 5ae657a4ccb195c40a5d8b8372be5cce,
         type: 3}
       propertyPath: m_Sprite

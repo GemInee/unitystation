@@ -129,5 +129,10 @@ PrefabInstance:
       value: It's a jumpsuit worn by someone who works in the position of "Head of
         Personnel".
       objectReference: {fileID: 0}
+    - target: {fileID: 6807094252898077261, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: HeadOfPersonnelsJumpsuit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de234d793cfd842599c9c8726207f217, type: 3}

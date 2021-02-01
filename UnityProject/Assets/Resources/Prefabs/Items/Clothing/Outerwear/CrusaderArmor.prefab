@@ -163,5 +163,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 05e6127af6cf24f08b94fb9922263c26,
         type: 2}
+    - target: {fileID: 6807094252898077261, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: CrusaderArmor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de234d793cfd842599c9c8726207f217, type: 3}

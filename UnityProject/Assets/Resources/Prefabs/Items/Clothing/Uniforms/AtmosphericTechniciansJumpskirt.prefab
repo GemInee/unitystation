@@ -94,6 +94,11 @@ PrefabInstance:
       value: It's a jumpskirt worn by atmospheric technicians. It has minor protection
         from fire.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 7836d5b8852b74938820fb198f01e5ba,
+        type: 3}
+      propertyPath: key
+      value: AtmosphericTechniciansJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 7836d5b8852b74938820fb198f01e5ba,
         type: 3}
       propertyPath: clothData

@@ -15,7 +15,12 @@ PrefabInstance:
     - target: {fileID: 652312870395808202, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
       propertyPath: m_Name
-      value: IdentificationCardCaptainsSpare
+      value: IDCardCaptainsSpare
+      objectReference: {fileID: 0}
+    - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
@@ -34,6 +39,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +56,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 657236620537230526, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
@@ -74,13 +74,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1079326846074143117, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
-      propertyPath: manuallyAddedAccess.Array.size
-      value: 62
+      propertyPath: manuallyAssignCardType
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1079326846074143117, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
-      propertyPath: manuallyAssignCardType
-      value: 3
+      propertyPath: manuallyAddedAccess.Array.size
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 1079326846074143117, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
@@ -394,13 +394,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1144162440554374824, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
-      propertyPath: initialDescription
-      value: The spare ID of the High Lord himself.
+      propertyPath: initialName
+      value: captain's spare ID
       objectReference: {fileID: 0}
     - target: {fileID: 1144162440554374824, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
         type: 3}
-      propertyPath: initialName
-      value: captain's spare ID
+      propertyPath: initialDescription
+      value: The spare ID of the High Lord himself.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716653324679343077, guid: da8e7a51ad26f8f48ac7cff66da55f3e,
+        type: 3}
+      propertyPath: key
+      value: IDCardCaptainsSpare
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da8e7a51ad26f8f48ac7cff66da55f3e, type: 3}

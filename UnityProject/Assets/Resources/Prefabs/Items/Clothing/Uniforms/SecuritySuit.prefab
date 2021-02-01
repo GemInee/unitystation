@@ -143,5 +143,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A formal security suit for officers complete with Nanotrasen belt buckle.
       objectReference: {fileID: 0}
+    - target: {fileID: 6807094252898077261, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: SecuritySuit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de234d793cfd842599c9c8726207f217, type: 3}

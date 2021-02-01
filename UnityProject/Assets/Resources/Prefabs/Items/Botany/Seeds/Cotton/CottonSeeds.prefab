@@ -89,6 +89,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6656880014081322210, guid: b8be396d3c1443d4bb55d0cb034438df,
         type: 3}
+    - target: {fileID: 3130735199794144334, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: key
+      value: CottonSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 3693160207910545667, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: initialName

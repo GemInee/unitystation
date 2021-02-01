@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: MaxWatts
       value: 400000
       objectReference: {fileID: 0}
+    - target: {fileID: 5592435858241861727, guid: bd07fb3945875634685790190ea8decc,
+        type: 3}
+      propertyPath: key
+      value: WeaponPowerCellDisruptor
+      objectReference: {fileID: 0}
     - target: {fileID: 5969480983207831492, guid: bd07fb3945875634685790190ea8decc,
         type: 3}
       propertyPath: m_AssetId

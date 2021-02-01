@@ -141,6 +141,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: GarGlasses
       objectReference: {fileID: 0}
+    - target: {fileID: 3549356845424368166, guid: 0c3e7a0b25eff4d33a4f511cfc36b5d9,
+        type: 3}
+      propertyPath: key
+      value: GarGlasses
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924545735505987101, guid: 0c3e7a0b25eff4d33a4f511cfc36b5d9,
+        type: 3}
+      propertyPath: key
+      value: GarGlasses
+      objectReference: {fileID: 0}
     - target: {fileID: 8638853748845472652, guid: 0c3e7a0b25eff4d33a4f511cfc36b5d9,
         type: 3}
       propertyPath: clothData

@@ -132,6 +132,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 64bb188472a5cf3489d314ab3bef6644,
         type: 2}
+    - target: {fileID: 1459009189184806568, guid: 6eb9748e1eaf8dc4598a50e5b09df3b3,
+        type: 3}
+      propertyPath: key
+      value: _DrinkBase
+      objectReference: {fileID: 0}
     - target: {fileID: 2002631705224524847, guid: 6eb9748e1eaf8dc4598a50e5b09df3b3,
         type: 3}
       propertyPath: maxCapacity

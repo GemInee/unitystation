@@ -42,6 +42,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 79ebe91f7cf3e06409bdeaf509801b6b,
         type: 2}
+    - target: {fileID: 7082310791522661994, guid: cae650b8120e1f04a840374168f5169e,
+        type: 3}
+      propertyPath: key
+      value: MedicalDuffelBag
+      objectReference: {fileID: 0}
     - target: {fileID: 8825729893658049319, guid: cae650b8120e1f04a840374168f5169e,
         type: 3}
       propertyPath: initialName

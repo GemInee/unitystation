@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3010144157807505371, guid: 50df01ef60a031640b4faafe2df999ce,
+        type: 3}
+      propertyPath: key
+      value: FannypackOrange
+      objectReference: {fileID: 0}
     - target: {fileID: 3599511477918261910, guid: 50df01ef60a031640b4faafe2df999ce,
         type: 3}
       propertyPath: initialName

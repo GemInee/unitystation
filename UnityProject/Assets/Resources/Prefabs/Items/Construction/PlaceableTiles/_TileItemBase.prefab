@@ -33,6 +33,16 @@ PrefabInstance:
       propertyPath: maxAmount
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 433060376442421116, guid: c3138c3e8a46444199668b85070b1a39,
+        type: 3}
+      propertyPath: key
+      value: _TileItemBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787564279694303271, guid: c3138c3e8a46444199668b85070b1a39,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1787564279694303271, guid: c3138c3e8a46444199668b85070b1a39,
         type: 3}
       propertyPath: m_RootOrder

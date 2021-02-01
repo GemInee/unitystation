@@ -143,6 +143,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8d833a103112ffa47a611cc172201204,
         type: 3}
+    - target: {fileID: 1401221602227186585, guid: 3bc560c485f5ecb4491bce031cde1635,
+        type: 3}
+      propertyPath: key
+      value: ExplorerHood
+      objectReference: {fileID: 0}
     - target: {fileID: 6183623809446730291, guid: 3bc560c485f5ecb4491bce031cde1635,
         type: 3}
       propertyPath: clothData

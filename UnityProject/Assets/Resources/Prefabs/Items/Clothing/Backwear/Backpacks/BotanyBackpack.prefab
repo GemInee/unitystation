@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2648150615673340193, guid: da93b0f7c392d46ba85123e2516cfa49,
+        type: 3}
+      propertyPath: key
+      value: BotanyBackpack
+      objectReference: {fileID: 0}
     - target: {fileID: 4102312429685231698, guid: da93b0f7c392d46ba85123e2516cfa49,
         type: 3}
       propertyPath: m_Sprite

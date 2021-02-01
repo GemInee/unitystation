@@ -109,6 +109,16 @@ PrefabInstance:
       propertyPath: bodyPartsCovered
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4279712109088879200, guid: 28c72054b1f484ed4a6253c4feee3eb4,
+        type: 3}
+      propertyPath: key
+      value: Monocle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652806993229852251, guid: 28c72054b1f484ed4a6253c4feee3eb4,
+        type: 3}
+      propertyPath: key
+      value: Monocle
+      objectReference: {fileID: 0}
     - target: {fileID: 8141721191079898056, guid: 28c72054b1f484ed4a6253c4feee3eb4,
         type: 3}
       propertyPath: PresentSpriteSet

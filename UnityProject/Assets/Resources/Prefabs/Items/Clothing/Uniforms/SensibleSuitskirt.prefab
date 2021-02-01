@@ -33,6 +33,11 @@ PrefabInstance:
       propertyPath: initialName
       value: sensible suitskirt
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: aacc30d5087d94ec7a4764c686da7e57,
+        type: 3}
+      propertyPath: key
+      value: SensibleSuitskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 7594101368484472030, guid: aacc30d5087d94ec7a4764c686da7e57,
         type: 3}
       propertyPath: clothData

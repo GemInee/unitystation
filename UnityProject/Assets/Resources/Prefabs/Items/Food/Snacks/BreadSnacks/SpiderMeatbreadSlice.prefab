@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: initialReagentMix.reagents.m_values.Array.data[2]
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3063948138257135173, guid: d2991f5505400ab479c5262137eed380,
+        type: 3}
+      propertyPath: key
+      value: SpiderMeatbreadSlice
+      objectReference: {fileID: 0}
     - target: {fileID: 3654515168179534600, guid: d2991f5505400ab479c5262137eed380,
         type: 3}
       propertyPath: initialName

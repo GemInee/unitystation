@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2833887700614441980, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
+        type: 3}
+      propertyPath: key
+      value: SonicJackhammer
+      objectReference: {fileID: 0}
     - target: {fileID: 4042108494770091111, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
         type: 3}
       propertyPath: m_AssetId
@@ -16,6 +21,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SonicJackhammer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
         type: 3}
@@ -34,6 +44,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +61,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4152252862116033703, guid: 4d508ff5a5539124bb4e3e4c33ff3dda,
         type: 3}

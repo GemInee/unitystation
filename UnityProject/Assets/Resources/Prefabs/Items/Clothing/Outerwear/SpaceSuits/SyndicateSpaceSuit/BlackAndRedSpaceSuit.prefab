@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackAndRedSpaceSuit
       objectReference: {fileID: 0}
+    - target: {fileID: 1280829122344618171, guid: f16607d486a117e43b3eb1938400cff4,
+        type: 3}
+      propertyPath: key
+      value: BlackAndRedSpaceSuit
+      objectReference: {fileID: 0}
     - target: {fileID: 6297419608558221585, guid: f16607d486a117e43b3eb1938400cff4,
         type: 3}
       propertyPath: clothData

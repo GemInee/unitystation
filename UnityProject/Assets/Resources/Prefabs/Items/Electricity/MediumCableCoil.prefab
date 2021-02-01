@@ -51,6 +51,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4435676122793348777, guid: c567e6c3b003a2b488534a8766866cb0,
         type: 3}
+    - target: {fileID: 433060376442421116, guid: c3138c3e8a46444199668b85070b1a39,
+        type: 3}
+      propertyPath: key
+      value: MediumCableCoil
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787564279694303271, guid: c3138c3e8a46444199668b85070b1a39,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1787564279694303271, guid: c3138c3e8a46444199668b85070b1a39,
         type: 3}
       propertyPath: m_RootOrder

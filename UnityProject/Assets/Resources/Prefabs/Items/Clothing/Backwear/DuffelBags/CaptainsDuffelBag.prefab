@@ -36,6 +36,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c579d59651d1191499b96e7ff9b7c664,
         type: 2}
+    - target: {fileID: 7082310791522661994, guid: cae650b8120e1f04a840374168f5169e,
+        type: 3}
+      propertyPath: key
+      value: CaptainsDuffelBag
+      objectReference: {fileID: 0}
     - target: {fileID: 8825729893658049319, guid: cae650b8120e1f04a840374168f5169e,
         type: 3}
       propertyPath: initialName

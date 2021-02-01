@@ -89,6 +89,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SecurityHUDEyepatch
       objectReference: {fileID: 0}
+    - target: {fileID: 3549356845424368166, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
+        type: 3}
+      propertyPath: key
+      value: SecurityHUDEyepatch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924545735505987101, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
+        type: 3}
+      propertyPath: key
+      value: SecurityHUDEyepatch
+      objectReference: {fileID: 0}
     - target: {fileID: 8638853748845472652, guid: a04a2ac5c1ef5a142b26e818b8dfa3fb,
         type: 3}
       propertyPath: clothData

@@ -211,5 +211,10 @@ PrefabInstance:
       propertyPath: useTime
       value: 2.8
       objectReference: {fileID: 0}
+    - target: {fileID: 8274027898674910671, guid: 94dfead23e20498409009e55d3dfe3ca,
+        type: 3}
+      propertyPath: key
+      value: SoapNanotrasen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94dfead23e20498409009e55d3dfe3ca, type: 3}

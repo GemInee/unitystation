@@ -109,6 +109,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c1d8e86307fb8db4da9da99a6cff3325,
         type: 2}
+    - target: {fileID: 2223700588045672085, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: key
+      value: CigaretteButt
+      objectReference: {fileID: 0}
     - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
       propertyPath: PresentSpriteSet

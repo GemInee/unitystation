@@ -69,6 +69,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1095886360091048086, guid: b627c8cce47c65e44bd56e8cc6736173,
         type: 3}
+    - target: {fileID: 3130735199794144334, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: key
+      value: CarrotSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 3693160207910545667, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: initialName

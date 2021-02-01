@@ -89,6 +89,11 @@ PrefabInstance:
       value: A tactical relic of years past before Nanotrasen decided it was cheaper
         to dye the suits red instead of washing out the blood.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: 56b3a5e4aaeeac7409c2ce3816b0c339,
+        type: 3}
+      propertyPath: key
+      value: GreySecurityJumpsuit
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 56b3a5e4aaeeac7409c2ce3816b0c339,
         type: 3}
       propertyPath: clothData

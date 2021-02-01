@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 519777410987019432, guid: 51c105fae1f0b074abf4c80745d8b129,
+        type: 3}
+      propertyPath: key
+      value: SabreSheath
+      objectReference: {fileID: 0}
     - target: {fileID: 1595527395133040477, guid: 51c105fae1f0b074abf4c80745d8b129,
         type: 3}
       propertyPath: itemStorageCapacity

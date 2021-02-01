@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2657039831318589251, guid: 441404a6e6f76064da20f23bbdb9b0fa,
         type: 3}
+    - target: {fileID: 1054318668193971811, guid: 27208d0fc3f7c3544a8d1a7861253b52,
+        type: 3}
+      propertyPath: key
+      value: Garlic
+      objectReference: {fileID: 0}
     - target: {fileID: 1183759635035529528, guid: 27208d0fc3f7c3544a8d1a7861253b52,
         type: 3}
       propertyPath: m_RootOrder

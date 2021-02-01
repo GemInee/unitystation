@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3338471065598805900, guid: f81f054e54c0164459e94a191cf3ac9e,
+        type: 3}
+      propertyPath: key
+      value: OperativeHolster
+      objectReference: {fileID: 0}
     - target: {fileID: 3497922233097332131, guid: f81f054e54c0164459e94a191cf3ac9e,
         type: 3}
       propertyPath: m_Name

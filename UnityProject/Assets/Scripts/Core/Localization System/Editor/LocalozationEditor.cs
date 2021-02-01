@@ -41,14 +41,25 @@ namespace Localization
 			{
 				CreateNewData();
 			}
-			if (GUILayout.Button("Add localization components to all prefabs"))
+			if (GUILayout.Button("Add/Renew localization keys in all prefabs"))
 			{
-				AddLocalizationComponentToPrefabs();
+				AddRenewLocalizationKeyInPrefabs();
+			}
+			if (GUILayout.Button("Export Items JSON Example"))
+			{
+
 			}
 		}
 
-		private void AddLocalizationComponentToPrefabs()
+		private void AddRenewLocalizationKeyInPrefabs()
 		{
+			var objectsInScene = GetNonSceneObjects();
+
+			foreach (LocalizedText localizedText in objectsInScene)
+			{
+				EditorUtility.SetDirty(localizedText);
+				localizedText.SetKey(localizedText.gameObject.name);
+			}
 
 		}
 
@@ -79,6 +90,19 @@ namespace Localization
 		private void CreateNewData()
 		{
 			localizationData = new LocalizationUIData();
+		}
+
+		private List<LocalizedText> GetNonSceneObjects()
+		{
+			List<LocalizedText> objectsInScene = new List<LocalizedText>();
+
+			foreach (LocalizedText go in Resources.FindObjectsOfTypeAll(typeof(LocalizedText)) as LocalizedText[])
+			{
+				if (EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+					objectsInScene.Add(go);
+			}
+
+			return objectsInScene;
 		}
 
 	}

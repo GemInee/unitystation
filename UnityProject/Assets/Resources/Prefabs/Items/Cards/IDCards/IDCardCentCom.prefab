@@ -20,6 +20,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -35,6 +40,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -47,16 +57,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6950911245208390368, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
@@ -86,13 +86,13 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 7388296369326495990, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
-      propertyPath: initialDescription
-      value: An ID straight from Central Command.
+      propertyPath: initialName
+      value: CentCom ID
       objectReference: {fileID: 0}
     - target: {fileID: 7388296369326495990, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
-      propertyPath: initialName
-      value: CentCom ID
+      propertyPath: initialDescription
+      value: An ID straight from Central Command.
       objectReference: {fileID: 0}
     - target: {fileID: 7388296369326495990, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
@@ -100,5 +100,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7402688f994588a41a1288011f405560,
         type: 2}
+    - target: {fileID: 9131794610280240571, guid: 7cef0e2714d9c8c4587deef900a0b670,
+        type: 3}
+      propertyPath: key
+      value: IDCardCentCom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cef0e2714d9c8c4587deef900a0b670, type: 3}

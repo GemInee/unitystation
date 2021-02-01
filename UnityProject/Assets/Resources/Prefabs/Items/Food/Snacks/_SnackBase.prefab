@@ -127,6 +127,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f4bf367b42a325c4dbf26b76591e0ef1,
         type: 2}
+    - target: {fileID: 1459009189184806568, guid: 6eb9748e1eaf8dc4598a50e5b09df3b3,
+        type: 3}
+      propertyPath: key
+      value: _SnackBase
+      objectReference: {fileID: 0}
     - target: {fileID: 2002631705224524847, guid: 6eb9748e1eaf8dc4598a50e5b09df3b3,
         type: 3}
       propertyPath: transferMode

@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776837009416674960, guid: e6dea22a7a2cfa14cac93def729e0376,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeCargoTechnicianGilded
+      objectReference: {fileID: 0}
     - target: {fileID: 1366217496490628061, guid: e6dea22a7a2cfa14cac93def729e0376,
         type: 3}
       propertyPath: initialName

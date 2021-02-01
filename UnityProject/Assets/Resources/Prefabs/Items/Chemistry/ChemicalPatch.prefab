@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7a8a50d7b0151f145b83dd25b12abac5,
         type: 2}
+    - target: {fileID: 7268065599543236701, guid: 41b8ba286ee48d147b5b90a4535e27c8,
+        type: 3}
+      propertyPath: key
+      value: ChemicalPatch
+      objectReference: {fileID: 0}
     - target: {fileID: 7721682058840470234, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
       propertyPath: maxCapacity
@@ -31,6 +36,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -46,6 +56,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -58,16 +73,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8795922616318445318, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
@@ -91,13 +96,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9002552239035110672, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
-      propertyPath: initialDescription
-      value: A chemical patch for touch based applications.
+      propertyPath: initialName
+      value: chemical patch
       objectReference: {fileID: 0}
     - target: {fileID: 9002552239035110672, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
-      propertyPath: initialName
-      value: chemical patch
+      propertyPath: initialDescription
+      value: A chemical patch for touch based applications.
       objectReference: {fileID: 0}
     - target: {fileID: 9002552239035110672, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}

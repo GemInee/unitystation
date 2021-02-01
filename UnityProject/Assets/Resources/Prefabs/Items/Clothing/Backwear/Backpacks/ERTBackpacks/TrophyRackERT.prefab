@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4205235261490136292, guid: 4a7edcb6b0aa41f4f812fc2b11ac6ba0,
+        type: 3}
+      propertyPath: key
+      value: TrophyRackERT
+      objectReference: {fileID: 0}
     - target: {fileID: 5611610157334970735, guid: 4a7edcb6b0aa41f4f812fc2b11ac6ba0,
         type: 3}
       propertyPath: itemStoragePopulator

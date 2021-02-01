@@ -97,6 +97,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8967479190099124251, guid: dcd3d8f4ab469334fbf3b48a5ef58607,
         type: 3}
+    - target: {fileID: 3130735199794144334, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: key
+      value: WhiteBeetSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 3693160207910545667, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: initialName

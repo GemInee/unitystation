@@ -118,5 +118,10 @@ PrefabInstance:
       value: An absolutely ancient beret, allegedly worn by the first mime to ever
         step foot on a NanoTrasen station.
       objectReference: {fileID: 0}
+    - target: {fileID: 8585916119616143845, guid: 9445628fd16314b7388c7086f5fd2f26,
+        type: 3}
+      propertyPath: key
+      value: ArchaicBeret
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9445628fd16314b7388c7086f5fd2f26, type: 3}

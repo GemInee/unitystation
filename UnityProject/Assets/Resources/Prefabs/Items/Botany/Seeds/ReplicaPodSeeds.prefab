@@ -90,6 +90,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 31bf654c8da0bbd42a11a25a236f1fd9,
         type: 2}
+    - target: {fileID: 3130735199794144334, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: key
+      value: ReplicaPodSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 3693160207910545667, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: initialName

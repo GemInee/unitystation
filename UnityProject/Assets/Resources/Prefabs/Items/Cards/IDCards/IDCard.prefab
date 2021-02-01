@@ -33,16 +33,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ef001fb2e69bed346858f1fb9d243c21,
         type: 2}
+    - target: {fileID: 7249460504722895672, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: key
+      value: IDCard
+      objectReference: {fileID: 0}
     - target: {fileID: 8697867551168045643, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f23c8d48c642ba64ab25750c1c8b3b9d,
         type: 3}
+    - target: {fileID: 8697867551168045643, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8810445946256199959, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
       propertyPath: m_Name
-      value: IdentificationCardBase
+      value: IDCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
@@ -61,6 +76,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -73,16 +93,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8815655295075609699, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
@@ -106,13 +116,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8925940915049890019, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
-      propertyPath: Resistances.FireProof
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8925940915049890019, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: Resistances.AcidProof
-      value: 1
+      propertyPath: Armor.Acid
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8925940915049890019, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
@@ -121,8 +126,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8925940915049890019, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
-      propertyPath: Armor.Acid
-      value: 100
+      propertyPath: Resistances.AcidProof
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925940915049890019, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: Resistances.FireProof
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: initialName
+      value: identification card
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: initialDescription
+      value: A card used to provide ID and determine access across the station.
       objectReference: {fileID: 0}
     - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
@@ -131,15 +151,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
-      propertyPath: itemSprites.SpriteInventoryIcon
-      value: 
-      objectReference: {fileID: 11400000, guid: ef001fb2e69bed346858f1fb9d243c21,
-        type: 2}
-    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
       propertyPath: itemSprites.SpriteLeftHand
       value: 
       objectReference: {fileID: 11400000, guid: 790bcfa8bf0a3c84bb0d26de70787385,
+        type: 2}
+    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
+        type: 3}
+      propertyPath: initialTraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1dc47f324bdb1461b862b38cdb1e37d9,
         type: 2}
     - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
@@ -149,19 +169,9 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
         type: 3}
-      propertyPath: initialDescription
-      value: A card used to provide ID and determine access across the station.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: initialName
-      value: identification card
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982824578945154677, guid: 08128a9a69925eb4c93bc817c6ec2a88,
-        type: 3}
-      propertyPath: initialTraits.Array.data[1]
+      propertyPath: itemSprites.SpriteInventoryIcon
       value: 
-      objectReference: {fileID: 11400000, guid: 1dc47f324bdb1461b862b38cdb1e37d9,
+      objectReference: {fileID: 11400000, guid: ef001fb2e69bed346858f1fb9d243c21,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08128a9a69925eb4c93bc817c6ec2a88, type: 3}

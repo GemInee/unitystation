@@ -95,5 +95,10 @@ PrefabInstance:
       propertyPath: EncryptionKey
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 4259885104135319617, guid: 6c06d764ea0ea9e4f9dff0e83cbb46e6,
+        type: 3}
+      propertyPath: key
+      value: RadioHeadsetSyndicateDisguised
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c06d764ea0ea9e4f9dff0e83cbb46e6, type: 3}

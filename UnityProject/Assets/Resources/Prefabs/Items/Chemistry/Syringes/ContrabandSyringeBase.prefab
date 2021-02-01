@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1004446326763969746, guid: bc948ccbd770fff438862a32cd45a867,
+        type: 3}
+      propertyPath: key
+      value: ContrabandSyringeBase
+      objectReference: {fileID: 0}
     - target: {fileID: 1349684638700962633, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
       propertyPath: m_AssetId
@@ -16,6 +21,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ContrabandSyringeBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
@@ -34,6 +44,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +61,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1386190314498737033, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
@@ -74,13 +79,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1567996125810610591, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
-      propertyPath: initialDescription
-      value: A syringe containing some sort of unknown chemical cocktail.
+      propertyPath: initialName
+      value: unlabeled syringe
       objectReference: {fileID: 0}
     - target: {fileID: 1567996125810610591, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
-      propertyPath: initialName
-      value: unlabeled syringe
+      propertyPath: initialDescription
+      value: A syringe containing some sort of unknown chemical cocktail.
       objectReference: {fileID: 0}
     - target: {fileID: 1567996125810610591, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}

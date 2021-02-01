@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2987075830628814458, guid: 00894010fb45fa24bb34d56533a871a1,
         type: 3}
+    - target: {fileID: 3200519933614056587, guid: d5e025aa25145c744ae2e3883cd7dd39,
+        type: 3}
+      propertyPath: key
+      value: LifeCannabisLeaf
+      objectReference: {fileID: 0}
     - target: {fileID: 3478131805626873336, guid: d5e025aa25145c744ae2e3883cd7dd39,
         type: 3}
       propertyPath: m_Sprite

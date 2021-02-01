@@ -123,5 +123,10 @@ PrefabInstance:
       value: A cage that restrains the will of the self, allowing one to see the
         profane world for what it is.
       objectReference: {fileID: 0}
+    - target: {fileID: 8585916119616143845, guid: d3d950d792abb79fba51d3166022f581,
+        type: 3}
+      propertyPath: key
+      value: Cage
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3d950d792abb79fba51d3166022f581, type: 3}

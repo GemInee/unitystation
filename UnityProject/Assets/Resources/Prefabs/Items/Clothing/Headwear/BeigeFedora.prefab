@@ -112,5 +112,10 @@ PrefabInstance:
       propertyPath: initialName
       value: beige fedora
       objectReference: {fileID: 0}
+    - target: {fileID: 8585916119616143845, guid: 59b6ec971c7da824b83117e8faa53db3,
+        type: 3}
+      propertyPath: key
+      value: BeigeFedora
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b6ec971c7da824b83117e8faa53db3, type: 3}

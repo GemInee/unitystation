@@ -39,6 +39,11 @@ PrefabInstance:
       value: A security jumpskirt decorated for those few with the dedication to
         achieve the position of Head of Security.
       objectReference: {fileID: 0}
+    - target: {fileID: 3968800323191254410, guid: d2a5503a9764c49ed9a7b1a5c4e4c547,
+        type: 3}
+      propertyPath: key
+      value: HeadOfSecuritysJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 7594101368484472030, guid: d2a5503a9764c49ed9a7b1a5c4e4c547,
         type: 3}
       propertyPath: clothData

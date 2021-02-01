@@ -42,6 +42,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1cfda42b6280e444abb40b0656d25f74,
         type: 2}
+    - target: {fileID: 5061581637224812666, guid: dce8e376d2eca40eabe3f055b41a021c,
+        type: 3}
+      propertyPath: key
+      value: MedicalMask
+      objectReference: {fileID: 0}
     - target: {fileID: 6404652678407139925, guid: dce8e376d2eca40eabe3f055b41a021c,
         type: 3}
       propertyPath: m_Name

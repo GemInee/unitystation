@@ -78,5 +78,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 05862c85294074a69bda65171392e6e8,
         type: 2}
+    - target: {fileID: 6696135910607255273, guid: 5b262a7685fde474e9ad13d31742ab69,
+        type: 3}
+      propertyPath: key
+      value: JanibeltFull
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b262a7685fde474e9ad13d31742ab69, type: 3}

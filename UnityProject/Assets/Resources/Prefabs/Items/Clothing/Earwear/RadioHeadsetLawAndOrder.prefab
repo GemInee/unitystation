@@ -32,6 +32,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2534401073920195852, guid: 6c06d764ea0ea9e4f9dff0e83cbb46e6,
         type: 3}
+      propertyPath: initialName
+      value: law and order headset
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534401073920195852, guid: 6c06d764ea0ea9e4f9dff0e83cbb46e6,
+        type: 3}
       propertyPath: initialDescription
       value: In the criminal justice headset, the encryption key represents two separate
         but equally important groups. Sec, who investigate crime, and Service, who
