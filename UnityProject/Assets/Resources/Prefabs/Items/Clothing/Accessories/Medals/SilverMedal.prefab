@@ -93,6 +93,11 @@ PrefabInstance:
       propertyPath: key
       value: SilverMedal
       objectReference: {fileID: 0}
+    - target: {fileID: 3319893454020810646, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
+      propertyPath: key
+      value: SilverMedal
+      objectReference: {fileID: 0}
     - target: {fileID: 6448339774262161041, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
       propertyPath: PresentSpriteSet

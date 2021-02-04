@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 856276241514777893, guid: 16ff11a6d1a3e7a479eac4e27f8a1349,
+        type: 3}
+      propertyPath: key
+      value: BlackJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 2909197017712554513, guid: 16ff11a6d1a3e7a479eac4e27f8a1349,
         type: 3}
       propertyPath: m_AssetId

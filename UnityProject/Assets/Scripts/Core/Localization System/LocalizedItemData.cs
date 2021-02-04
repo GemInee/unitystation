@@ -32,8 +32,8 @@ namespace Localization
 		[JsonProperty("ExportName")]
 		public string ExportName { get; set; }
 
-		[JsonProperty("ExportDescription")]
-		public string ExportDescription { get; set; }
+		//[JsonProperty("ExportDescription")]
+		//public string ExportDescription { get; set; }
 
 		[JsonProperty("ExportMessage")]
 		public string ExportMessage { get; set; }
@@ -44,7 +44,7 @@ namespace Localization
 		public static LocalizedItemData FromJson(string json) => JsonConvert.DeserializeObject<LocalizedItemData>(json, Localization.Converter.Settings);
 	}
 
-	public static class Serialize
+	public static class SerializeItemData
 	{
 		public static string ToJson(this LocalizedItemData self) => JsonConvert.SerializeObject(self, Localization.Converter.Settings);
 	}

@@ -42,6 +42,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9204197c3e5ec4741a862594fdddaeeb,
         type: 2}
+    - target: {fileID: 6552103409582798919, guid: 5da2eb22d55c9c045bd7c22925c9b948,
+        type: 3}
+      propertyPath: key
+      value: NarSienHardenedArmor
+      objectReference: {fileID: 0}
     - target: {fileID: 7357658307925088488, guid: 5da2eb22d55c9c045bd7c22925c9b948,
         type: 3}
       propertyPath: key

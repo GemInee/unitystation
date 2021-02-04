@@ -47,8 +47,41 @@ namespace Localization
 			}
 			if (GUILayout.Button("Export Items JSON Example"))
 			{
+				ExportLocalizationExample();
+			}
+
+		}
+
+		private void ExportLocalizationExample()
+		{
+			Dictionary<string, ItemData> localizedItemsData = new Dictionary<string, ItemData>();
+
+			var objectsInScene = GetNonSceneObjects();
+			foreach (LocalizedText localizedText in objectsInScene)
+			{
+				ItemData itemDataForExport = new ItemData();
+
+				var component = localizedText.gameObject.GetComponent<Items.ItemAttributesV2>();
+
+				itemDataForExport.InitialItemName = component.InitialName;
+				itemDataForExport.InitialItemDescription = component.InitialDescription;
+				itemDataForExport.ExportName = component.ExportName;
+				itemDataForExport.ExportMessage = component.ExportMessage;
+
+				try
+				{
+					localizedItemsData.Add(localizedText.name, itemDataForExport);
+				}
+				catch
+				{
+					Debug.LogError("Cannot add item: " + localizedText.name + ". Possible doubled name in prefabs");
+				}
 
 			}
+			string fileNameItems = "English_items.json";
+			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
+
+			File.WriteAllText(filePathItems, Newtonsoft.Json.JsonConvert.SerializeObject(localizedItemsData, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
 		}
 
 		private void AddRenewLocalizationKeyInPrefabs()

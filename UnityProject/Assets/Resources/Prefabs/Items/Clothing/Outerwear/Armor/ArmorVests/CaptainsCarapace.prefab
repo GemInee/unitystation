@@ -36,6 +36,11 @@ PrefabInstance:
       propertyPath: bodyPartsCovered
       value: 144
       objectReference: {fileID: 0}
+    - target: {fileID: 6806490475600258197, guid: 900572ab8ed9030429b12eaa3974a43f,
+        type: 3}
+      propertyPath: key
+      value: CaptainsCarapace
+      objectReference: {fileID: 0}
     - target: {fileID: 7098688342071886906, guid: 900572ab8ed9030429b12eaa3974a43f,
         type: 3}
       propertyPath: key

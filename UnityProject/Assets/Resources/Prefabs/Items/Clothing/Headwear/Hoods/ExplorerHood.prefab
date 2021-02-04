@@ -148,6 +148,11 @@ PrefabInstance:
       propertyPath: key
       value: ExplorerHood
       objectReference: {fileID: 0}
+    - target: {fileID: 3423927545278991158, guid: 3bc560c485f5ecb4491bce031cde1635,
+        type: 3}
+      propertyPath: key
+      value: ExplorerHood
+      objectReference: {fileID: 0}
     - target: {fileID: 6183623809446730291, guid: 3bc560c485f5ecb4491bce031cde1635,
         type: 3}
       propertyPath: clothData

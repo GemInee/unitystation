@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 856276241514777893, guid: 14673e0d9505d4a20ba67712d7358daa,
+        type: 3}
+      propertyPath: key
+      value: ResearchDirectorsTurtleneck
+      objectReference: {fileID: 0}
     - target: {fileID: 2909197017712554513, guid: 14673e0d9505d4a20ba67712d7358daa,
         type: 3}
       propertyPath: m_AssetId

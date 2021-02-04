@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 751255662590568228, guid: cb7e5ca96c976e74cb550187a84e94b3,
+        type: 3}
+      propertyPath: key
+      value: PlasmaEnviroglovesCargo
+      objectReference: {fileID: 0}
     - target: {fileID: 2901826008073217444, guid: cb7e5ca96c976e74cb550187a84e94b3,
         type: 3}
       propertyPath: m_Name

@@ -31,6 +31,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: e2fa83f4f82faa8489926539c2d943fd,
         type: 2}
+    - target: {fileID: 5463241632584835402, guid: 8a05cb3da796e42e89e13a0963de6953,
+        type: 3}
+      propertyPath: key
+      value: HeadOfSecuritysNavyBeret
+      objectReference: {fileID: 0}
     - target: {fileID: 7524605284256423550, guid: 8a05cb3da796e42e89e13a0963de6953,
         type: 3}
       propertyPath: m_AssetId

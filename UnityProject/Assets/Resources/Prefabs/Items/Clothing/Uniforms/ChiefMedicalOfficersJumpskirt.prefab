@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 856276241514777893, guid: 6ab2f9c28085a419ca49eda6e97a06cf,
+        type: 3}
+      propertyPath: key
+      value: ChiefMedicalOfficersJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 1973002661359593264, guid: 6ab2f9c28085a419ca49eda6e97a06cf,
         type: 3}
       propertyPath: bodyPartsCovered

@@ -42,6 +42,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 988471224210537097, guid: e6f80a7fd02e2c14ea72a1410452b690,
+        type: 3}
+      propertyPath: key
+      value: NightVisionMesonScanner
+      objectReference: {fileID: 0}
     - target: {fileID: 2987011942256334699, guid: e6f80a7fd02e2c14ea72a1410452b690,
         type: 3}
       propertyPath: initialName

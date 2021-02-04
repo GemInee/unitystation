@@ -141,6 +141,11 @@ PrefabInstance:
       propertyPath: key
       value: ClownSuit
       objectReference: {fileID: 0}
+    - target: {fileID: 7098148284921457378, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: ClownSuit
+      objectReference: {fileID: 0}
     - target: {fileID: 8215174308799955191, guid: de234d793cfd842599c9c8726207f217,
         type: 3}
       propertyPath: bodyPartsCovered

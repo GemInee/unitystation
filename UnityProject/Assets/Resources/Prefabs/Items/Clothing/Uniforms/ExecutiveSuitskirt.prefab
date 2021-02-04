@@ -117,5 +117,10 @@ PrefabInstance:
       propertyPath: bodyPartsCovered
       value: 240
       objectReference: {fileID: 0}
+    - target: {fileID: 8641189934590465511, guid: 119a19b7af9f24a4eae413817fdef76d,
+        type: 3}
+      propertyPath: key
+      value: ExecutiveSuitskirt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 119a19b7af9f24a4eae413817fdef76d, type: 3}

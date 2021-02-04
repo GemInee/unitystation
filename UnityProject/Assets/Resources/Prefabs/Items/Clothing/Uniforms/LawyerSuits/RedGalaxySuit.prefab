@@ -112,5 +112,10 @@ PrefabInstance:
       propertyPath: key
       value: RedGalaxySuit
       objectReference: {fileID: 0}
+    - target: {fileID: 7947585329062256827, guid: 8b9ee0ad8572c264c871f6be2181a458,
+        type: 3}
+      propertyPath: key
+      value: RedGalaxySuit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9ee0ad8572c264c871f6be2181a458, type: 3}

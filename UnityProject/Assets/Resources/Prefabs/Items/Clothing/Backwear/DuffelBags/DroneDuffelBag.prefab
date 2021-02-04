@@ -42,6 +42,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: df784ab76f05f9d4f83314e070eeb74f,
         type: 2}
+    - target: {fileID: 6827303436741170885, guid: cae650b8120e1f04a840374168f5169e,
+        type: 3}
+      propertyPath: key
+      value: DroneDuffelBag
+      objectReference: {fileID: 0}
     - target: {fileID: 7082310791522661994, guid: cae650b8120e1f04a840374168f5169e,
         type: 3}
       propertyPath: key

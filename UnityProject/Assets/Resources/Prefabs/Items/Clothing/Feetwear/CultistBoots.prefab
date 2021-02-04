@@ -98,6 +98,11 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A pair of boots worn by the followers of Nar'Sie.
       objectReference: {fileID: 0}
+    - target: {fileID: 4307991858493057948, guid: 502f496beb9034b9b9c97868e845ed7e,
+        type: 3}
+      propertyPath: key
+      value: CultistBoots
+      objectReference: {fileID: 0}
     - target: {fileID: 5523300560698462875, guid: 502f496beb9034b9b9c97868e845ed7e,
         type: 3}
       propertyPath: PresentSpriteSet

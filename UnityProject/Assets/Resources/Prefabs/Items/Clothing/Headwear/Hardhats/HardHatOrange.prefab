@@ -49,6 +49,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f0f5d2c2e2b432a44b9943f8b41944bf,
         type: 2}
+    - target: {fileID: 5463241632584835402, guid: 64e430f828cfc465ea88b8d6e6fecda4,
+        type: 3}
+      propertyPath: key
+      value: HardHatOrange
+      objectReference: {fileID: 0}
     - target: {fileID: 7524605284256423550, guid: 64e430f828cfc465ea88b8d6e6fecda4,
         type: 3}
       propertyPath: m_AssetId

@@ -128,5 +128,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A close-fitting sterile mask that can be connected to an air supply.
       objectReference: {fileID: 0}
+    - target: {fileID: 8847393791950303445, guid: dce8e376d2eca40eabe3f055b41a021c,
+        type: 3}
+      propertyPath: key
+      value: MedicalMask
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dce8e376d2eca40eabe3f055b41a021c, type: 3}

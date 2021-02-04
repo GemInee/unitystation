@@ -128,5 +128,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A fine black bandana with nanotech lining and a hydroponics pattern.
       objectReference: {fileID: 0}
+    - target: {fileID: 8847393791950303445, guid: ff09e60d118a31e478d827be7faa2f0b,
+        type: 3}
+      propertyPath: key
+      value: BlackBandana
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff09e60d118a31e478d827be7faa2f0b, type: 3}

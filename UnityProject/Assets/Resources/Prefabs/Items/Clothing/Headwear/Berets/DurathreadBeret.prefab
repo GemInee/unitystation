@@ -31,6 +31,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8d0756a39cdf2004b908bac8d99e81e7,
         type: 2}
+    - target: {fileID: 5463241632584835402, guid: 9445628fd16314b7388c7086f5fd2f26,
+        type: 3}
+      propertyPath: key
+      value: DurathreadBeret
+      objectReference: {fileID: 0}
     - target: {fileID: 7521929656741835326, guid: 9445628fd16314b7388c7086f5fd2f26,
         type: 3}
       propertyPath: Armor.Acid

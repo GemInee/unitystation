@@ -127,5 +127,10 @@ PrefabInstance:
       propertyPath: key
       value: PirateOutfit
       objectReference: {fileID: 0}
+    - target: {fileID: 7098148284921457378, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: PirateOutfit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de234d793cfd842599c9c8726207f217, type: 3}

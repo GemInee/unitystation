@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 85226b86ddf439f429edec86be38f0b0,
         type: 2}
+    - target: {fileID: 5255288137309752248, guid: 4663ac7bbb1e2054face4b1d91160105,
+        type: 3}
+      propertyPath: key
+      value: BronzeMedal
+      objectReference: {fileID: 0}
     - target: {fileID: 7509428302051719780, guid: 4663ac7bbb1e2054face4b1d91160105,
         type: 3}
       propertyPath: m_Sprite

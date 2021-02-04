@@ -145,5 +145,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 10a21ec3d5e7d1d489334ee8c7382ba7,
         type: 2}
+    - target: {fileID: 8913727701171062439, guid: 628668e5958fedc4bb4bf1685251aa9f,
+        type: 3}
+      propertyPath: key
+      value: CaptainsGloves
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 628668e5958fedc4bb4bf1685251aa9f, type: 3}

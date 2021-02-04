@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1112319042627399295, guid: ee5df863675e12742aa716c3ab6ce5c1,
+        type: 3}
+      propertyPath: key
+      value: RibbonCargoTechOfTheShiftAward
+      objectReference: {fileID: 0}
     - target: {fileID: 3146888697320768413, guid: ee5df863675e12742aa716c3ab6ce5c1,
         type: 3}
       propertyPath: initialName

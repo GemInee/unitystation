@@ -42,6 +42,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 988471224210537097, guid: ddd85a66da8b22448806f0f8454c01ab,
+        type: 3}
+      propertyPath: key
+      value: NightVisionMedicalHUD
+      objectReference: {fileID: 0}
     - target: {fileID: 2987011942256334699, guid: ddd85a66da8b22448806f0f8454c01ab,
         type: 3}
       propertyPath: initialName

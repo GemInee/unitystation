@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cab7233cb005aa14eaf7e7a30db41ee0,
         type: 2}
+    - target: {fileID: 5001417320472203023, guid: a168a3bbdfd796d48bf524dd9bef1803,
+        type: 3}
+      propertyPath: key
+      value: SyndicateSatchel
+      objectReference: {fileID: 0}
     - target: {fileID: 7409841405138497595, guid: a168a3bbdfd796d48bf524dd9bef1803,
         type: 3}
       propertyPath: m_AssetId

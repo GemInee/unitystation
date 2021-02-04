@@ -117,5 +117,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A mask made of soft vinyl and latex, representing the head of a raven.
       objectReference: {fileID: 0}
+    - target: {fileID: 8847393791950303445, guid: 7620c1f80fbe6f14d9fd21f5db20cb7b,
+        type: 3}
+      propertyPath: key
+      value: RavenMask
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7620c1f80fbe6f14d9fd21f5db20cb7b, type: 3}

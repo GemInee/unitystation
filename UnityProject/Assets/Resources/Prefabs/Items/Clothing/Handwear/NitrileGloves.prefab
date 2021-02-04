@@ -118,5 +118,10 @@ PrefabInstance:
       value: Pricy sterile gloves that are thicker than latex. Transfers intimate
         paramedic knowledge into the user via nanochips.
       objectReference: {fileID: 0}
+    - target: {fileID: 8116386851749082718, guid: f819cf8b4a0534ec59570563e52c8508,
+        type: 3}
+      propertyPath: key
+      value: NitrileGloves
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f819cf8b4a0534ec59570563e52c8508, type: 3}

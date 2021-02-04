@@ -123,6 +123,11 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A robotics diagnostic HUD fitted with a light amplifier.
       objectReference: {fileID: 0}
+    - target: {fileID: 988471224210537097, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: key
+      value: NightVisionDiagnosticHUD
+      objectReference: {fileID: 0}
     - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
       propertyPath: initialName

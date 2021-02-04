@@ -103,6 +103,11 @@ PrefabInstance:
       propertyPath: butcherSound
       value: GeneralHit
       objectReference: {fileID: 0}
+    - target: {fileID: 4353117434072599903, guid: a7a048f6c330048e9a2358fb6f71d385,
+        type: 3}
+      propertyPath: key
+      value: TechpriestHood
+      objectReference: {fileID: 0}
     - target: {fileID: 5061482891772091482, guid: a7a048f6c330048e9a2358fb6f71d385,
         type: 3}
       propertyPath: clothData

@@ -88,6 +88,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5481218505883704608, guid: 3576a7c7444330b4c854609f0fb4b5d3,
         type: 3}
+    - target: {fileID: 3905176462490418751, guid: e6dea22a7a2cfa14cac93def729e0376,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeCargoTechnicianGilded
+      objectReference: {fileID: 0}
     - target: {fileID: 4710274899834308408, guid: e6dea22a7a2cfa14cac93def729e0376,
         type: 3}
       propertyPath: PresentSpriteSet

@@ -37,6 +37,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cfd963385c088a1479e7364b687ec676,
         type: 2}
+    - target: {fileID: 5463241632584835402, guid: 788649a7f84574c48a54361479106732,
+        type: 3}
+      propertyPath: key
+      value: RedCap
+      objectReference: {fileID: 0}
     - target: {fileID: 7524605284256423550, guid: 788649a7f84574c48a54361479106732,
         type: 3}
       propertyPath: m_AssetId

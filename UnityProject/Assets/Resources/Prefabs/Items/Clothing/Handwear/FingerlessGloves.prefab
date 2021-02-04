@@ -117,5 +117,10 @@ PrefabInstance:
       propertyPath: initialDescription
       value: Plain black gloves without fingertips for the hard working.
       objectReference: {fileID: 0}
+    - target: {fileID: 8116386851749082718, guid: f819cf8b4a0534ec59570563e52c8508,
+        type: 3}
+      propertyPath: key
+      value: FingerlessGloves
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f819cf8b4a0534ec59570563e52c8508, type: 3}

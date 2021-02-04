@@ -193,6 +193,11 @@ PrefabInstance:
       propertyPath: itemSprites.Palette.Array.data[4].r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4307991858493057948, guid: 502f496beb9034b9b9c97868e845ed7e,
+        type: 3}
+      propertyPath: key
+      value: BlueShoes
+      objectReference: {fileID: 0}
     - target: {fileID: 4728094771363396249, guid: 502f496beb9034b9b9c97868e845ed7e,
         type: 3}
       propertyPath: clothData

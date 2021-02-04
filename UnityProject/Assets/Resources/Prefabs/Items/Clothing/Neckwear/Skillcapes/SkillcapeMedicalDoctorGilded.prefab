@@ -112,5 +112,10 @@ PrefabInstance:
       propertyPath: key
       value: SkillcapeMedicalDoctorGilded
       objectReference: {fileID: 0}
+    - target: {fileID: 7162135318964895055, guid: 01fb7f1c70a00e04b8466af1b765ad83,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeMedicalDoctorGilded
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01fb7f1c70a00e04b8466af1b765ad83, type: 3}

@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 856276241514777893, guid: 9c1e9db42d990b642a9927850b0258e9,
+        type: 3}
+      propertyPath: key
+      value: SyndicateTacticalSkirtleneck
+      objectReference: {fileID: 0}
     - target: {fileID: 1973002661359593264, guid: 9c1e9db42d990b642a9927850b0258e9,
         type: 3}
       propertyPath: bodyPartsCovered

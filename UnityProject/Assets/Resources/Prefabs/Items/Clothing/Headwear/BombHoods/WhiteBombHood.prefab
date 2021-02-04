@@ -31,6 +31,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6f0e0108ff437ba42b8ae8898318b627,
         type: 2}
+    - target: {fileID: 5463241632584835402, guid: 67fcb57cf667d944691867a665b42a9d,
+        type: 3}
+      propertyPath: key
+      value: WhiteBombHood
+      objectReference: {fileID: 0}
     - target: {fileID: 7524605284256423550, guid: 67fcb57cf667d944691867a665b42a9d,
         type: 3}
       propertyPath: m_AssetId

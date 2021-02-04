@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: bodyPartsCovered
       value: 240
       objectReference: {fileID: 0}
+    - target: {fileID: 1801901505144912340, guid: 9e1795c845a20134abc7b0eed8f2f750,
+        type: 3}
+      propertyPath: key
+      value: LawyerBlueSuitskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 2735861691210930555, guid: 9e1795c845a20134abc7b0eed8f2f750,
         type: 3}
       propertyPath: key
