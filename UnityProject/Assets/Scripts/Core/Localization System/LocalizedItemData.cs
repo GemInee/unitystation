@@ -9,7 +9,7 @@ namespace Localization
 	public partial class LocalizedItemData
 	{
 		[JsonProperty("items")]
-		public Item[] Items { get; set; }
+		public Item[] ItemsData { get; set; }
 	}
 
 	public partial class Item

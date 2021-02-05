@@ -54,28 +54,36 @@ namespace Localization
 
 		private void ExportLocalizationExample()
 		{
-			Dictionary<string, ItemData> localizedItemsData = new Dictionary<string, ItemData>();
-
+			int index = 0;
 			var objectsInScene = GetNonSceneObjects();
+			var localizedItemsData = new LocalizedItemData();
+			localizedItemsData.ItemsData = new Item[objectsInScene.Count];
 			foreach (LocalizedText localizedText in objectsInScene)
 			{
-				ItemData itemDataForExport = new ItemData();
-
 				var component = localizedText.gameObject.GetComponent<Items.ItemAttributesV2>();
-
-				itemDataForExport.InitialItemName = component.InitialName;
-				itemDataForExport.InitialItemDescription = component.InitialDescription;
-				itemDataForExport.ExportName = component.ExportName;
-				itemDataForExport.ExportMessage = component.ExportMessage;
-
-				try
+				if (component.InitialName != "Unnamed" && component.InitialName != "")
 				{
-					localizedItemsData.Add(localizedText.name, itemDataForExport);
+					Item item = new Item();
+					ItemData itemDataForExport = new ItemData();
+
+					item.ItemName = component.InitialName;
+					itemDataForExport.InitialItemName = component.InitialName;
+					itemDataForExport.InitialItemDescription = component.InitialDescription;
+					itemDataForExport.ExportName = component.ExportName;
+					itemDataForExport.ExportMessage = component.ExportMessage;
+					item.ItemData = itemDataForExport;
+					localizedItemsData.ItemsData[index] = item;
+					index++;
 				}
-				catch
-				{
-					Debug.LogError("Cannot add item: " + localizedText.name + ". Possible doubled name in prefabs");
-				}
+
+				//try
+				//{
+				//	localizedItemsData.Add(localizedText.name, itemDataForExport);
+				//}
+				//catch
+				//{
+				//	Debug.LogError("Cannot add item: " + localizedText.name + ". Possible doubled name in prefabs");
+				//}
 
 			}
 			string fileNameItems = "English_items.json";

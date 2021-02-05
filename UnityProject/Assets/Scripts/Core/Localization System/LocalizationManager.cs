@@ -96,9 +96,9 @@ namespace Localization
 
 				var loadedLocalizedItemData = LocalizedItemData.FromJson(jsonString);
 
-				for (int i = 0; i < loadedLocalizedItemData.Items.Length; i++)
+				for (int i = 0; i < loadedLocalizedItemData.ItemsData.Length; i++)
 				{
-					localizedItemsData.Add(loadedLocalizedItemData.Items[i].ItemName, loadedLocalizedItemData.Items[i].ItemData);
+					localizedItemsData.Add(loadedLocalizedItemData.ItemsData[i].ItemName, loadedLocalizedItemData.ItemsData[i].ItemData);
 				}
 
 			}
