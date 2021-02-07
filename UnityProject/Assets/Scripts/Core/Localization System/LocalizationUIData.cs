@@ -1,15 +1,20 @@
 ﻿namespace Localization
 {
-	[System.Serializable]
-	public class LocalizationUIData
+	using System.Collections.Generic;
+	using Newtonsoft.Json;
+
+	public partial class LocalizationUIData
 	{
-		public LocalizationUIItem[] items;
+		[JsonProperty("items")]
+		public LocalizationUIItem[] Items { get; set; }
 	}
 
-	[System.Serializable]
-	public class LocalizationUIItem
+	public partial class LocalizationUIItem
 	{
-		public string key;
-		public string value;
+		[JsonProperty("key")]
+		public string Key { get; set; }
+
+		[JsonProperty("value")]
+		public string Value { get; set; }
 	}
 }

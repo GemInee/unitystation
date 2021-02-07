@@ -62,6 +62,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0.9205437, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -119,6 +121,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3969628569314089691}
+        m_TargetAssemblyTypeName: 
         m_MethodName: GibRequest
         m_Mode: 1
         m_Arguments:
@@ -191,6 +194,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -248,6 +253,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3969628569314089691}
+        m_TargetAssemblyTypeName: 
         m_MethodName: TeleportTo
         m_Mode: 1
         m_Arguments:
@@ -269,6 +275,7 @@ GameObject:
   - component: {fileID: 3460466345755150395}
   - component: {fileID: 3191824023468771739}
   - component: {fileID: 5814762998991046110}
+  - component: {fileID: -7734318670330566045}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -318,6 +325,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -335,6 +344,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Caution: Gib'
+--- !u!114 &-7734318670330566045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2172325333184690793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_GibButton_PlayerAlertView
 --- !u!1 &2545852886419242000
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +368,7 @@ GameObject:
   - component: {fileID: 438321404085029633}
   - component: {fileID: 1101769647571721185}
   - component: {fileID: 3902925229308935322}
+  - component: {fileID: 8650818494186661359}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -395,6 +418,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -412,6 +437,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: x4
+--- !u!114 &8650818494186661359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545852886419242000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_StackObj_PlayerAlertView
 --- !u!1 &2804893484216910509
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,6 +510,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -496,6 +536,7 @@ GameObject:
   - component: {fileID: 5367826481675271346}
   - component: {fileID: 2038790282030849589}
   - component: {fileID: 2016645459449916029}
+  - component: {fileID: 1862235213860534108}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -545,6 +586,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -562,6 +605,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: I'm taking care of it
+--- !u!114 &1862235213860534108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908919908879362683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_TakingCareOfItButton_PlayerAlertView
 --- !u!1 &4403708912386912060
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +631,7 @@ GameObject:
   - component: {fileID: 1258218345317862541}
   - component: {fileID: 5512550260739506073}
   - component: {fileID: 1450358632470436188}
+  - component: {fileID: -270029872463191434}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -624,6 +681,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -670,6 +729,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &-270029872463191434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4403708912386912060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_PlayerAlertView
 --- !u!1 &4482511203198982039
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +753,7 @@ GameObject:
   - component: {fileID: 230136469329908828}
   - component: {fileID: 6829601018019030864}
   - component: {fileID: 7154811919890215113}
+  - component: {fileID: 2221734767704289746}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -730,6 +803,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -747,6 +822,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Teleport
+--- !u!114 &2221734767704289746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4482511203198982039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_TeleportButton_PlayerAlertView
 --- !u!1 &5549069388510209694
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +896,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8396226, g: 0.21782663, b: 0.3421857, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -883,6 +973,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -940,6 +1032,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3969628569314089691}
+        m_TargetAssemblyTypeName: 
         m_MethodName: TakenCareOf
         m_Mode: 1
         m_Arguments:
@@ -1016,7 +1109,6 @@ MonoBehaviour:
   visibleText: {fileID: 1258218345317862541}
   textRectTransform: {fileID: 7534355793145267200}
   thisRectTransform: {fileID: 8194391246466133670}
-  contentFitter: {fileID: 1450358632470436188}
   gibButton: {fileID: 5862997405210176039}
   takenCareOfButton: {fileID: 2044001081901559979}
   teleportButton: {fileID: 1402309249500725372}

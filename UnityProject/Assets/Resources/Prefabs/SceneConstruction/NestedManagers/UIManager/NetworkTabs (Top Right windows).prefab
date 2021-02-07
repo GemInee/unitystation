@@ -505,6 +505,7 @@ GameObject:
   - component: {fileID: 5089320133706596120}
   - component: {fileID: 3059969084195502732}
   - component: {fileID: 3344643656310410885}
+  - component: {fileID: 2946006899433027650}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -603,6 +604,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.325}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &2946006899433027650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364691839729166918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Content_Viewport_Scroll View_Window_Tab_Notes_Tabs_NetworkTabs (Top
+    Right windows)
 --- !u!1 &1450137050371582966
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +758,7 @@ GameObject:
   - component: {fileID: 7639434293165493545}
   - component: {fileID: 5812174582384206504}
   - component: {fileID: 4941520234935937926}
+  - component: {fileID: 7625427787740329059}
   m_Layer: 5
   m_Name: VV For Objects On Tile Button
   m_TagString: Untagged
@@ -896,6 +912,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7625427787740329059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737227325568661915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: VV For Objects On Tile Button_Content_Viewport_Scroll View_Window_Tab_Admin_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &2008173313982982246
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +937,7 @@ GameObject:
   - component: {fileID: 422265025982252078}
   - component: {fileID: 2503906946992536307}
   - component: {fileID: 8816250071503743211}
+  - component: {fileID: 3414320548177755214}
   m_Layer: 5
   m_Name: RoundStatusText
   m_TagString: Untagged
@@ -975,6 +1006,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: a lot
+--- !u!114 &3414320548177755214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008173313982982246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: RoundStatusText_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &2111807607254785132
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +1030,7 @@ GameObject:
   - component: {fileID: 5686185502531888080}
   - component: {fileID: 1579577843234350976}
   - component: {fileID: 8430632831560114056}
+  - component: {fileID: -6280024688340902669}
   m_Layer: 5
   m_Name: CurrentMap
   m_TagString: Untagged
@@ -1054,6 +1099,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Current Map:'
+--- !u!114 &-6280024688340902669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111807607254785132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CurrentMap_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &2488319676239953218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1123,7 @@ GameObject:
   - component: {fileID: 5125098027424100209}
   - component: {fileID: 7138146835087520820}
   - component: {fileID: 6634746499779081886}
+  - component: {fileID: 6895241617191996193}
   m_Layer: 5
   m_Name: RoundStatus
   m_TagString: Untagged
@@ -1133,6 +1192,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Round Status:'
+--- !u!114 &6895241617191996193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2488319676239953218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: RoundStatus_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &2513903602170789189
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1219,7 @@ GameObject:
   - component: {fileID: 5004581578857712774}
   - component: {fileID: 6335360467027724366}
   - component: {fileID: 744952867126023263}
+  - component: {fileID: -1216858371040307259}
   m_Layer: 5
   m_Name: Open VV Button
   m_TagString: Untagged
@@ -1300,6 +1373,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-1216858371040307259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513903602170789189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Open VV Button_Content_Viewport_Scroll View_Window_Tab_Admin_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &2715333376641952382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1401,7 @@ GameObject:
   - component: {fileID: 839131325006112000}
   - component: {fileID: 4699878601205023659}
   - component: {fileID: 8270286898701291808}
+  - component: {fileID: 6514116498278750562}
   m_Layer: 5
   m_Name: SpawnItemButton
   m_TagString: Untagged
@@ -1467,6 +1555,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6514116498278750562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715333376641952382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: SpawnItemButton_Content_Viewport_Scroll View_Window_Tab_Admin_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &3064713112676544877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1688,7 @@ GameObject:
   - component: {fileID: 8491253655481208795}
   - component: {fileID: 4545042311076983070}
   - component: {fileID: 8806876473847814390}
+  - component: {fileID: -410728602580796572}
   m_Layer: 5
   m_Name: GameModeText
   m_TagString: Untagged
@@ -1654,6 +1757,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: a lot
+--- !u!114 &-410728602580796572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3086013353759319246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: GameModeText_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &3274885705528794751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,6 +2056,7 @@ GameObject:
   - component: {fileID: 7080873983966486702}
   - component: {fileID: 5204608232045988362}
   - component: {fileID: 7107447369223098515}
+  - component: {fileID: 6041999205960201560}
   m_Layer: 5
   m_Name: DestroyItemButton
   m_TagString: Untagged
@@ -2093,6 +2210,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6041999205960201560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4499822673834632442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: DestroyItemButton_Content_Viewport_Scroll View_Window_Tab_Admin_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &5164368279624967651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,6 +2271,7 @@ GameObject:
   - component: {fileID: 318907467556486653}
   - component: {fileID: 3413811851040367147}
   - component: {fileID: 2061585884181170127}
+  - component: {fileID: -8806547597696606386}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -2208,6 +2340,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Enter Text...
+--- !u!114 &-8806547597696606386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5201956282919322494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Placeholder_Text Area_InputField_Content_Viewport_Scroll View_Window_Tab_Notes_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &5259668423374377560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2490,7 @@ GameObject:
   - component: {fileID: 5310061747963067528}
   - component: {fileID: 5312015898777551334}
   - component: {fileID: 5420717977543713894}
+  - component: {fileID: 8256941297376276361}
   m_Layer: 5
   m_Name: Names
   m_TagString: Untagged
@@ -2412,6 +2559,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &8256941297376276361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379836096859498582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Names_Content_Viewport_Scroll View_Window_Tab_Stats_Tabs_NetworkTabs (Top
+    Right windows)
 --- !u!1 &5379868275538216358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,6 +2584,7 @@ GameObject:
   - component: {fileID: 5310833258627309600}
   - component: {fileID: 5312505490527074772}
   - component: {fileID: 5420834180024469856}
+  - component: {fileID: -8137467937340363013}
   m_Layer: 5
   m_Name: TimerCount
   m_TagString: Untagged
@@ -2491,6 +2653,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: a lot
+--- !u!114 &-8137467937340363013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379868275538216358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: TimerCount_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &5379873165694850676
 GameObject:
   m_ObjectHideFlags: 0
@@ -3140,6 +3315,7 @@ GameObject:
   - component: {fileID: 5310222817258536784}
   - component: {fileID: 5312406466125506946}
   - component: {fileID: 5420913593303804498}
+  - component: {fileID: 4677788785263373646}
   m_Layer: 5
   m_Name: StationTime
   m_TagString: Untagged
@@ -3208,6 +3384,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Station Time:'
+--- !u!114 &4677788785263373646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380004982461691166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: StationTime_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &5380018620140934728
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,6 +3744,7 @@ GameObject:
   - component: {fileID: 5420379499434682824}
   - component: {fileID: 5420165675101723368}
   - component: {fileID: 5420368516312915538}
+  - component: {fileID: 8155303937835487318}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -3664,6 +3854,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.35}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &8155303937835487318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380112236472864236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Content_Content_Viewport_Scroll View_Window_Tab_Controls_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &5380142541511188688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,6 +5125,7 @@ GameObject:
   - component: {fileID: 5310594047913837570}
   - component: {fileID: 5312610678600011986}
   - component: {fileID: 5420699458277346906}
+  - component: {fileID: 7463567889419488830}
   m_Layer: 5
   m_Name: Connected
   m_TagString: Untagged
@@ -4989,6 +5194,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Connected:'
+--- !u!114 &7463567889419488830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380616723827571900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Connected_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &5380619161662900898
 GameObject:
   m_ObjectHideFlags: 0
@@ -5241,6 +5459,7 @@ GameObject:
   - component: {fileID: 5420660157444051300}
   - component: {fileID: 5420408560553420630}
   - component: {fileID: 5420547785855077508}
+  - component: {fileID: 1747257492980252075}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -5339,6 +5558,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.325}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &1747257492980252075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380950613899229682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Content_Viewport_Scroll View_Window_Tab_Controls_Tabs_NetworkTabs (Top
+    Right windows)
 --- !u!1 &6174812777799868902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5350,6 +5583,7 @@ GameObject:
   - component: {fileID: 7266227164141673096}
   - component: {fileID: 5811642056727433355}
   - component: {fileID: 6076936000442472586}
+  - component: {fileID: -976087180544006880}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5418,6 +5652,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &-976087180544006880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6174812777799868902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_Text Area_InputField_Content_Viewport_Scroll View_Window_Tab_Notes_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &6282631258171719690
 GameObject:
   m_ObjectHideFlags: 0
@@ -5556,6 +5804,7 @@ GameObject:
   - component: {fileID: 6573268584118905475}
   - component: {fileID: 8672442653915545669}
   - component: {fileID: 3834484045144413883}
+  - component: {fileID: -5907106180774678998}
   m_Layer: 5
   m_Name: MapText
   m_TagString: Untagged
@@ -5624,6 +5873,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: a lot
+--- !u!114 &-5907106180774678998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6885944563243963854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: MapText_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &6893768171077278667
 GameObject:
   m_ObjectHideFlags: 0
@@ -5871,6 +6133,7 @@ GameObject:
   - component: {fileID: 86081074872616679}
   - component: {fileID: 1257256617652386091}
   - component: {fileID: 685066268748413517}
+  - component: {fileID: 2365818220534170905}
   m_Layer: 5
   m_Name: AdminPanelButton
   m_TagString: Untagged
@@ -6024,6 +6287,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2365818220534170905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6937808518097532432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: AdminPanelButton_Content_Viewport_Scroll View_Window_Tab_Admin_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &7128701735060152133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6035,6 +6312,7 @@ GameObject:
   - component: {fileID: 6979031740849199946}
   - component: {fileID: 6836617085679117610}
   - component: {fileID: 5595814650914649458}
+  - component: {fileID: -7414975999521170687}
   m_Layer: 5
   m_Name: GameMode
   m_TagString: Untagged
@@ -6103,6 +6381,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Game Mode:'
+--- !u!114 &-7414975999521170687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7128701735060152133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: GameMode_Window_Tab_Stats_Tabs_NetworkTabs (Top Right windows)
 --- !u!1 &7162981305788454351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6194,6 +6485,7 @@ GameObject:
   - component: {fileID: 8102286643456891494}
   - component: {fileID: 5596536689895217380}
   - component: {fileID: 5042486477176901775}
+  - component: {fileID: -4885338499666277656}
   m_Layer: 5
   m_Name: CloneItemButton
   m_TagString: Untagged
@@ -6347,6 +6639,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-4885338499666277656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366806058581208876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CloneItemButton_Content_Viewport_Scroll View_Window_Tab_Admin_Tabs_NetworkTabs
+    (Top Right windows)
 --- !u!1 &8647424333391086363
 GameObject:
   m_ObjectHideFlags: 0

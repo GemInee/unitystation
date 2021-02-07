@@ -64,16 +64,16 @@ namespace Localization
 
 		private void ExportUILocalizationExample()
 		{
-			Text[] textLabels = FindObjectsOfType<Text>();
+			var textLabels = GetSceneTextComponents();
 
 			LocalizationUIData localizationUIData = new LocalizationUIData
 			{
-				items = new LocalizationUIItem[textLabels.Length]
+				Items = new LocalizationUIItem[textLabels.Count]
 			};
 			int index = 0;
 			foreach (Text textLabel in textLabels)
 			{
-
+				LocalizationUIItem localizationUIItem = new LocalizationUIItem();
 				LocalizedText localizedText = textLabel.gameObject.GetComponent<LocalizedText>();
 				if (localizedText == null)
 				{
@@ -89,8 +89,9 @@ namespace Localization
 					localizedText.SetKey(currentKey);
 				}
 
-				localizationUIData.items[index].key = localizedText.GetKey();
-				localizationUIData.items[index].value = textLabel.text;
+				localizationUIItem.Key = localizedText.GetKey();
+				localizationUIItem.Value = textLabel.text;
+				localizationUIData.Items[index] = localizationUIItem;
 				index++;
 			}
 			string fileNameItems = "English.json";
@@ -107,25 +108,28 @@ namespace Localization
 
 		private void AddRenewLocalizationToUIObjects()
 		{
-			Text[] textLabels = FindObjectsOfType<Text>();
+
+			var textLabels = GetSceneTextComponents();
 			foreach (Text textLabel in textLabels)
 			{
 				string currentKey = textLabel.gameObject.name;
-				LocalizedText localizedText = textLabel.gameObject.GetComponent<LocalizedText>();
-				if (localizedText == null)
+				if (textLabel.gameObject.GetComponent<LocalizedText>() == null)
 				{
-					localizedText = textLabel.gameObject.AddComponent<LocalizedText>();
+
+					textLabel.gameObject.AddComponent<LocalizedText>();
 				}
 
-				var currentParent = localizedText.gameObject.transform.parent;
+				var currentParent = textLabel.gameObject.transform.parent;
 				while (currentParent != null)
 				{
 					currentKey = currentKey + "_" + currentParent.name;
 					currentParent = currentParent.parent;
 				}
 
-				localizedText.SetKey(currentKey);
-				EditorUtility.SetDirty(localizedText.gameObject);
+
+
+				textLabel.gameObject.GetComponent<LocalizedText>().SetKey(currentKey);
+				EditorUtility.SetDirty(textLabel.gameObject.GetComponent<LocalizedText>());
 			}
 
 		}
@@ -226,7 +230,6 @@ namespace Localization
 			localizationData = new LocalizationUIData();
 		}
 
-		// РЕФАКТОРИНГ: Переделать получение объектов по запрашиваемому типу, а строко по одному
 		private List<LocalizedText> GetNonSceneLocalizedTextComponents()
 		{
 			List<LocalizedText> objectsInScene = new List<LocalizedText>();
@@ -245,6 +248,18 @@ namespace Localization
 			List<Items.ItemAttributesV2> objectsInScene = new List<Items.ItemAttributesV2>();
 
 			foreach (Items.ItemAttributesV2 go in Resources.FindObjectsOfTypeAll(typeof(Items.ItemAttributesV2)) as Items.ItemAttributesV2[])
+			{
+				if (EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+					objectsInScene.Add(go);
+			}
+
+			return objectsInScene;
+		}
+		private List<Text> GetSceneTextComponents()
+		{
+			List<Text> objectsInScene = new List<Text>();
+
+			foreach (Text go in Resources.FindObjectsOfTypeAll(typeof(Text)) as Text[])
 			{
 				if (EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
 					objectsInScene.Add(go);

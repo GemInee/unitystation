@@ -436,6 +436,7 @@ MonoBehaviour:
   SubCatalogue:
   - {fileID: 11400000, guid: fe30c89eb91ce78458848eec38130921, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: fe30c89eb91ce78458848eec38130921, type: 2}
+  randomInitialSprite: 0
   pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
@@ -532,6 +533,7 @@ MonoBehaviour:
   NetworkThis: 0
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 5f09185dd2a988145887bef099b7bc4c, type: 2}
+  randomInitialSprite: 0
   pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
@@ -548,6 +550,7 @@ GameObject:
   - component: {fileID: 5730485345510270033}
   - component: {fileID: 8876168265693862074}
   - component: {fileID: 182430298035104079}
+  - component: {fileID: 7661862965186925404}
   m_Layer: 5
   m_Name: ResponseMessage
   m_TagString: Untagged
@@ -630,6 +633,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 0
+--- !u!114 &7661862965186925404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817819325179511749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: ResponseMessage_Footer_GhostRoleWindowEntry
 --- !u!1 &7351058421466118421
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +658,7 @@ GameObject:
   - component: {fileID: 52678266784407177}
   - component: {fileID: 9199833652572472002}
   - component: {fileID: 1085967183307002651}
+  - component: {fileID: -1330184780869356983}
   m_Layer: 5
   m_Name: CurrentPlayerCountLabel
   m_TagString: Untagged
@@ -724,6 +741,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &-1330184780869356983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7351058421466118421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CurrentPlayerCountLabel_Footer_GhostRoleWindowEntry
 --- !u!1 &7723880685132824240
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +766,7 @@ GameObject:
   - component: {fileID: 5186686913864123445}
   - component: {fileID: 6447998128183180119}
   - component: {fileID: 7445713747309766023}
+  - component: {fileID: 2294650611727197342}
   m_Layer: 5
   m_Name: CountdownLabel
   m_TagString: Untagged
@@ -818,6 +849,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &2294650611727197342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7723880685132824240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CountdownLabel_Header_GhostRoleWindowEntry
 --- !u!1 &8465225457555866716
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,6 +1032,7 @@ GameObject:
   - component: {fileID: 7198044732469904742}
   - component: {fileID: 5795060868070596534}
   - component: {fileID: 3063271756931550189}
+  - component: {fileID: 4748779481624036548}
   m_Layer: 5
   m_Name: NameLabel
   m_TagString: Untagged
@@ -1070,3 +1115,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &4748779481624036548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497275327828187326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: NameLabel_Header_GhostRoleWindowEntry

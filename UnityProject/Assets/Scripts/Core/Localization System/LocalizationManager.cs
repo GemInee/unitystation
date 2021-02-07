@@ -63,9 +63,9 @@ namespace Localization
 				string dataJson = File.ReadAllText(filePathUI);
 				LocalizationUIData loadedData = JsonUtility.FromJson<LocalizationUIData>(dataJson);
 
-				for (int i = 0; i < loadedData.items.Length; i++)
+				for (int i = 0; i < loadedData.Items.Length; i++)
 				{
-					localizedText.Add(loadedData.items[i].key, loadedData.items[i].value);
+					localizedText.Add(loadedData.Items[i].Key, loadedData.Items[i].Value);
 				}
 
 			}

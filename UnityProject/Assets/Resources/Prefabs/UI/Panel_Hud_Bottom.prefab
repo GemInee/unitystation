@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2539469789583752851}
   - component: {fileID: 7509826716592249208}
   - component: {fileID: 8414900332125130345}
+  - component: {fileID: -2071310549383804670}
   m_Layer: 5
   m_Name: Amount
   m_TagString: Untagged
@@ -95,6 +96,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-2071310549383804670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386121293568348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Amount_LeftHand_OtherPlayerStorage_Panel_Hud_Bottom
 --- !u!1 &14864724377747111
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +569,7 @@ GameObject:
   - component: {fileID: 8516693339810644785}
   - component: {fileID: 9214336051399065168}
   - component: {fileID: 5512755183162474443}
+  - component: {fileID: 5536365349224105696}
   m_Layer: 5
   m_Name: SuitStorage_keybind
   m_TagString: Untagged
@@ -640,6 +655,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.21960786, g: 0.3137255, b: 0.37254903, a: 1}
   m_EffectDistance: {x: 0, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &5536365349224105696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282106647705741471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: SuitStorage_keybind_SuitStorage_pockets_Panel_Hud_Bottom
 --- !u!1 &285439426232532886
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +680,7 @@ GameObject:
   - component: {fileID: 6833211682775327249}
   - component: {fileID: 8933261695378248910}
   - component: {fileID: 844531783060833698}
+  - component: {fileID: -2439861096320493970}
   m_Layer: 5
   m_Name: backpack_keybind
   m_TagString: Untagged
@@ -735,6 +764,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.21960786, g: 0.3137255, b: 0.37254903, a: 1}
   m_EffectDistance: {x: 0, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-2439861096320493970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285439426232532886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: backpack_keybind_Backpack_BeltPDABag_Panel_Hud_Bottom
 --- !u!1 &287961189049921075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1274,7 @@ GameObject:
   - component: {fileID: 710865381157958344}
   - component: {fileID: 3267090655290879085}
   - component: {fileID: 4622478215365161228}
+  - component: {fileID: -4222333654735302432}
   m_Layer: 5
   m_Name: option_2_text
   m_TagString: Untagged
@@ -1300,6 +1343,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Request the help of a Mentor
+--- !u!114 &-4222333654735302432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347555343244047184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: option_2_text_option_2_button_options_Mini Actions - Help window_Panel_Hud_Bottom
 --- !u!1 &361894246439210163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,6 +2397,7 @@ GameObject:
   - component: {fileID: 7014989768796011123}
   - component: {fileID: 8908935407513017413}
   - component: {fileID: 26942760270302294}
+  - component: {fileID: -6424592934790626243}
   m_Layer: 5
   m_Name: belt_keybind
   m_TagString: Untagged
@@ -2424,6 +2481,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.21960786, g: 0.3137255, b: 0.37254903, a: 1}
   m_EffectDistance: {x: 0, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-6424592934790626243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124849207433263327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: belt_keybind_belt_BeltPDABag_Panel_Hud_Bottom
 --- !u!1 &1139670564642654921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,6 +2953,7 @@ GameObject:
   - component: {fileID: 5912565684257897628}
   - component: {fileID: 7647374156924932854}
   - component: {fileID: 542840094978473345}
+  - component: {fileID: 966315002185645822}
   m_Layer: 5
   m_Name: option_3_text
   m_TagString: Untagged
@@ -2951,6 +3022,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Open the Wiki in your browser
+--- !u!114 &966315002185645822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658045149830477989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: option_3_text_option_3_button_options_Mini Actions - Help window_Panel_Hud_Bottom
 --- !u!1 &1828351762366544163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4821,6 +4905,7 @@ GameObject:
   - component: {fileID: 8371003945709494099}
   - component: {fileID: 462445106604139935}
   - component: {fileID: 8754380214166389975}
+  - component: {fileID: -677953704531843308}
   m_Layer: 5
   m_Name: Amount
   m_TagString: Untagged
@@ -4904,6 +4989,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-677953704531843308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309198311338140798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Amount_Pocket01_OtherPlayerStorage_Panel_Hud_Bottom
 --- !u!1 &3328909956836298287
 GameObject:
   m_ObjectHideFlags: 0
@@ -6562,6 +6660,7 @@ GameObject:
   - component: {fileID: 6705867239553371562}
   - component: {fileID: 4285669379553585648}
   - component: {fileID: 8968785233812667359}
+  - component: {fileID: -3873961031536504822}
   m_Layer: 5
   m_Name: title
   m_TagString: Untagged
@@ -6630,6 +6729,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Mini Actions - Help window
+--- !u!114 &-3873961031536504822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396722830326293444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: title_Mini Actions - Help window_Panel_Hud_Bottom
 --- !u!1 &4444021779810679023
 GameObject:
   m_ObjectHideFlags: 0
@@ -7033,6 +7145,7 @@ GameObject:
   - component: {fileID: 3893469595956328423}
   - component: {fileID: 4788294120526571340}
   - component: {fileID: 7161079474872368595}
+  - component: {fileID: -7709931720950798895}
   m_Layer: 5
   m_Name: StorageInvenHandler capacity
   m_TagString: Untagged
@@ -7116,6 +7229,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &-7709931720950798895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4632142586563870432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: StorageInvenHandler capacity_Panel_Hud_Bottom
 --- !u!1 &4720579776294730544
 GameObject:
   m_ObjectHideFlags: 0
@@ -7880,6 +8006,7 @@ GameObject:
   - component: {fileID: 2777280258617347096}
   - component: {fileID: 2053330118055208131}
   - component: {fileID: 8375765487028475782}
+  - component: {fileID: 1920124200665583473}
   m_Layer: 5
   m_Name: pocket_2_amount
   m_TagString: Untagged
@@ -7963,6 +8090,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &1920124200665583473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166066134047724189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: pocket_2_amount_Pocket02_pockets_Panel_Hud_Bottom
 --- !u!1 &5190778971497056962
 GameObject:
   m_ObjectHideFlags: 0
@@ -8078,6 +8218,7 @@ GameObject:
   - component: {fileID: 4990246040634366144}
   - component: {fileID: 9027438441449657414}
   - component: {fileID: 2053746552649076051}
+  - component: {fileID: -3263088079352614480}
   m_Layer: 5
   m_Name: SuitStorage_amount
   m_TagString: Untagged
@@ -8161,6 +8302,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-3263088079352614480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5342281204154917308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: SuitStorage_amount_SuitStorage_pockets_Panel_Hud_Bottom
 --- !u!1 &5726027461247399386
 GameObject:
   m_ObjectHideFlags: 0
@@ -8375,6 +8529,7 @@ GameObject:
   - component: {fileID: 4990607849077823979}
   - component: {fileID: 3725035644177709530}
   - component: {fileID: 592937469629276743}
+  - component: {fileID: -7548196151915730134}
   m_Layer: 5
   m_Name: Amount
   m_TagString: Untagged
@@ -8458,6 +8613,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-7548196151915730134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5997383901590252517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Amount_LeftHand_Equip-Hands_Panel_Hud_Bottom
 --- !u!1 &6035465442620042799
 GameObject:
   m_ObjectHideFlags: 0
@@ -8470,6 +8638,7 @@ GameObject:
   - component: {fileID: 7040730728167721796}
   - component: {fileID: 1300528009173953090}
   - component: {fileID: 4260862691208792897}
+  - component: {fileID: -6361642927687767307}
   m_Layer: 5
   m_Name: pocket_2_keybind
   m_TagString: Untagged
@@ -8553,6 +8722,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.21960786, g: 0.3137255, b: 0.37254903, a: 1}
   m_EffectDistance: {x: 0, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-6361642927687767307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035465442620042799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: pocket_2_keybind_Pocket02_pockets_Panel_Hud_Bottom
 --- !u!1 &6048557527970446322
 GameObject:
   m_ObjectHideFlags: 0
@@ -8743,6 +8925,7 @@ GameObject:
   - component: {fileID: 3363582049610115214}
   - component: {fileID: 6303621425200999732}
   - component: {fileID: 506769847130951754}
+  - component: {fileID: 7952489004157325879}
   m_Layer: 5
   m_Name: Amount
   m_TagString: Untagged
@@ -8826,6 +9009,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &7952489004157325879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167130667455778243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Amount_RightHand_OtherPlayerStorage_Panel_Hud_Bottom
 --- !u!1 &6257024063181245007
 GameObject:
   m_ObjectHideFlags: 0
@@ -9646,6 +9842,7 @@ GameObject:
   - component: {fileID: 6723403678430231469}
   - component: {fileID: 2459430017085870524}
   - component: {fileID: 5266853178897087379}
+  - component: {fileID: 3236959669528869213}
   m_Layer: 5
   m_Name: pda_keybind
   m_TagString: Untagged
@@ -9729,6 +9926,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.21960786, g: 0.3137255, b: 0.37254903, a: 1}
   m_EffectDistance: {x: 0, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &3236959669528869213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6614672620797289019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: pda_keybind_PDA_BeltPDABag_Panel_Hud_Bottom
 --- !u!1 &6663061321104561392
 GameObject:
   m_ObjectHideFlags: 0
@@ -9741,6 +9951,7 @@ GameObject:
   - component: {fileID: 6834113626393320348}
   - component: {fileID: 4949455730005461735}
   - component: {fileID: 4177670557799114212}
+  - component: {fileID: 1776491938804930277}
   m_Layer: 5
   m_Name: Amount
   m_TagString: Untagged
@@ -9824,6 +10035,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &1776491938804930277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663061321104561392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Amount_Pocket02_OtherPlayerStorage_Panel_Hud_Bottom
 --- !u!1 &6883351116967824373
 GameObject:
   m_ObjectHideFlags: 0
@@ -10774,6 +10998,7 @@ GameObject:
   - component: {fileID: 4477171942394581678}
   - component: {fileID: 5085722957726376160}
   - component: {fileID: 2250077665836962780}
+  - component: {fileID: 5835722557427355820}
   m_Layer: 5
   m_Name: pocket_1_keybind
   m_TagString: Untagged
@@ -10857,6 +11082,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.21960786, g: 0.3137255, b: 0.37254903, a: 1}
   m_EffectDistance: {x: 0, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &5835722557427355820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505323010553338712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: pocket_1_keybind_Pocket01_pockets_Panel_Hud_Bottom
 --- !u!1 &7511303193176554599
 GameObject:
   m_ObjectHideFlags: 0
@@ -10979,6 +11217,7 @@ GameObject:
   - component: {fileID: 6538169803684666047}
   - component: {fileID: 4820603719642766245}
   - component: {fileID: 5962963614313731652}
+  - component: {fileID: 6445339243350538669}
   m_Layer: 5
   m_Name: Amount
   m_TagString: Untagged
@@ -11062,6 +11301,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &6445339243350538669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542498473569313600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Amount_RightHand_Equip-Hands_Panel_Hud_Bottom
 --- !u!1 &7626826813195350745
 GameObject:
   m_ObjectHideFlags: 0
@@ -11879,6 +12131,7 @@ GameObject:
   - component: {fileID: 6468165695100715696}
   - component: {fileID: 8522627991594883131}
   - component: {fileID: 2451416516558648743}
+  - component: {fileID: -6135009068118667906}
   m_Layer: 5
   m_Name: option_1_text
   m_TagString: Untagged
@@ -11947,6 +12200,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Report something to the Admins
+--- !u!114 &-6135009068118667906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8120371354779618375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: option_1_text_option_1_button_options_Mini Actions - Help window_Panel_Hud_Bottom
 --- !u!1 &8175596816488739950
 GameObject:
   m_ObjectHideFlags: 0
@@ -11959,6 +12225,7 @@ GameObject:
   - component: {fileID: 26343506319949926}
   - component: {fileID: 6806866905320476867}
   - component: {fileID: 4068442287743283244}
+  - component: {fileID: -9097696114625249647}
   m_Layer: 5
   m_Name: pocket_1_amount
   m_TagString: Untagged
@@ -12042,6 +12309,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &-9097696114625249647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8175596816488739950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: pocket_1_amount_Pocket01_pockets_Panel_Hud_Bottom
 --- !u!1 &8220972936054280300
 GameObject:
   m_ObjectHideFlags: 0

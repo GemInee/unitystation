@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7815723567344923956}
   - component: {fileID: 1387848215661099976}
   - component: {fileID: 916932873822509729}
+  - component: {fileID: 6470387787098178982}
   m_Layer: 5
   m_Name: DescriptionText
   m_TagString: Untagged
@@ -60,6 +61,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.40784317, g: 0.5254902, b: 0.61960787, a: 0.9019608}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -77,6 +80,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Shoot a mimed bullet from your fingers that stuns and does some damage.
+--- !u!114 &6470387787098178982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2418316208407507738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: DescriptionText_ActionTooltip
 --- !u!1 &5444852505471747562
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +104,7 @@ GameObject:
   - component: {fileID: 3314256407759402883}
   - component: {fileID: 7840837233288827598}
   - component: {fileID: 1631668840227001554}
+  - component: {fileID: 1211038414290871291}
   m_Layer: 5
   m_Name: NameText
   m_TagString: Untagged
@@ -137,6 +154,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.44401202, g: 0.5739731, b: 0.681, a: 0.9019608}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -154,6 +173,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Finger Guns
+--- !u!114 &1211038414290871291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444852505471747562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: NameText_ActionTooltip
 --- !u!1 &8388144287664782799
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +251,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.1821356, g: 0.1821356, b: 0.199, a: 0.8}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -271,6 +305,7 @@ MonoBehaviour:
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!114 &7995608510947728219
 MonoBehaviour:
   m_ObjectHideFlags: 0

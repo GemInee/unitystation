@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2338513360790555045}
   - component: {fileID: 2341012954230024805}
   - component: {fileID: 2521656241382242825}
+  - component: {fileID: -5595521661396456511}
   m_Layer: 5
   m_Name: Tooltip_Placeholder
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &-5595521661396456511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2552528220279139245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Tooltip_Placeholder_Panel_ToolTip
 --- !u!1 &2553322715527811953
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +182,7 @@ GameObject:
   - component: {fileID: 2749770474105519504}
   - component: {fileID: 4600588585936512468}
   - component: {fileID: 5304458584630495844}
+  - component: {fileID: 7656248127238977896}
   m_Layer: 5
   m_Name: Ping_Placeholder
   m_TagString: Untagged
@@ -236,6 +251,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'ping: 0ms'
+--- !u!114 &7656248127238977896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4255000533146734361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Ping_Placeholder_Panel_ToolTip
 --- !u!1 &5463643161166740852
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +275,7 @@ GameObject:
   - component: {fileID: 4291166550735643140}
   - component: {fileID: 6177231540498503365}
   - component: {fileID: 4852058067333321142}
+  - component: {fileID: 1958099611344424780}
   m_Layer: 5
   m_Name: Version_Placeholder
   m_TagString: Untagged
@@ -315,3 +344,16 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &1958099611344424780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5463643161166740852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Version_Placeholder_Panel_ToolTip
