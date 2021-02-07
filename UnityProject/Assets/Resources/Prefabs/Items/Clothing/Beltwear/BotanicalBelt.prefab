@@ -29,6 +29,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1781772983681035209, guid: 51c105fae1f0b074abf4c80745d8b129,
+        type: 3}
+      propertyPath: key
+      value: BotanicalBelt
+      objectReference: {fileID: 0}
     - target: {fileID: 1867061792278949511, guid: 51c105fae1f0b074abf4c80745d8b129,
         type: 3}
       propertyPath: m_Name

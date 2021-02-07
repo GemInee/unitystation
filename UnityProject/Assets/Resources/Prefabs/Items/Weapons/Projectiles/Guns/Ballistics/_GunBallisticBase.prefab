@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2027631005094922025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125194378051492688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _GunBallisticBase
 --- !u!1001 &1134531006694642634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62,6 +75,11 @@ PrefabInstance:
       value: Assets/Prefabs/GunShots/ShootHeavySuppressed.prefab
       objectReference: {fileID: 0}
     - target: {fileID: 8053040882125843125, guid: da85b7a590e7c8444af73629fcb5dd22,
+        type: 3}
+      propertyPath: key
+      value: _GunBallisticBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092574735543193044, guid: da85b7a590e7c8444af73629fcb5dd22,
         type: 3}
       propertyPath: key
       value: _GunBallisticBase
@@ -144,3 +162,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da85b7a590e7c8444af73629fcb5dd22, type: 3}
+--- !u!1 &9125194378051492688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8150840225578731674, guid: da85b7a590e7c8444af73629fcb5dd22,
+    type: 3}
+  m_PrefabInstance: {fileID: 1134531006694642634}
+  m_PrefabAsset: {fileID: 0}

@@ -18,6 +18,19 @@ MonoBehaviour:
   SpriteHandler: {fileID: 2866152876217359191}
   registerItem: {fileID: 0}
   pipeTile: {fileID: 11400000, guid: 1537f3e9392ba2c409995c38410ac6f8, type: 2}
+--- !u!114 &8175652894195694710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8250737373743472848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 4WayManifold
 --- !u!1001 &5263436398351448840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40,6 +53,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240413589255626390, guid: 59bffb44a6861484ca22d6edb4fbf5e5,
+        type: 3}
+      propertyPath: key
+      value: 4WayManifold
       objectReference: {fileID: 0}
     - target: {fileID: 4290798399627566040, guid: 59bffb44a6861484ca22d6edb4fbf5e5,
         type: 3}

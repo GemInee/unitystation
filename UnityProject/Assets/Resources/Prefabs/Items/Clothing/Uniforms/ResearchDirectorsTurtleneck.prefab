@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: 14673e0d9505d4a20ba67712d7358daa,
+        type: 3}
+      propertyPath: key
+      value: ResearchDirectorsTurtleneck
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 14673e0d9505d4a20ba67712d7358daa,
         type: 3}
       propertyPath: m_Name

@@ -37,6 +37,11 @@ PrefabInstance:
       propertyPath: Resistances.Flammable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1779740068599212666, guid: 6224e1266c75b0643bd1cef8fbb6e615,
+        type: 3}
+      propertyPath: key
+      value: SignBackingItem
+      objectReference: {fileID: 0}
     - target: {fileID: 1865031144277094196, guid: 6224e1266c75b0643bd1cef8fbb6e615,
         type: 3}
       propertyPath: m_Name

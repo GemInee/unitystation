@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: 82223aa9f2653409893db380f44262de,
+        type: 3}
+      propertyPath: key
+      value: CooksSkirt
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 82223aa9f2653409893db380f44262de,
         type: 3}
       propertyPath: m_Name

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2886185848643061126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636146730302408905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: ToyMarauder
 --- !u!1001 &1492303354119766332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19,6 +32,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: bdd86e02256ffa743ab46117e770f39b,
         type: 3}
+    - target: {fileID: 7079513031552715963, guid: 1d1128b30f39d0940a454d8bc868c64f,
+        type: 3}
+      propertyPath: key
+      value: ToyMarauder
+      objectReference: {fileID: 0}
     - target: {fileID: 7131535597914780737, guid: 1d1128b30f39d0940a454d8bc868c64f,
         type: 3}
       propertyPath: m_AssetId
@@ -101,3 +119,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d1128b30f39d0940a454d8bc868c64f, type: 3}
+--- !u!1 &8636146730302408905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7164233390365690357, guid: 1d1128b30f39d0940a454d8bc868c64f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1492303354119766332}
+  m_PrefabAsset: {fileID: 0}

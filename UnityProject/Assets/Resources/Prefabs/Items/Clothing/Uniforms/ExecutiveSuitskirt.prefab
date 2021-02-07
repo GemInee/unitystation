@@ -46,6 +46,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6093664708596470313, guid: 119a19b7af9f24a4eae413817fdef76d,
+        type: 3}
+      propertyPath: key
+      value: ExecutiveSuitskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 6179510555677923175, guid: 119a19b7af9f24a4eae413817fdef76d,
         type: 3}
       propertyPath: m_Name

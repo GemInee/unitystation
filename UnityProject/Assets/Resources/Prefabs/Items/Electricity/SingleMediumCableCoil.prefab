@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5728831603199055439, guid: c3e6805b264a935428b0de415ea57943,
+        type: 3}
+      propertyPath: key
+      value: SingleMediumCableCoil
+      objectReference: {fileID: 0}
     - target: {fileID: 5768084342079451438, guid: c3e6805b264a935428b0de415ea57943,
         type: 3}
       propertyPath: key

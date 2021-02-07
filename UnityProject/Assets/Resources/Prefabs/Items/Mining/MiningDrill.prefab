@@ -110,6 +110,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2703955757080132063, guid: 82cb1c39112974a498a9756981eb07d0,
+        type: 3}
+      propertyPath: key
+      value: MiningDrill
+      objectReference: {fileID: 0}
     - target: {fileID: 2748487887573520333, guid: 82cb1c39112974a498a9756981eb07d0,
         type: 3}
       propertyPath: m_Sprite

@@ -18,6 +18,11 @@ PrefabInstance:
       value: A modified flash device, programmed to emit a sequence of subliminal
         flashes that can send a vulnerable target into a hypnotic trance.
       objectReference: {fileID: 0}
+    - target: {fileID: 9099056893423740702, guid: e77ad8336ea71364c9ec01faad07f5f4,
+        type: 3}
+      propertyPath: key
+      value: FlashHypnotic
+      objectReference: {fileID: 0}
     - target: {fileID: 9115688381779992548, guid: e77ad8336ea71364c9ec01faad07f5f4,
         type: 3}
       propertyPath: m_AssetId

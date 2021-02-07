@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &428517114282786171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8295676981224768018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _SlimeJellyDonutBase
 --- !u!1001 &33524621393610924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19,6 +32,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 00d9a9827ebcc49ab8b0df647c4f7da5,
         type: 2}
     - target: {fileID: 7892712518147516561, guid: c97d4bcbe36a3a2448a6ebe3e9ac50e6,
+        type: 3}
+      propertyPath: key
+      value: _SlimeJellyDonutBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215748710225891312, guid: c97d4bcbe36a3a2448a6ebe3e9ac50e6,
         type: 3}
       propertyPath: key
       value: _SlimeJellyDonutBase
@@ -90,3 +108,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c97d4bcbe36a3a2448a6ebe3e9ac50e6, type: 3}
+--- !u!1 &8295676981224768018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8311164638174431934, guid: c97d4bcbe36a3a2448a6ebe3e9ac50e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 33524621393610924}
+  m_PrefabAsset: {fileID: 0}

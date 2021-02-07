@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrashCanPeachMaint
       objectReference: {fileID: 0}
+    - target: {fileID: 6866184878397364218, guid: ac911d82b35aedf43af8f87be89572f9,
+        type: 3}
+      propertyPath: key
+      value: TrashCanPeachMaint
+      objectReference: {fileID: 0}
     - target: {fileID: 6885617372510105344, guid: ac911d82b35aedf43af8f87be89572f9,
         type: 3}
       propertyPath: m_AssetId

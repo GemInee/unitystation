@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: c8281f12859404623bffaa7c78584fb5,
+        type: 3}
+      propertyPath: key
+      value: ShaftMinersJumpsuit
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: c8281f12859404623bffaa7c78584fb5,
         type: 3}
       propertyPath: m_Name

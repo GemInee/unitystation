@@ -101,6 +101,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8197587819455353463, guid: aef71bd913d83874d9f74091bafbbe2b,
+        type: 3}
+      propertyPath: key
+      value: WhiteJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8241966601497093221, guid: aef71bd913d83874d9f74091bafbbe2b,
         type: 3}
       propertyPath: m_Sprite

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5125913657027948792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015502146010655738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: RiotShield
 --- !u!114 &7802048611900235560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +67,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395141159709759893, guid: d8e28939643d5a34095fed9b0898c45b,
+        type: 3}
+      propertyPath: key
+      value: RiotShield
       objectReference: {fileID: 0}
     - target: {fileID: 5443839937711004891, guid: d8e28939643d5a34095fed9b0898c45b,
         type: 3}

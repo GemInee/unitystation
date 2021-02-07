@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasmaOre
       objectReference: {fileID: 0}
+    - target: {fileID: 4129773243498367580, guid: fdb2f97a13e5b31468c170e6847a8d15,
+        type: 3}
+      propertyPath: key
+      value: PlasmaOre
+      objectReference: {fileID: 0}
     - target: {fileID: 4145792851350106790, guid: fdb2f97a13e5b31468c170e6847a8d15,
         type: 3}
       propertyPath: m_AssetId

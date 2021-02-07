@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1005457548730853565, guid: 2c46f309a45d8714f9c5db5361e854e6,
+        type: 3}
+      propertyPath: key
+      value: MimeEnvirohelmet
+      objectReference: {fileID: 0}
     - target: {fileID: 1033272737750900399, guid: 2c46f309a45d8714f9c5db5361e854e6,
         type: 3}
       propertyPath: m_Sprite

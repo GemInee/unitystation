@@ -131,6 +131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PetCollar
       objectReference: {fileID: 0}
+    - target: {fileID: 8577563563390739497, guid: b027dfa588d69d848a886ae80d5b25c2,
+        type: 3}
+      propertyPath: key
+      value: PetCollar
+      objectReference: {fileID: 0}
     - target: {fileID: 8633003412026072275, guid: b027dfa588d69d848a886ae80d5b25c2,
         type: 3}
       propertyPath: m_AssetId

@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1460766474302840306, guid: dc02358bcd301a044891c3d27d99e7fd,
+        type: 3}
+      propertyPath: key
+      value: Firesuit
+      objectReference: {fileID: 0}
     - target: {fileID: 3495234765619245072, guid: dc02358bcd301a044891c3d27d99e7fd,
         type: 3}
       propertyPath: initialName

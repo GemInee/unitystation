@@ -79,6 +79,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DistinguishedConductMedal
       objectReference: {fileID: 0}
+    - target: {fileID: 966028940290691160, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
+      propertyPath: key
+      value: DistinguishedConductMedal
+      objectReference: {fileID: 0}
     - target: {fileID: 986060116320561314, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
       propertyPath: m_AssetId

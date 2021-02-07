@@ -46,6 +46,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7542389061886944900, guid: d3d950d792abb79fba51d3166022f581,
+        type: 3}
+      propertyPath: key
+      value: AncientHelmet
+      objectReference: {fileID: 0}
     - target: {fileID: 7632320555952889534, guid: d3d950d792abb79fba51d3166022f581,
         type: 3}
       propertyPath: m_RootOrder

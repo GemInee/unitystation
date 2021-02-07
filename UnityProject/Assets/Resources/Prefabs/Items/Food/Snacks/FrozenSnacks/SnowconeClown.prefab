@@ -66,6 +66,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6252757077350215095, guid: d2ef9e5590dc00048833d43a568feb07,
+        type: 3}
+      propertyPath: key
+      value: SnowconeClown
+      objectReference: {fileID: 0}
     - target: {fileID: 6306940080882652557, guid: d2ef9e5590dc00048833d43a568feb07,
         type: 3}
       propertyPath: m_RootOrder

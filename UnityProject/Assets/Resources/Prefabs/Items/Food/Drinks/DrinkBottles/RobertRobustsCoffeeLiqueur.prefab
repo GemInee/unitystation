@@ -55,6 +55,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6103222936413839589, guid: f1a38b78ce2ca024a92744e263e5e94a,
+        type: 3}
+      propertyPath: key
+      value: RobertRobustsCoffeeLiqueur
+      objectReference: {fileID: 0}
     - target: {fileID: 6187949413390427563, guid: f1a38b78ce2ca024a92744e263e5e94a,
         type: 3}
       propertyPath: m_Name

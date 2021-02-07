@@ -27,6 +27,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1493113310304766497, guid: 8af808dda238fe44492ea6412cf9ba52,
+        type: 3}
+      propertyPath: key
+      value: CarpFilletImitation
+      objectReference: {fileID: 0}
     - target: {fileID: 1579524858131255151, guid: 8af808dda238fe44492ea6412cf9ba52,
         type: 3}
       propertyPath: m_Name

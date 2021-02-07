@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: initialName
       value: atmospherics winter coat
       objectReference: {fileID: 0}
+    - target: {fileID: 2417253703155680686, guid: c432d0b09f765e440a39dea62e9a423e,
+        type: 3}
+      propertyPath: key
+      value: AtmosphericsWinterCoat
+      objectReference: {fileID: 0}
     - target: {fileID: 6261257142002695337, guid: c432d0b09f765e440a39dea62e9a423e,
         type: 3}
       propertyPath: PresentSpriteSet

@@ -95,6 +95,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1841468420998092829, guid: c3138c3e8a46444199668b85070b1a39,
+        type: 3}
+      propertyPath: key
+      value: _SheetBase
+      objectReference: {fileID: 0}
     - target: {fileID: 2175428465337217585, guid: c3138c3e8a46444199668b85070b1a39,
         type: 3}
       propertyPath: hitDamage

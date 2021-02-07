@@ -132,5 +132,10 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6898044457672543076, guid: d57fa00554efcec4abd669e2d6b24edc,
+        type: 3}
+      propertyPath: key
+      value: PistolMagazine9mm
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d57fa00554efcec4abd669e2d6b24edc, type: 3}

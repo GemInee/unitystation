@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillcapeCargoTechnicianGilded
       objectReference: {fileID: 0}
+    - target: {fileID: 1534424548974082545, guid: e6dea22a7a2cfa14cac93def729e0376,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeCargoTechnicianGilded
+      objectReference: {fileID: 0}
     - target: {fileID: 1552731141160337675, guid: e6dea22a7a2cfa14cac93def729e0376,
         type: 3}
       propertyPath: m_AssetId

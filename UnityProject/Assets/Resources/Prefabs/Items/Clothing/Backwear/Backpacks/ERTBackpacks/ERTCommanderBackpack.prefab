@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ERTCommanderBackpack
       objectReference: {fileID: 0}
+    - target: {fileID: 4272967373400860224, guid: da93b0f7c392d46ba85123e2516cfa49,
+        type: 3}
+      propertyPath: key
+      value: ERTCommanderBackpack
+      objectReference: {fileID: 0}
     - target: {fileID: 4288571330903077626, guid: da93b0f7c392d46ba85123e2516cfa49,
         type: 3}
       propertyPath: HeatResistance

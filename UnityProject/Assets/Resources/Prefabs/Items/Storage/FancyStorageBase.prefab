@@ -104,6 +104,11 @@ PrefabInstance:
       propertyPath: Resistances.Flammable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3729825263767378493, guid: e46ba34aab52d654787ef10d896b0874,
+        type: 3}
+      propertyPath: key
+      value: FancyStorageBase
+      objectReference: {fileID: 0}
     - target: {fileID: 3782347747540316177, guid: e46ba34aab52d654787ef10d896b0874,
         type: 3}
       propertyPath: initialName

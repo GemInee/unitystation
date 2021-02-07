@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6462109078698482146, guid: dae318bdee00c5846830de6a3761fe2c,
+        type: 3}
+      propertyPath: key
+      value: PowerCellUpgradedPlus
+      objectReference: {fileID: 0}
     - target: {fileID: 6778089600064959438, guid: dae318bdee00c5846830de6a3761fe2c,
         type: 3}
       propertyPath: initialName

@@ -195,6 +195,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7881298603940377262, guid: 94dfead23e20498409009e55d3dfe3ca,
+        type: 3}
+      propertyPath: key
+      value: SoapNanotrasen
+      objectReference: {fileID: 0}
     - target: {fileID: 7897283028627769940, guid: 94dfead23e20498409009e55d3dfe3ca,
         type: 3}
       propertyPath: m_AssetId

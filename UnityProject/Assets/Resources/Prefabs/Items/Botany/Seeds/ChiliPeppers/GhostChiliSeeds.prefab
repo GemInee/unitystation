@@ -23,6 +23,11 @@ PrefabInstance:
       propertyPath: initialDescription
       value: These seeds grow into a chili said to be the hottest in the galaxy.
       objectReference: {fileID: 0}
+    - target: {fileID: 7812859619276890613, guid: a8b053482da561b4eba3bd81d8fe51ab,
+        type: 3}
+      propertyPath: key
+      value: GhostChiliSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 7830612057451895055, guid: a8b053482da561b4eba3bd81d8fe51ab,
         type: 3}
       propertyPath: m_AssetId

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8358316551275825190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6654137865125316360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: MedicalGel
 --- !u!1001 &3482623540957491432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,6 +136,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7881298603940377262, guid: f866b44bcdd7d734885f7c49999d85c9,
+        type: 3}
+      propertyPath: key
+      value: MedicalGel
+      objectReference: {fileID: 0}
     - target: {fileID: 7897283028627769940, guid: f866b44bcdd7d734885f7c49999d85c9,
         type: 3}
       propertyPath: m_AssetId
@@ -156,3 +174,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f866b44bcdd7d734885f7c49999d85c9, type: 3}
+--- !u!1 &6654137865125316360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7785875528613525472, guid: f866b44bcdd7d734885f7c49999d85c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3482623540957491432}
+  m_PrefabAsset: {fileID: 0}

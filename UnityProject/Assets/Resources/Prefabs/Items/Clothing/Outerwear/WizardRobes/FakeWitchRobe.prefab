@@ -159,5 +159,10 @@ PrefabInstance:
       propertyPath: Resistances.Flammable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8939618776680259328, guid: 5601675397d48b544aeb7c553e91a863,
+        type: 3}
+      propertyPath: key
+      value: FakeWitchRobe
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5601675397d48b544aeb7c553e91a863, type: 3}

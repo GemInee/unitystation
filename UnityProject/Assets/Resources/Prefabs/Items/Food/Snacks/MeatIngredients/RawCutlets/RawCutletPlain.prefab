@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7622628689989429688, guid: eae3273562cc275408dc688bd15d2c87,
+        type: 3}
+      propertyPath: key
+      value: RawCutletPlain
+      objectReference: {fileID: 0}
     - target: {fileID: 8522424250346245849, guid: eae3273562cc275408dc688bd15d2c87,
         type: 3}
       propertyPath: key

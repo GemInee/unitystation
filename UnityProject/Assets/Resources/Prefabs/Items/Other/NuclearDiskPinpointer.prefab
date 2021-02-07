@@ -19,6 +19,19 @@ MonoBehaviour:
   maxMagnitude: 50
   mediumMagnitude: 20
   closeMagnitude: 10
+--- !u!114 &-272126572307206430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100328150011014054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: NuclearDiskPinpointer
 --- !u!1 &3731637510708635801
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,6 +150,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9128633456041952780, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: key
+      value: NuclearDiskPinpointer
+      objectReference: {fileID: 0}
     - target: {fileID: 1011433845357754, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
       propertyPath: m_Name
       value: NuclearDiskPinpointer

@@ -115,6 +115,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeadOfPersonnelsCloak
       objectReference: {fileID: 0}
+    - target: {fileID: 3980910406520986172, guid: 9607a5c8270f6084e9ecdda639c9b97d,
+        type: 3}
+      propertyPath: key
+      value: HeadOfPersonnelsCloak
+      objectReference: {fileID: 0}
     - target: {fileID: 4033042375367942854, guid: 9607a5c8270f6084e9ecdda639c9b97d,
         type: 3}
       propertyPath: m_AssetId

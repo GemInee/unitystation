@@ -56,6 +56,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8698413484648436405, guid: 77d2a86d1e994c64485b5240c8f917ec,
+        type: 3}
+      propertyPath: key
+      value: D4
+      objectReference: {fileID: 0}
     - target: {fileID: 8783702771992860667, guid: 77d2a86d1e994c64485b5240c8f917ec,
         type: 3}
       propertyPath: m_Name

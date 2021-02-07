@@ -33,6 +33,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8dd4c117722029b4eab21f224d7aaf38,
         type: 2}
+    - target: {fileID: 8394147756459525489, guid: b56fec0300832ce48ade0ddf2e577ee7,
+        type: 3}
+      propertyPath: key
+      value: _SheetMineralBase
+      objectReference: {fileID: 0}
     - target: {fileID: 8410813880369429899, guid: b56fec0300832ce48ade0ddf2e577ee7,
         type: 3}
       propertyPath: m_AssetId

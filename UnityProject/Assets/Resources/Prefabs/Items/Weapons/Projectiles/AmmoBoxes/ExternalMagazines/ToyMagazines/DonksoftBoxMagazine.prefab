@@ -44,6 +44,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1649859726886027488, guid: 8e8424eb1a0a54f4380ff97f6a51d872,
+        type: 3}
+      propertyPath: key
+      value: DonksoftBoxMagazine
+      objectReference: {fileID: 0}
     - target: {fileID: 1704044382101453018, guid: 8e8424eb1a0a54f4380ff97f6a51d872,
         type: 3}
       propertyPath: m_RootOrder

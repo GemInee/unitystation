@@ -28,6 +28,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2780162165287242971, guid: 3e74be7d70acafe40b722428aaed652a,
+        type: 3}
+      propertyPath: key
+      value: MimeActionFigure
+      objectReference: {fileID: 0}
     - target: {fileID: 2866010210695301525, guid: 3e74be7d70acafe40b722428aaed652a,
         type: 3}
       propertyPath: m_Name

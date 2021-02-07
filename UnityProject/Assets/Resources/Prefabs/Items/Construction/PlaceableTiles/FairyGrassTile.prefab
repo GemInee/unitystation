@@ -104,6 +104,11 @@ PrefabInstance:
       propertyPath: Resistances.Flammable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5761792331061744261, guid: a435d5d64bc4b48baa27fecfcab9e111,
+        type: 3}
+      propertyPath: key
+      value: FairyGrassTile
+      objectReference: {fileID: 0}
     - target: {fileID: 5798736649577051620, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
       propertyPath: key

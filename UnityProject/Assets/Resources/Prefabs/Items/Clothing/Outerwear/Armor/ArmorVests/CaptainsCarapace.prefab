@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CaptainsCarapace
       objectReference: {fileID: 0}
+    - target: {fileID: 9011461736027628379, guid: 900572ab8ed9030429b12eaa3974a43f,
+        type: 3}
+      propertyPath: key
+      value: CaptainsCarapace
+      objectReference: {fileID: 0}
     - target: {fileID: 9063377138319701985, guid: 900572ab8ed9030429b12eaa3974a43f,
         type: 3}
       propertyPath: Armor.Acid

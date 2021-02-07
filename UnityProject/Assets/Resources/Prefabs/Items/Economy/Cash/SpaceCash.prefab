@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1841468420998092829, guid: c3138c3e8a46444199668b85070b1a39,
+        type: 3}
+      propertyPath: key
+      value: SpaceCash
+      objectReference: {fileID: 0}
     - target: {fileID: 1886097303314001423, guid: c3138c3e8a46444199668b85070b1a39,
         type: 3}
       propertyPath: m_Sprite

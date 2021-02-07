@@ -88,6 +88,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4288259369146225948, guid: aa2175a532ddc614fbd4cebc49ab22fb,
+        type: 3}
+      propertyPath: key
+      value: SubspaceTreatmentDisk
+      objectReference: {fileID: 0}
     - target: {fileID: 4340463169029930800, guid: aa2175a532ddc614fbd4cebc49ab22fb,
         type: 3}
       propertyPath: initialName

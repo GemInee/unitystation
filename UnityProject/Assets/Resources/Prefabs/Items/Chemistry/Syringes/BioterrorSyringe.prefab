@@ -55,6 +55,11 @@ PrefabInstance:
       propertyPath: key
       value: BioterrorSyringe
       objectReference: {fileID: 0}
+    - target: {fileID: 1332006966224174003, guid: bc948ccbd770fff438862a32cd45a867,
+        type: 3}
+      propertyPath: key
+      value: BioterrorSyringe
+      objectReference: {fileID: 0}
     - target: {fileID: 1349684638700962633, guid: bc948ccbd770fff438862a32cd45a867,
         type: 3}
       propertyPath: m_AssetId

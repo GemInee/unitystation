@@ -23,6 +23,11 @@ PrefabInstance:
       value: An award bestowed only upon those cargotechs who have exhibited devotion
         to their duty in keeping with the highest traditions of Cargonia.
       objectReference: {fileID: 0}
+    - target: {fileID: 3176559412323903921, guid: ee5df863675e12742aa716c3ab6ce5c1,
+        type: 3}
+      propertyPath: key
+      value: RibbonCargoTechOfTheShiftAward
+      objectReference: {fileID: 0}
     - target: {fileID: 3229733720471425355, guid: ee5df863675e12742aa716c3ab6ce5c1,
         type: 3}
       propertyPath: m_AssetId

@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1500565998093478403, guid: a4981081d749e834085ce1ec714c4b50,
+        type: 3}
+      propertyPath: key
+      value: StripedGreenScarf
+      objectReference: {fileID: 0}
     - target: {fileID: 3465284675447965665, guid: a4981081d749e834085ce1ec714c4b50,
         type: 3}
       propertyPath: initialName

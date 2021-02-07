@@ -110,6 +110,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6042024635614081424, guid: f819cf8b4a0534ec59570563e52c8508,
+        type: 3}
+      propertyPath: key
+      value: CombatGloves
+      objectReference: {fileID: 0}
     - target: {fileID: 6081843052801809340, guid: f819cf8b4a0534ec59570563e52c8508,
         type: 3}
       propertyPath: initialName

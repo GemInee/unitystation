@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 936357588525616376, guid: 3bc560c485f5ecb4491bce031cde1635,
+        type: 3}
+      propertyPath: key
+      value: ExplorerHood
+      objectReference: {fileID: 0}
     - target: {fileID: 985619387740326326, guid: 3bc560c485f5ecb4491bce031cde1635,
         type: 3}
       propertyPath: m_Name

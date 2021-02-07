@@ -84,6 +84,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GasFilterFittingFlipped
       objectReference: {fileID: 0}
+    - target: {fileID: 5858323665282391059, guid: cd09f64dd236ae541abf991d8e00da65,
+        type: 3}
+      propertyPath: key
+      value: GasFilterFittingFlipped
+      objectReference: {fileID: 0}
     - target: {fileID: 5876005737013601513, guid: cd09f64dd236ae541abf991d8e00da65,
         type: 3}
       propertyPath: m_AssetId

@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: 56b3a5e4aaeeac7409c2ce3816b0c339,
+        type: 3}
+      propertyPath: key
+      value: BlueShirtAndTie
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 56b3a5e4aaeeac7409c2ce3816b0c339,
         type: 3}
       propertyPath: m_Name

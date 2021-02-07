@@ -87,5 +87,10 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8773776050380348273, guid: 9ad3756f014fe4f4c9aa35bf9b523a1a,
+        type: 3}
+      propertyPath: key
+      value: EmergencyOxygenTankEmpty
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ad3756f014fe4f4c9aa35bf9b523a1a, type: 3}

@@ -159,6 +159,19 @@ MonoBehaviour:
     Colour: {r: 0, g: 0, b: 0, a: 0}
     EnumSprite: 0
     Size: 12
+--- !u!114 &5348391024525268264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5734849685452875998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Flashlight
 --- !u!1001 &4101632511642393737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -316,6 +329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8515930545740394777, guid: c9c58a9243d494537abcb4ee470efab0,
+        type: 3}
+      propertyPath: key
+      value: Flashlight
       objectReference: {fileID: 0}
     - target: {fileID: 8568555645537651171, guid: c9c58a9243d494537abcb4ee470efab0,
         type: 3}

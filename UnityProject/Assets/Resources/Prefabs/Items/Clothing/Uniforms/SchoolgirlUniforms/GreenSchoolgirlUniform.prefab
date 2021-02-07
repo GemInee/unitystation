@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: d87ab69a913cab84592eef571ad4b258,
+        type: 3}
+      propertyPath: key
+      value: GreenSchoolgirlUniform
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: d87ab69a913cab84592eef571ad4b258,
         type: 3}
       propertyPath: m_Name

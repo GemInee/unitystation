@@ -93,6 +93,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4003223226015920766, guid: b4b7a31d4267d3d44860504b0d23df24,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeJanitor
+      objectReference: {fileID: 0}
     - target: {fileID: 7177421414396890295, guid: b4b7a31d4267d3d44860504b0d23df24,
         type: 3}
       propertyPath: PresentSpriteSet

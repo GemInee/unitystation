@@ -39,6 +39,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6831408508639544827, guid: 0b535cf7390c5134ab33bf0ba595c24e,
+        type: 3}
+      propertyPath: key
+      value: RadioHeadsetCaptain
+      objectReference: {fileID: 0}
     - target: {fileID: 6885590552589467073, guid: 0b535cf7390c5134ab33bf0ba595c24e,
         type: 3}
       propertyPath: m_RootOrder

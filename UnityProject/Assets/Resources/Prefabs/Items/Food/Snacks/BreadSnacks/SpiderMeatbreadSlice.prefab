@@ -143,6 +143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpiderMeatbreadSlice
       objectReference: {fileID: 0}
+    - target: {fileID: 3821844430413648164, guid: d2991f5505400ab479c5262137eed380,
+        type: 3}
+      propertyPath: key
+      value: SpiderMeatbreadSlice
+      objectReference: {fileID: 0}
     - target: {fileID: 3877279333247478238, guid: d2991f5505400ab479c5262137eed380,
         type: 3}
       propertyPath: m_AssetId

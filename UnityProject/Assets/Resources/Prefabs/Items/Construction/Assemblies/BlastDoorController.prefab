@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8857934333058681532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079634893240287905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: BlastDoorController
 --- !u!1001 &3523405508895511390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93,6 +106,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlastDoorController
       objectReference: {fileID: 0}
+    - target: {fileID: 4561310016621302961, guid: 201d4b5714989d64d86b11da761ecb15,
+        type: 3}
+      propertyPath: key
+      value: BlastDoorController
+      objectReference: {fileID: 0}
     - target: {fileID: 4578525896496213067, guid: 201d4b5714989d64d86b11da761ecb15,
         type: 3}
       propertyPath: m_AssetId
@@ -106,3 +124,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 201d4b5714989d64d86b11da761ecb15, type: 3}
+--- !u!1 &1079634893240287905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4476020110803030527, guid: 201d4b5714989d64d86b11da761ecb15,
+    type: 3}
+  m_PrefabInstance: {fileID: 3523405508895511390}
+  m_PrefabAsset: {fileID: 0}

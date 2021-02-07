@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7584059247149075785, guid: 0a53ebee1e0986546b60d1c4db04f258,
+        type: 3}
+      propertyPath: key
+      value: PowerCellHyperCapacityEmpty
+      objectReference: {fileID: 0}
     - target: {fileID: 7636077418673337779, guid: 0a53ebee1e0986546b60d1c4db04f258,
         type: 3}
       propertyPath: m_AssetId

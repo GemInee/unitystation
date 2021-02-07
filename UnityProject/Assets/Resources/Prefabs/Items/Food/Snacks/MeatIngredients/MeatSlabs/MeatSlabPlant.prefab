@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4515036369703030572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980166677936765713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: MeatSlabPlant
 --- !u!1001 &2968498753042564467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28,6 +41,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106524985565985580, guid: 82854d05a642eb841b438f039ae33cb5,
+        type: 3}
+      propertyPath: key
+      value: MeatSlabPlant
       objectReference: {fileID: 0}
     - target: {fileID: 5155784515580247650, guid: 82854d05a642eb841b438f039ae33cb5,
         type: 3}
@@ -96,3 +114,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82854d05a642eb841b438f039ae33cb5, type: 3}
+--- !u!1 &7980166677936765713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5155784515580247650, guid: 82854d05a642eb841b438f039ae33cb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2968498753042564467}
+  m_PrefabAsset: {fileID: 0}

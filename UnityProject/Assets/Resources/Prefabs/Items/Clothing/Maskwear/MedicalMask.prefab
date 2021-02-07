@@ -112,6 +112,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6463481805599782683, guid: dce8e376d2eca40eabe3f055b41a021c,
+        type: 3}
+      propertyPath: key
+      value: MedicalMask
+      objectReference: {fileID: 0}
     - target: {fileID: 6489704868625973513, guid: dce8e376d2eca40eabe3f055b41a021c,
         type: 3}
       propertyPath: m_Sprite

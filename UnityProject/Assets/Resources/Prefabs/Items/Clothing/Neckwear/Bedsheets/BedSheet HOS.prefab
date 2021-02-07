@@ -89,6 +89,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4010934172774051277, guid: 423cab216aa4e354f8159742cc80d10a,
+        type: 3}
+      propertyPath: key
+      value: BedSheet HOS
+      objectReference: {fileID: 0}
     - target: {fileID: 7186812133261251332, guid: 423cab216aa4e354f8159742cc80d10a,
         type: 3}
       propertyPath: PresentSpriteSet

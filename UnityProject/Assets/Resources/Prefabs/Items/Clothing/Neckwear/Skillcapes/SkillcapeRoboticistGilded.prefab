@@ -82,6 +82,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3591355956993237267, guid: 594e1874a23b81d44a38b49ed87e4665,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeRoboticistGilded
+      objectReference: {fileID: 0}
     - target: {fileID: 3636086549373392641, guid: 594e1874a23b81d44a38b49ed87e4665,
         type: 3}
       propertyPath: m_Sprite

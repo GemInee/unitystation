@@ -23,6 +23,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f9f00e543c26cdc439c2d19855b8cacb,
         type: 3}
+    - target: {fileID: 2176802912269332868, guid: e585654aca660b04298c0256d0f33b3c,
+        type: 3}
+      propertyPath: key
+      value: PurpleSuitskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 2230048137830517118, guid: e585654aca660b04298c0256d0f33b3c,
         type: 3}
       propertyPath: m_AssetId

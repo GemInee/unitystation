@@ -71,6 +71,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7542389061886944900, guid: 64e430f828cfc465ea88b8d6e6fecda4,
+        type: 3}
+      propertyPath: key
+      value: WhiteHardHat
+      objectReference: {fileID: 0}
     - target: {fileID: 7632320555952889534, guid: 64e430f828cfc465ea88b8d6e6fecda4,
         type: 3}
       propertyPath: m_RootOrder

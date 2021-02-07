@@ -41,6 +41,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7542389061886944900, guid: 9445628fd16314b7388c7086f5fd2f26,
+        type: 3}
+      propertyPath: key
+      value: VintageBeret
+      objectReference: {fileID: 0}
     - target: {fileID: 7632320555952889534, guid: 9445628fd16314b7388c7086f5fd2f26,
         type: 3}
       propertyPath: m_RootOrder

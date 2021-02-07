@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4594236305834849667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685560356296603976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: BottleOfWaterLarge
 --- !u!1001 &415627454934724928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -150,6 +163,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1437713815307095366, guid: 8dbbbb2e528f19d4fa232f02fc6ac148,
+        type: 3}
+      propertyPath: key
+      value: BottleOfWaterLarge
+      objectReference: {fileID: 0}
     - target: {fileID: 1462913919387395946, guid: 8dbbbb2e528f19d4fa232f02fc6ac148,
         type: 3}
       propertyPath: initialDescription
@@ -163,3 +181,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbbbb2e528f19d4fa232f02fc6ac148, type: 3}
+--- !u!1 &1685560356296603976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1342295621226366984, guid: 8dbbbb2e528f19d4fa232f02fc6ac148,
+    type: 3}
+  m_PrefabInstance: {fileID: 415627454934724928}
+  m_PrefabAsset: {fileID: 0}

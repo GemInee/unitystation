@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3494057632303631697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5312545187966225107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CrabMeat
 --- !u!1001 &1830064746458152105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125,6 +138,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5876988997915767604, guid: 699a33dd843ab594e9b3dbbf5b6305d4,
+        type: 3}
+      propertyPath: key
+      value: CrabMeat
+      objectReference: {fileID: 0}
     - target: {fileID: 5921587132527232294, guid: 699a33dd843ab594e9b3dbbf5b6305d4,
         type: 3}
       propertyPath: m_Sprite
@@ -148,3 +166,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 699a33dd843ab594e9b3dbbf5b6305d4, type: 3}
+--- !u!1 &5312545187966225107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5826604050240140922, guid: 699a33dd843ab594e9b3dbbf5b6305d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1830064746458152105}
+  m_PrefabAsset: {fileID: 0}

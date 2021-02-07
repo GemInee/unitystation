@@ -73,6 +73,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7004813806950019802, guid: 7cef0e2714d9c8c4587deef900a0b670,
+        type: 3}
+      propertyPath: key
+      value: IDCardCentCom
+      objectReference: {fileID: 0}
     - target: {fileID: 7057474091270294048, guid: 7cef0e2714d9c8c4587deef900a0b670,
         type: 3}
       propertyPath: m_AssetId

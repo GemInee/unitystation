@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1984967890074435143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431646644770877665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: HighCableCoil
 --- !u!1001 &6705258602129204192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,6 +223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728831603199055439, guid: c3e6805b264a935428b0de415ea57943,
+        type: 3}
+      propertyPath: key
+      value: HighCableCoil
       objectReference: {fileID: 0}
     - target: {fileID: 5768084342079451438, guid: c3e6805b264a935428b0de415ea57943,
         type: 3}

@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2927439245739361164, guid: f77037b85bbec3f408e6f8b3bdd874db,
+        type: 3}
+      propertyPath: key
+      value: ExtradimensionalOrange
+      objectReference: {fileID: 0}
     - target: {fileID: 3017653109200452534, guid: f77037b85bbec3f408e6f8b3bdd874db,
         type: 3}
       propertyPath: m_RootOrder

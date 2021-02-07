@@ -104,6 +104,11 @@ PrefabInstance:
       propertyPath: Resistances.Flammable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6463481805599782683, guid: 996d62bfe3bf26c4e95c2a77cadabbd2,
+        type: 3}
+      propertyPath: key
+      value: CyborgVisor
+      objectReference: {fileID: 0}
     - target: {fileID: 6489704868625973513, guid: 996d62bfe3bf26c4e95c2a77cadabbd2,
         type: 3}
       propertyPath: m_Sprite

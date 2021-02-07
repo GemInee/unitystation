@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SMGMagazine.45ArmorPiercing
       objectReference: {fileID: 0}
+    - target: {fileID: 7593542914187286423, guid: 251c85198dd9873499087ca7a48dd1f7,
+        type: 3}
+      propertyPath: key
+      value: SMGMagazine.45ArmorPiercing
+      objectReference: {fileID: 0}
     - target: {fileID: 7612940772725288813, guid: 251c85198dd9873499087ca7a48dd1f7,
         type: 3}
       propertyPath: m_AssetId

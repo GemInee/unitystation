@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: cda0c7d60b6a643279489d6c9a64d208,
+        type: 3}
+      propertyPath: key
+      value: TealSuit
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: cda0c7d60b6a643279489d6c9a64d208,
         type: 3}
       propertyPath: m_Name

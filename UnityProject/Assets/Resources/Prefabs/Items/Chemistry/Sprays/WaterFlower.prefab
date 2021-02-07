@@ -173,6 +173,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2881108009455080339, guid: fb073eb335539484b90e5bd9a3dbc4d0,
+        type: 3}
+      propertyPath: key
+      value: WaterFlower
+      objectReference: {fileID: 0}
     - target: {fileID: 3999979801300213365, guid: fb073eb335539484b90e5bd9a3dbc4d0,
         type: 3}
       propertyPath: maxCapacity

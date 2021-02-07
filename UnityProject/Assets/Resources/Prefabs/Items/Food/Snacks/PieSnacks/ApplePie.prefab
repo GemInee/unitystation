@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3159347621982522735, guid: 8777e0247dca5ab41a385d81bc5719ab,
+        type: 3}
+      propertyPath: key
+      value: ApplePie
+      objectReference: {fileID: 0}
     - target: {fileID: 3199482630336423747, guid: 8777e0247dca5ab41a385d81bc5719ab,
         type: 3}
       propertyPath: initialName

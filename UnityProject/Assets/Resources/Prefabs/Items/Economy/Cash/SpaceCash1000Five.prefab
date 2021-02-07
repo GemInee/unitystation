@@ -78,6 +78,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7293925074040683350, guid: 552cb08d7db47c14e81ddaf7ca4fd55c,
+        type: 3}
+      propertyPath: key
+      value: SpaceCash1000Five
+      objectReference: {fileID: 0}
     - target: {fileID: 7349325341320790956, guid: 552cb08d7db47c14e81ddaf7ca4fd55c,
         type: 3}
       propertyPath: m_AssetId

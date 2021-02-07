@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7162584120151996967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232070049008415734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: TitaniumGlassSheet
 --- !u!114 &5336027159625183590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +101,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 06e0ef0ba0ee3ac4e9132e77e383c345,
         type: 2}
+    - target: {fileID: 8394147756459525489, guid: b56fec0300832ce48ade0ddf2e577ee7,
+        type: 3}
+      propertyPath: key
+      value: TitaniumGlassSheet
+      objectReference: {fileID: 0}
     - target: {fileID: 8410104111733346763, guid: b56fec0300832ce48ade0ddf2e577ee7,
         type: 3}
       propertyPath: Armor.Acid

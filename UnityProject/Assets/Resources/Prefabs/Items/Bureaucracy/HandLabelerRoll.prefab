@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9128633456041952780, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: key
+      value: HandLabelerRoll
+      objectReference: {fileID: 0}
     - target: {fileID: 1011433845357754, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
       propertyPath: m_Name
       value: HandLabelerRoll

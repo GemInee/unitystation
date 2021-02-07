@@ -120,6 +120,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3818529976125211439, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: key
+      value: StarthistleSeeds
+      objectReference: {fileID: 0}
     - target: {fileID: 3867790606060242529, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: m_Name

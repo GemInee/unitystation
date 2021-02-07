@@ -61,6 +61,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 49a7b450c5d94ed4c8110c6ef6a7df13,
         type: 2}
+    - target: {fileID: 8394147756459525489, guid: b56fec0300832ce48ade0ddf2e577ee7,
+        type: 3}
+      propertyPath: key
+      value: DurathreadRoll
+      objectReference: {fileID: 0}
     - target: {fileID: 8410104111733346763, guid: b56fec0300832ce48ade0ddf2e577ee7,
         type: 3}
       propertyPath: Resistances.Flammable

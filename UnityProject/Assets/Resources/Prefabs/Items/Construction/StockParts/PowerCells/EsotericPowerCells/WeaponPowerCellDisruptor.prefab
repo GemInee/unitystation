@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7849160599844430781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975013249514806011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: WeaponPowerCellDisruptor
 --- !u!1001 &6828617749960474763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18,6 +31,11 @@ PrefabInstance:
       value: 400000
       objectReference: {fileID: 0}
     - target: {fileID: 5592435858241861727, guid: bd07fb3945875634685790190ea8decc,
+        type: 3}
+      propertyPath: key
+      value: WeaponPowerCellDisruptor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913486980846247742, guid: bd07fb3945875634685790190ea8decc,
         type: 3}
       propertyPath: key
       value: WeaponPowerCellDisruptor
@@ -89,3 +107,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd07fb3945875634685790190ea8decc, type: 3}
+--- !u!1 &975013249514806011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5999901686547831408, guid: bd07fb3945875634685790190ea8decc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6828617749960474763}
+  m_PrefabAsset: {fileID: 0}

@@ -34,6 +34,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3372464831483067719, guid: 0c3e7a0b25eff4d33a4f511cfc36b5d9,
+        type: 3}
+      propertyPath: key
+      value: ScienceGlasses
+      objectReference: {fileID: 0}
     - target: {fileID: 3426649003253581181, guid: 0c3e7a0b25eff4d33a4f511cfc36b5d9,
         type: 3}
       propertyPath: m_RootOrder

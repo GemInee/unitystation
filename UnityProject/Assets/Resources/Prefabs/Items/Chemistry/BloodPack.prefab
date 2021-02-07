@@ -228,6 +228,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7881298603940377262, guid: f866b44bcdd7d734885f7c49999d85c9,
+        type: 3}
+      propertyPath: key
+      value: BloodPack
+      objectReference: {fileID: 0}
     - target: {fileID: 7897283028627769940, guid: f866b44bcdd7d734885f7c49999d85c9,
         type: 3}
       propertyPath: m_AssetId

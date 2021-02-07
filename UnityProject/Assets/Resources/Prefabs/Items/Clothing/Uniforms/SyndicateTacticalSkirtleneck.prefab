@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: 9c1e9db42d990b642a9927850b0258e9,
+        type: 3}
+      propertyPath: key
+      value: SyndicateTacticalSkirtleneck
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 9c1e9db42d990b642a9927850b0258e9,
         type: 3}
       propertyPath: m_Name

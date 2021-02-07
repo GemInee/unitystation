@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: Resistances.FireProof
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9062882920259834123, guid: cae650b8120e1f04a840374168f5169e,
+        type: 3}
+      propertyPath: key
+      value: IndustrialDuffelBag
+      objectReference: {fileID: 0}
     - target: {fileID: 9108290256643319577, guid: cae650b8120e1f04a840374168f5169e,
         type: 3}
       propertyPath: m_Sprite

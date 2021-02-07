@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7138016789141621496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600028148722177027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: GasTank
 --- !u!1001 &3986594327327211811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7,6 +20,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2320559615736320110, guid: 48d3c058a9e5a42418875499b82cc5e3,
+        type: 3}
+      propertyPath: key
+      value: GasTank
+      objectReference: {fileID: 0}
     - target: {fileID: 2374380983259834516, guid: 48d3c058a9e5a42418875499b82cc5e3,
         type: 3}
       propertyPath: m_AssetId
@@ -129,3 +147,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48d3c058a9e5a42418875499b82cc5e3, type: 3}
+--- !u!1 &1600028148722177027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2406975489804277024, guid: 48d3c058a9e5a42418875499b82cc5e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3986594327327211811}
+  m_PrefabAsset: {fileID: 0}

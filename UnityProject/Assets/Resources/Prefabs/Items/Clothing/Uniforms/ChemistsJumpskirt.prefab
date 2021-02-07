@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: 54c252491fc58478aac029a841777c90,
+        type: 3}
+      propertyPath: key
+      value: ChemistsJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 54c252491fc58478aac029a841777c90,
         type: 3}
       propertyPath: m_Name

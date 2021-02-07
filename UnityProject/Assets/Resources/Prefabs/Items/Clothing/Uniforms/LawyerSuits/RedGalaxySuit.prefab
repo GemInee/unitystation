@@ -96,6 +96,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5562465667306006389, guid: 8b9ee0ad8572c264c871f6be2181a458,
+        type: 3}
+      propertyPath: key
+      value: RedGalaxySuit
+      objectReference: {fileID: 0}
     - target: {fileID: 5617940703404695439, guid: 8b9ee0ad8572c264c871f6be2181a458,
         type: 3}
       propertyPath: m_AssetId

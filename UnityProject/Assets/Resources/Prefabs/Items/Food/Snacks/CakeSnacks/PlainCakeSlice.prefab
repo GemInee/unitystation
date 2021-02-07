@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8326203467449364996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091388452363930611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: PlainCakeSlice
 --- !u!1001 &6095400660712509832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99,6 +112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlainCakeSlice
       objectReference: {fileID: 0}
+    - target: {fileID: 9161135454493957941, guid: 7f29641ac1b06c74a932d09fff95856c,
+        type: 3}
+      propertyPath: key
+      value: PlainCakeSlice
+      objectReference: {fileID: 0}
     - target: {fileID: 9216003557087045583, guid: 7f29641ac1b06c74a932d09fff95856c,
         type: 3}
       propertyPath: m_AssetId
@@ -106,3 +124,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f29641ac1b06c74a932d09fff95856c, type: 3}
+--- !u!1 &3091388452363930611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9111318539336604283, guid: 7f29641ac1b06c74a932d09fff95856c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6095400660712509832}
+  m_PrefabAsset: {fileID: 0}

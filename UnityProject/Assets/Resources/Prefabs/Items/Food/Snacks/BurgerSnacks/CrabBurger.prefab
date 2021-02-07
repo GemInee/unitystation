@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6263064207343909201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6672354457938983197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CrabBurger
 --- !u!1001 &4311852610233393189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28,6 +41,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37bce274a90c1ba41b3739a353117598,
         type: 3}
+    - target: {fileID: 7358094290631826550, guid: 4bf8c38cb85116e4babedf03228412de,
+        type: 3}
+      propertyPath: key
+      value: CrabBurger
+      objectReference: {fileID: 0}
     - target: {fileID: 7411242208336094348, guid: 4bf8c38cb85116e4babedf03228412de,
         type: 3}
       propertyPath: m_AssetId
@@ -100,3 +118,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bf8c38cb85116e4babedf03228412de, type: 3}
+--- !u!1 &6672354457938983197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7443940138226227512, guid: 4bf8c38cb85116e4babedf03228412de,
+    type: 3}
+  m_PrefabInstance: {fileID: 4311852610233393189}
+  m_PrefabAsset: {fileID: 0}

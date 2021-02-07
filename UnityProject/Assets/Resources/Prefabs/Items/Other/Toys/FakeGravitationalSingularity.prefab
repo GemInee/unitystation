@@ -29,6 +29,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4823124852418130309, guid: b2cc2b1c514be164282a4cdd366643e5,
+        type: 3}
+      propertyPath: key
+      value: FakeGravitationalSingularity
+      objectReference: {fileID: 0}
     - target: {fileID: 4877309918594877887, guid: b2cc2b1c514be164282a4cdd366643e5,
         type: 3}
       propertyPath: m_RootOrder

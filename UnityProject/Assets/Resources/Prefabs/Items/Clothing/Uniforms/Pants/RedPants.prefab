@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: db6925c2066e4fb49a396bacd6dc7552,
+        type: 3}
+      propertyPath: key
+      value: RedPants
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: db6925c2066e4fb49a396bacd6dc7552,
         type: 3}
       propertyPath: m_Name

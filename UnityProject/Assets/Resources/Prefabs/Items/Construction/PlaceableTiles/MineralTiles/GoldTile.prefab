@@ -67,6 +67,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 17dca774d42c33a40947cabe0e167337,
         type: 2}
+    - target: {fileID: 6630244189887542870, guid: b122d05362087574ca3b106604026dd9,
+        type: 3}
+      propertyPath: key
+      value: GoldTile
+      objectReference: {fileID: 0}
     - target: {fileID: 6684588376263855788, guid: b122d05362087574ca3b106604026dd9,
         type: 3}
       propertyPath: m_AssetId

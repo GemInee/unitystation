@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8777234869099660868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145533284139685141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Wallet
 --- !u!1001 &1816971911834241638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83,6 +96,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3729825263767378493, guid: e46ba34aab52d654787ef10d896b0874,
+        type: 3}
+      propertyPath: key
+      value: Wallet
+      objectReference: {fileID: 0}
     - target: {fileID: 3782347747540316177, guid: e46ba34aab52d654787ef10d896b0874,
         type: 3}
       propertyPath: initialName
@@ -129,3 +147,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46ba34aab52d654787ef10d896b0874, type: 3}
+--- !u!1 &3145533284139685141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3643415983708594035, guid: e46ba34aab52d654787ef10d896b0874,
+    type: 3}
+  m_PrefabInstance: {fileID: 1816971911834241638}
+  m_PrefabAsset: {fileID: 0}

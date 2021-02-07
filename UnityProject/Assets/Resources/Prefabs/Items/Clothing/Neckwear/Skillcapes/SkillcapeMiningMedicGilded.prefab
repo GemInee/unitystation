@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2416449832971413003, guid: 253d86ba50ab4264eadde80fab61600f,
+        type: 3}
+      propertyPath: key
+      value: SkillcapeMiningMedicGilded
+      objectReference: {fileID: 0}
     - target: {fileID: 2461782436916924441, guid: 253d86ba50ab4264eadde80fab61600f,
         type: 3}
       propertyPath: m_Sprite

@@ -47,6 +47,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7542389061886944900, guid: 788649a7f84574c48a54361479106732,
+        type: 3}
+      propertyPath: key
+      value: WhiteCap
+      objectReference: {fileID: 0}
     - target: {fileID: 7632320555952889534, guid: 788649a7f84574c48a54361479106732,
         type: 3}
       propertyPath: m_RootOrder

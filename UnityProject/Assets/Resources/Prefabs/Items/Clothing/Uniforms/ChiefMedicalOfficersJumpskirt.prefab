@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: 6ab2f9c28085a419ca49eda6e97a06cf,
+        type: 3}
+      propertyPath: key
+      value: ChiefMedicalOfficersJumpskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 6ab2f9c28085a419ca49eda6e97a06cf,
         type: 3}
       propertyPath: m_Name

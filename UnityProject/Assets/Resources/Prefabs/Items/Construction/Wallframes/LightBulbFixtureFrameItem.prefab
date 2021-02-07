@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6373852156175831092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701840369948696493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: LightBulbFixtureFrameItem
 --- !u!1001 &5341514280200770648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23,6 +36,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813975467287023291, guid: a4f7e2bbe146f55448ded731a285c0b8,
+        type: 3}
+      propertyPath: key
+      value: LightBulbFixtureFrameItem
       objectReference: {fileID: 0}
     - target: {fileID: 4867877549163509377, guid: a4f7e2bbe146f55448ded731a285c0b8,
         type: 3}
@@ -102,3 +120,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f7e2bbe146f55448ded731a285c0b8, type: 3}
+--- !u!1 &701840369948696493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4872242747259030517, guid: a4f7e2bbe146f55448ded731a285c0b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5341514280200770648}
+  m_PrefabAsset: {fileID: 0}

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2314759587159275710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791477769006745619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: LaserTagGunRed
 --- !u!1001 &8177982320483578705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59,6 +72,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7562000918053305868, guid: 7fd11f09765590540b2685a0dfa2b8ea,
+        type: 3}
+      propertyPath: key
+      value: LaserTagGunRed
       objectReference: {fileID: 0}
     - target: {fileID: 7611817970648562498, guid: 7fd11f09765590540b2685a0dfa2b8ea,
         type: 3}
@@ -156,3 +174,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fd11f09765590540b2685a0dfa2b8ea, type: 3}
+--- !u!1 &1791477769006745619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7611817970648562498, guid: 7fd11f09765590540b2685a0dfa2b8ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 8177982320483578705}
+  m_PrefabAsset: {fileID: 0}

@@ -36,6 +36,11 @@ PrefabInstance:
       propertyPath: bodyPartsCovered
       value: 1008
       objectReference: {fileID: 0}
+    - target: {fileID: 6806490475600258197, guid: 900572ab8ed9030429b12eaa3974a43f,
+        type: 3}
+      propertyPath: key
+      value: SecurityOvercoat
+      objectReference: {fileID: 0}
     - target: {fileID: 8841056279837395319, guid: 900572ab8ed9030429b12eaa3974a43f,
         type: 3}
       propertyPath: initialName

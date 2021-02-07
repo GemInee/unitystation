@@ -216,6 +216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedSheet
       objectReference: {fileID: 0}
+    - target: {fileID: 8577563563390739497, guid: b027dfa588d69d848a886ae80d5b25c2,
+        type: 3}
+      propertyPath: key
+      value: BedSheet
+      objectReference: {fileID: 0}
     - target: {fileID: 8629197421986951315, guid: b027dfa588d69d848a886ae80d5b25c2,
         type: 3}
       propertyPath: Resistances.Flammable

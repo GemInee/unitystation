@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6012587416861103304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8720244658755400121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: BloodTomato
 --- !u!1001 &9175865018234656121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83,6 +96,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloodTomato
       objectReference: {fileID: 0}
+    - target: {fileID: 504600067577749902, guid: 454947e247b8d27408f72041e753e7be,
+        type: 3}
+      propertyPath: key
+      value: BloodTomato
+      objectReference: {fileID: 0}
     - target: {fileID: 560563286822459764, guid: 454947e247b8d27408f72041e753e7be,
         type: 3}
       propertyPath: m_AssetId
@@ -107,3 +125,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 454947e247b8d27408f72041e753e7be, type: 3}
+--- !u!1 &8720244658755400121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 455902390153094336, guid: 454947e247b8d27408f72041e753e7be,
+    type: 3}
+  m_PrefabInstance: {fileID: 9175865018234656121}
+  m_PrefabAsset: {fileID: 0}

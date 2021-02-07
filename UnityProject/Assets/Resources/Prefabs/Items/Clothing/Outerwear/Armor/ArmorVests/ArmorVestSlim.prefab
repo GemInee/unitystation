@@ -107,6 +107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArmorVestSlim
       objectReference: {fileID: 0}
+    - target: {fileID: 9011461736027628379, guid: 900572ab8ed9030429b12eaa3974a43f,
+        type: 3}
+      propertyPath: key
+      value: ArmorVestSlim
+      objectReference: {fileID: 0}
     - target: {fileID: 9063515089906310049, guid: 900572ab8ed9030429b12eaa3974a43f,
         type: 3}
       propertyPath: m_AssetId

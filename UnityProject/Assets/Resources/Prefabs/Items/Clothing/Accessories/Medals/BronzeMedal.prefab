@@ -94,6 +94,11 @@ PrefabInstance:
       propertyPath: Resistances.FireProof
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7751872560075377782, guid: 4663ac7bbb1e2054face4b1d91160105,
+        type: 3}
+      propertyPath: key
+      value: BronzeMedal
+      objectReference: {fileID: 0}
     - target: {fileID: 7794242670886807130, guid: 4663ac7bbb1e2054face4b1d91160105,
         type: 3}
       propertyPath: initialName

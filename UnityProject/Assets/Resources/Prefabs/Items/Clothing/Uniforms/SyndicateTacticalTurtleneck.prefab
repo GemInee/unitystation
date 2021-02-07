@@ -127,6 +127,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4754420167721790764, guid: de234d793cfd842599c9c8726207f217,
+        type: 3}
+      propertyPath: key
+      value: SyndicateTacticalTurtleneck
+      objectReference: {fileID: 0}
     - target: {fileID: 4781100657663286078, guid: de234d793cfd842599c9c8726207f217,
         type: 3}
       propertyPath: m_Sprite

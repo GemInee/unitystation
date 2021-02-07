@@ -18,6 +18,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 613524232107671184, guid: a9fa99a5af6e9a147a033ca72de0e554,
+        type: 3}
+      propertyPath: key
+      value: PremiumHavanianCigarCase
+      objectReference: {fileID: 0}
     - target: {fileID: 703455383371695786, guid: a9fa99a5af6e9a147a033ca72de0e554,
         type: 3}
       propertyPath: m_RootOrder

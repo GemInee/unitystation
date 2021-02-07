@@ -90,6 +90,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2714562139568280555, guid: 0c841b17402cd3141a40ce714474a94c,
+        type: 3}
+      propertyPath: key
+      value: BalloonCorgi
+      objectReference: {fileID: 0}
     - target: {fileID: 2742403716972520953, guid: 0c841b17402cd3141a40ce714474a94c,
         type: 3}
       propertyPath: m_Sprite

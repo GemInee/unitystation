@@ -111,6 +111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: _FlashBase
       objectReference: {fileID: 0}
+    - target: {fileID: 4561310016621302961, guid: 201d4b5714989d64d86b11da761ecb15,
+        type: 3}
+      propertyPath: key
+      value: _FlashBase
+      objectReference: {fileID: 0}
     - target: {fileID: 4578525896496213067, guid: 201d4b5714989d64d86b11da761ecb15,
         type: 3}
       propertyPath: m_AssetId

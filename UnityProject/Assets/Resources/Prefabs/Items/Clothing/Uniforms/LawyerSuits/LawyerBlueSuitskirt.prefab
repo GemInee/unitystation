@@ -28,6 +28,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 554b388583e82214b898bc02c56352ba,
         type: 3}
+    - target: {fileID: 4213966742695673370, guid: 9e1795c845a20134abc7b0eed8f2f750,
+        type: 3}
+      propertyPath: key
+      value: LawyerBlueSuitskirt
+      objectReference: {fileID: 0}
     - target: {fileID: 4232312920507074272, guid: 9e1795c845a20134abc7b0eed8f2f750,
         type: 3}
       propertyPath: m_AssetId

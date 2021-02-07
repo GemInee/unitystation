@@ -23,6 +23,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ceda362ad9bdb8c4e8695b9caeccf3ea,
         type: 3}
+    - target: {fileID: 3912099696138520762, guid: 50df01ef60a031640b4faafe2df999ce,
+        type: 3}
+      propertyPath: key
+      value: FannypackYellow
+      objectReference: {fileID: 0}
     - target: {fileID: 3930982433497919552, guid: 50df01ef60a031640b4faafe2df999ce,
         type: 3}
       propertyPath: m_AssetId

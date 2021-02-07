@@ -89,6 +89,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8331940411184199709, guid: 5b03a0d328244a244bde82abc2b3e98a,
+        type: 3}
+      propertyPath: key
+      value: ResupplyCanisterRobotechDeluxe
+      objectReference: {fileID: 0}
     - target: {fileID: 8367238152491455025, guid: 5b03a0d328244a244bde82abc2b3e98a,
         type: 3}
       propertyPath: initialName

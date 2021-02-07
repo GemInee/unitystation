@@ -89,6 +89,11 @@ PrefabInstance:
       value: A trenchcoat enhanced with a special lightweight kevlar. The epitome
         of tactical plainclothes.
       objectReference: {fileID: 0}
+    - target: {fileID: 4257170774601869862, guid: f7b1874a6ebd85a439111098540d72d7,
+        type: 3}
+      propertyPath: key
+      value: ArmoredTrenchcoat
+      objectReference: {fileID: 0}
     - target: {fileID: 4701789493151038243, guid: f7b1874a6ebd85a439111098540d72d7,
         type: 3}
       propertyPath: clothData

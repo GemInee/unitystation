@@ -103,6 +103,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3988636546704280000, guid: 06b537a0fb67270478169cfc5480b75d,
         type: 3}
+    - target: {fileID: 2021732551366925781, guid: 6445f714f221b6743aa6d70ac4b73c87,
+        type: 3}
+      propertyPath: key
+      value: SalicylicAcidMedipen
+      objectReference: {fileID: 0}
     - target: {fileID: 2074353254340257071, guid: 6445f714f221b6743aa6d70ac4b73c87,
         type: 3}
       propertyPath: m_AssetId

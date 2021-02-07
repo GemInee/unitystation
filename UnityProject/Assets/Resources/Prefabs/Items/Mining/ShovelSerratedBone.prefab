@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3717067829191687272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6510279835361047789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: ShovelSerratedBone
 --- !u!1001 &6438463904468364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84,6 +97,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6565392165205589039, guid: 1488f67a55cb9b84098e095e65e5a2b3,
+        type: 3}
+      propertyPath: key
+      value: ShovelSerratedBone
+      objectReference: {fileID: 0}
     - target: {fileID: 6619098635907335381, guid: 1488f67a55cb9b84098e095e65e5a2b3,
         type: 3}
       propertyPath: m_AssetId
@@ -150,3 +168,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488f67a55cb9b84098e095e65e5a2b3, type: 3}
+--- !u!1 &6510279835361047789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6507691273333881185, guid: 1488f67a55cb9b84098e095e65e5a2b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6438463904468364}
+  m_PrefabAsset: {fileID: 0}

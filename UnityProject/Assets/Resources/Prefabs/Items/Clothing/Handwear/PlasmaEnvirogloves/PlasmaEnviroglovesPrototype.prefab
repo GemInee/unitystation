@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2960651357976928490, guid: cb7e5ca96c976e74cb550187a84e94b3,
+        type: 3}
+      propertyPath: key
+      value: PlasmaEnviroglovesPrototype
+      objectReference: {fileID: 0}
     - target: {fileID: 3013311642140121104, guid: cb7e5ca96c976e74cb550187a84e94b3,
         type: 3}
       propertyPath: m_AssetId

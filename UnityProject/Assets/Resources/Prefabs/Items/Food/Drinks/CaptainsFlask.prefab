@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 589397898766991870, guid: 1f332585069499e49a1f8f8bd17f486d,
+        type: 3}
+      propertyPath: key
+      value: CaptainsFlask
+      objectReference: {fileID: 0}
     - target: {fileID: 642537021473028356, guid: 1f332585069499e49a1f8f8bd17f486d,
         type: 3}
       propertyPath: m_AssetId

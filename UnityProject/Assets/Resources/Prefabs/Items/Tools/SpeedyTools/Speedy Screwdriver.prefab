@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: key
       value: Speedy Screwdriver
       objectReference: {fileID: 0}
+    - target: {fileID: 8811213563680819166, guid: 366fb594c17e76346bbb29ad4ce021ad,
+        type: 3}
+      propertyPath: key
+      value: Speedy Screwdriver
+      objectReference: {fileID: 0}
     - target: {fileID: 8827211731076726564, guid: 366fb594c17e76346bbb29ad4ce021ad,
         type: 3}
       propertyPath: m_AssetId

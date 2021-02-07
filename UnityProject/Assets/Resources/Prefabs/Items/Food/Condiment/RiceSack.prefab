@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8541958829251431783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224261289035261362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: RiceSack
 --- !u!1001 &1249319239619536557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,6 +66,11 @@ PrefabInstance:
         type: 3}
       propertyPath: initialDescription
       value: A big bag of rice. Good for cooking!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378034233399543377, guid: 32a48818544878d4c8e14ac2fd2b195a,
+        type: 3}
+      propertyPath: key
+      value: RiceSack
       objectReference: {fileID: 0}
     - target: {fileID: 8395826806974201515, guid: 32a48818544878d4c8e14ac2fd2b195a,
         type: 3}
@@ -128,3 +146,9 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: -2575248337170886117, guid: 32a48818544878d4c8e14ac2fd2b195a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 32a48818544878d4c8e14ac2fd2b195a, type: 3}
+--- !u!1 &7224261289035261362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8437426176302514975, guid: 32a48818544878d4c8e14ac2fd2b195a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1249319239619536557}
+  m_PrefabAsset: {fileID: 0}

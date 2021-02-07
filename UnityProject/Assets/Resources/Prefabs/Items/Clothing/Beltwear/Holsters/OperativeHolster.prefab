@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3591654120080711917, guid: f81f054e54c0164459e94a191cf3ac9e,
+        type: 3}
+      propertyPath: key
+      value: OperativeHolster
+      objectReference: {fileID: 0}
     - target: {fileID: 3637474873897391871, guid: f81f054e54c0164459e94a191cf3ac9e,
         type: 3}
       propertyPath: m_Sprite

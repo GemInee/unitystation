@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9141841409347058791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356633666052490034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: HawaiianPizza
 --- !u!1001 &910869370140766556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38,6 +51,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083680248346228512, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
+      propertyPath: key
+      value: HawaiianPizza
       objectReference: {fileID: 0}
     - target: {fileID: 9135694018600570842, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
@@ -106,3 +124,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20e558a25e0b41942a7483724b3e4d45, type: 3}
+--- !u!1 &8356633666052490034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9177408974090613358, guid: 20e558a25e0b41942a7483724b3e4d45,
+    type: 3}
+  m_PrefabInstance: {fileID: 910869370140766556}
+  m_PrefabAsset: {fileID: 0}

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3399254222451318944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437675654651693147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CarpetFloorTileBlue
 --- !u!1001 &8039947088260929078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23,6 +36,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AssetId
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553184391832066851, guid: bae9e1730d4424fbfa160f045597a604,
+        type: 3}
+      propertyPath: key
+      value: CarpetFloorTileBlue
       objectReference: {fileID: 0}
     - target: {fileID: 7602444472548548205, guid: bae9e1730d4424fbfa160f045597a604,
         type: 3}
@@ -114,3 +132,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bae9e1730d4424fbfa160f045597a604, type: 3}
+--- !u!1 &437675654651693147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7602444472548548205, guid: bae9e1730d4424fbfa160f045597a604,
+    type: 3}
+  m_PrefabInstance: {fileID: 8039947088260929078}
+  m_PrefabAsset: {fileID: 0}

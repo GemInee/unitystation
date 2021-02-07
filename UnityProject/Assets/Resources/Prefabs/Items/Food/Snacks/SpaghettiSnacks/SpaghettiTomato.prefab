@@ -125,6 +125,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8772056348377139003, guid: a859eb3fcda3a8747aba7894b40cfdb6,
+        type: 3}
+      propertyPath: key
+      value: SpaghettiTomato
+      objectReference: {fileID: 0}
     - target: {fileID: 8799590024976822569, guid: a859eb3fcda3a8747aba7894b40cfdb6,
         type: 3}
       propertyPath: m_Sprite

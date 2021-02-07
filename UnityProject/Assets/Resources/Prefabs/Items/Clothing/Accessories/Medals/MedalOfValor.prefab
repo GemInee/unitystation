@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5706492824109283887, guid: 00585e1640b90704c80577abf89e78fe,
+        type: 3}
+      propertyPath: key
+      value: MedalOfValor
+      objectReference: {fileID: 0}
     - target: {fileID: 5762002493750428373, guid: 00585e1640b90704c80577abf89e78fe,
         type: 3}
       propertyPath: m_AssetId

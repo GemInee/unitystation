@@ -93,5 +93,10 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4034751386505224354, guid: 4303d0eb23d121949950815cebc03a0f,
+        type: 3}
+      propertyPath: key
+      value: TrashBoritos
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4303d0eb23d121949950815cebc03a0f, type: 3}

@@ -120,8 +120,7 @@ namespace Localization
 
 		public string GetLocalizedValue(string key)
 		{
-			string result = "Text not found";
-
+			string result;
 			if (localizedText.ContainsKey(key))
 			{
 				result = localizedText[key];

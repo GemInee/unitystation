@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 209435981633088952, guid: 41dbf3c1a7494294ba8fce1471396d5c,
+        type: 3}
+      propertyPath: key
+      value: BlackAndBlueSpaceHelmet
+      objectReference: {fileID: 0}
     - target: {fileID: 2360366142296125240, guid: 41dbf3c1a7494294ba8fce1471396d5c,
         type: 3}
       propertyPath: m_Name

@@ -15,6 +15,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -30,6 +35,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -42,16 +52,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3170864351630566722, guid: 9843990c973070e40bb9244d59d676b1,
         type: 3}
@@ -71,6 +71,11 @@ PrefabInstance:
     - target: {fileID: 3175792500284053558, guid: 9843990c973070e40bb9244d59d676b1,
         type: 3}
       propertyPath: m_Name
+      value: WoodenChairWingedItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261078557409435000, guid: 9843990c973070e40bb9244d59d676b1,
+        type: 3}
+      propertyPath: key
       value: WoodenChairWingedItem
       objectReference: {fileID: 0}
     - target: {fileID: 3280480816026215810, guid: 9843990c973070e40bb9244d59d676b1,

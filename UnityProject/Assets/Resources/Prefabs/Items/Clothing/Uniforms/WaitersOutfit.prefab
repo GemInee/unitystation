@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: dff9b7e8f22ff9b4cb9e2f035702e875,
+        type: 3}
+      propertyPath: key
+      value: WaitersOutfit
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: dff9b7e8f22ff9b4cb9e2f035702e875,
         type: 3}
       propertyPath: m_Name

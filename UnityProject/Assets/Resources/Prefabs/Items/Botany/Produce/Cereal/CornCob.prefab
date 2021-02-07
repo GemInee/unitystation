@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5663274553064974144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3779453053764013334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CornCob
 --- !u!1001 &583448776967186467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92,6 +105,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4411417453399302267, guid: 983b718a497883e46bb1b4c8927f9961,
+        type: 3}
+      propertyPath: key
+      value: CornCob
+      objectReference: {fileID: 0}
     - target: {fileID: 4467490074185128065, guid: 983b718a497883e46bb1b4c8927f9961,
         type: 3}
       propertyPath: m_AssetId
@@ -122,3 +140,9 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 983b718a497883e46bb1b4c8927f9961, type: 3}
+--- !u!1 &3779453053764013334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4353717592831911221, guid: 983b718a497883e46bb1b4c8927f9961,
+    type: 3}
+  m_PrefabInstance: {fileID: 583448776967186467}
+  m_PrefabAsset: {fileID: 0}

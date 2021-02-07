@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5695527596241382787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2428660906454981478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: AmmoBoxFoamDartRiot
 --- !u!1001 &3514941620123180479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8,6 +21,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1129417237004281078, guid: cd26a108df3c1ac4098c55b854d97a8c,
+        type: 3}
+      propertyPath: key
+      value: AmmoBoxFoamDartRiot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162141071543796631, guid: cd26a108df3c1ac4098c55b854d97a8c,
         type: 3}
       propertyPath: key
       value: AmmoBoxFoamDartRiot
@@ -103,3 +121,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd26a108df3c1ac4098c55b854d97a8c, type: 3}
+--- !u!1 &2428660906454981478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1257563116079482585, guid: cd26a108df3c1ac4098c55b854d97a8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3514941620123180479}
+  m_PrefabAsset: {fileID: 0}

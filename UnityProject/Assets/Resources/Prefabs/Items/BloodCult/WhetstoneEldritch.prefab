@@ -28,6 +28,11 @@ PrefabInstance:
       value: A block, empowered by dark magic. Sharp weapons will be enhanced when
         used on the stone.
       objectReference: {fileID: 0}
+    - target: {fileID: 2047176668858179085, guid: 718d1f376545f3643aa114f47282f5ae,
+        type: 3}
+      propertyPath: key
+      value: WhetstoneEldritch
+      objectReference: {fileID: 0}
     - target: {fileID: 2066657539452561143, guid: 718d1f376545f3643aa114f47282f5ae,
         type: 3}
       propertyPath: m_AssetId

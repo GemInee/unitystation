@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5746288418800978829, guid: 45be202b015c7df4ea023a669e9461d6,
+        type: 3}
+      propertyPath: key
+      value: ContrabandSyringeSpaceKrokodil
+      objectReference: {fileID: 0}
     - target: {fileID: 5778774750239632620, guid: 45be202b015c7df4ea023a669e9461d6,
         type: 3}
       propertyPath: key

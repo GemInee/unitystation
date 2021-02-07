@@ -157,6 +157,11 @@ PrefabInstance:
       propertyPath: Armor.Energy
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 8761498967940202377, guid: 5da2eb22d55c9c045bd7c22925c9b948,
+        type: 3}
+      propertyPath: key
+      value: NarSienHardenedArmor
+      objectReference: {fileID: 0}
     - target: {fileID: 8806207020331714971, guid: 5da2eb22d55c9c045bd7c22925c9b948,
         type: 3}
       propertyPath: m_Sprite

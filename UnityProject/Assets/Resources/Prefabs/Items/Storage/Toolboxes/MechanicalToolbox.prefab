@@ -185,6 +185,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8626937218509163504, guid: 5e6f53b64c8b43c4285d171f4a9346a3,
+        type: 3}
+      propertyPath: key
+      value: MechanicalToolbox
+      objectReference: {fileID: 0}
     - target: {fileID: 8730046533839931236, guid: 5e6f53b64c8b43c4285d171f4a9346a3,
         type: 3}
       propertyPath: itemStorageCapacity

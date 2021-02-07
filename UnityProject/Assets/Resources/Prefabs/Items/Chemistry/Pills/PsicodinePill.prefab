@@ -127,6 +127,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8886135311358738236, guid: 41b8ba286ee48d147b5b90a4535e27c8,
+        type: 3}
+      propertyPath: key
+      value: PsicodinePill
+      objectReference: {fileID: 0}
     - target: {fileID: 8905537019261093830, guid: 41b8ba286ee48d147b5b90a4535e27c8,
         type: 3}
       propertyPath: m_AssetId

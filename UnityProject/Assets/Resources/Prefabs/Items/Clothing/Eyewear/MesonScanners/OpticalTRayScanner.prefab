@@ -18,6 +18,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 198714743950464897, guid: 67edff078434b7d46a845a17839398cf,
+        type: 3}
+      propertyPath: key
+      value: OpticalTRayScanner
+      objectReference: {fileID: 0}
     - target: {fileID: 252619367079423931, guid: 67edff078434b7d46a845a17839398cf,
         type: 3}
       propertyPath: m_RootOrder

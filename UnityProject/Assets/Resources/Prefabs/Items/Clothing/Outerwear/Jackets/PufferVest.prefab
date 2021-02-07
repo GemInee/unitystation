@@ -98,6 +98,11 @@ PrefabInstance:
       propertyPath: bodyPartsCovered
       value: 144
       objectReference: {fileID: 0}
+    - target: {fileID: 4097615052981194672, guid: 83c862ecf47a1fc44be594cc5e19b980,
+        type: 3}
+      propertyPath: key
+      value: PufferVest
+      objectReference: {fileID: 0}
     - target: {fileID: 4794426842226564789, guid: 83c862ecf47a1fc44be594cc5e19b980,
         type: 3}
       propertyPath: clothData

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8012004451875290393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782836474257692363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InternalMagazineCylinder357
 --- !u!1001 &7180828491628438235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35,6 +48,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 93bf57552eef5424a9677ef6d7179beb,
         type: 2}
+    - target: {fileID: 7505634776130433374, guid: 279de6cf129850f4b8a22d99511dfd03,
+        type: 3}
+      propertyPath: key
+      value: InternalMagazineCylinder357
+      objectReference: {fileID: 0}
     - target: {fileID: 7561096614868355492, guid: 279de6cf129850f4b8a22d99511dfd03,
         type: 3}
       propertyPath: m_AssetId
@@ -123,3 +141,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 279de6cf129850f4b8a22d99511dfd03, type: 3}
+--- !u!1 &782836474257692363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7600489401807614992, guid: 279de6cf129850f4b8a22d99511dfd03,
+    type: 3}
+  m_PrefabInstance: {fileID: 7180828491628438235}
+  m_PrefabAsset: {fileID: 0}

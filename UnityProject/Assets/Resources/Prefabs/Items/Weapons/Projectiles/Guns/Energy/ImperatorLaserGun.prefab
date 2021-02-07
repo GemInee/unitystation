@@ -65,6 +65,11 @@ PrefabInstance:
       propertyPath: Resistances.Indestructable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7562000918053305868, guid: 7fd11f09765590540b2685a0dfa2b8ea,
+        type: 3}
+      propertyPath: key
+      value: ImperatorLaserGun
+      objectReference: {fileID: 0}
     - target: {fileID: 7611817970648562498, guid: 7fd11f09765590540b2685a0dfa2b8ea,
         type: 3}
       propertyPath: m_Name

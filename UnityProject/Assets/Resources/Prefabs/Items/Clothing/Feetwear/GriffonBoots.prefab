@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1779951508726017106, guid: 502f496beb9034b9b9c97868e845ed7e,
+        type: 3}
+      propertyPath: key
+      value: GriffonBoots
+      objectReference: {fileID: 0}
     - target: {fileID: 1864679013969520924, guid: 502f496beb9034b9b9c97868e845ed7e,
         type: 3}
       propertyPath: m_Name

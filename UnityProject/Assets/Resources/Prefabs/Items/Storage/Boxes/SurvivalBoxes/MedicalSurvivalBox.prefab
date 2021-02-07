@@ -19,6 +19,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a7deac4afc9363468b68c229a32d3ed0,
         type: 2}
+    - target: {fileID: 2904648051400905117, guid: d7baf14ff3cf76f489318502c06c7f49,
+        type: 3}
+      propertyPath: key
+      value: MedicalSurvivalBox
+      objectReference: {fileID: 0}
     - target: {fileID: 2920677005122447719, guid: d7baf14ff3cf76f489318502c06c7f49,
         type: 3}
       propertyPath: m_AssetId

@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2925295792565537515, guid: c842b429251c54792a95e292b838d034,
+        type: 3}
+      propertyPath: key
+      value: BartendersSkirt
+      objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: c842b429251c54792a95e292b838d034,
         type: 3}
       propertyPath: m_Name

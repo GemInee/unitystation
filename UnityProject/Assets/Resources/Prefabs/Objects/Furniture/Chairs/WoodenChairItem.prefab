@@ -42,6 +42,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 17ea2628ddb9ec647a43984ca5fa0371,
         type: 3}
+    - target: {fileID: 6800973382342666711, guid: c8af057edecfa6c4f877ae1b042d6ead,
+        type: 3}
+      propertyPath: key
+      value: WoodenChairItem
+      objectReference: {fileID: 0}
     - target: {fileID: 6820383887292256557, guid: c8af057edecfa6c4f877ae1b042d6ead,
         type: 3}
       propertyPath: m_AssetId
@@ -56,6 +61,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Resistances.Flammable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
         type: 3}
@@ -74,6 +84,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -86,16 +101,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854875258046910957, guid: c8af057edecfa6c4f877ae1b042d6ead,
         type: 3}

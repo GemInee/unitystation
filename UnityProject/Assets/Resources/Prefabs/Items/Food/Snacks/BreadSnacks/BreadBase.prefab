@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &533334006774801824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994121511001194284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: BreadBase
 --- !u!1001 &2628477929029769221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11,6 +24,11 @@ PrefabInstance:
         type: 3}
       propertyPath: EatFoodA.AssetAddress
       value: Assets/Prefabs/Effects/EatFood.prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916001619611312743, guid: 15c2e5750e27b0c4b8faf56ad3e06f46,
+        type: 3}
+      propertyPath: key
+      value: BreadBase
       objectReference: {fileID: 0}
     - target: {fileID: 4971432123339430557, guid: 15c2e5750e27b0c4b8faf56ad3e06f46,
         type: 3}
@@ -89,3 +107,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15c2e5750e27b0c4b8faf56ad3e06f46, type: 3}
+--- !u!1 &6994121511001194284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5001852895933687593, guid: 15c2e5750e27b0c4b8faf56ad3e06f46,
+    type: 3}
+  m_PrefabInstance: {fileID: 2628477929029769221}
+  m_PrefabAsset: {fileID: 0}

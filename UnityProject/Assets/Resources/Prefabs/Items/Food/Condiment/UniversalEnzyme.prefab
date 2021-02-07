@@ -44,6 +44,11 @@ PrefabInstance:
       propertyPath: key
       value: UniversalEnzyme
       objectReference: {fileID: 0}
+    - target: {fileID: 8378034233399543377, guid: 32a48818544878d4c8e14ac2fd2b195a,
+        type: 3}
+      propertyPath: key
+      value: UniversalEnzyme
+      objectReference: {fileID: 0}
     - target: {fileID: 8395826806974201515, guid: 32a48818544878d4c8e14ac2fd2b195a,
         type: 3}
       propertyPath: m_AssetId

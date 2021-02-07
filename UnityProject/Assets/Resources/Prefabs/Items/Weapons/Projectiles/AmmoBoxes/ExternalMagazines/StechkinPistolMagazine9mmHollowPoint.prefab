@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8066590637925265639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6502447562071458960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: StechkinPistolMagazine9mmHollowPoint
 --- !u!1001 &6155960557485129101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11,6 +24,11 @@ PrefabInstance:
         type: 3}
       propertyPath: initialName
       value: stechkin pistol magazine (9mm hollow-point)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008819243026168915, guid: 623189688b8953843aa87c899f5b0c31,
+        type: 3}
+      propertyPath: key
+      value: StechkinPistolMagazine9mmHollowPoint
       objectReference: {fileID: 0}
     - target: {fileID: 1064887464572126377, guid: 623189688b8953843aa87c899f5b0c31,
         type: 3}
@@ -84,3 +102,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 623189688b8953843aa87c899f5b0c31, type: 3}
+--- !u!1 &6502447562071458960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1104235240792570141, guid: 623189688b8953843aa87c899f5b0c31,
+    type: 3}
+  m_PrefabInstance: {fileID: 6155960557485129101}
+  m_PrefabAsset: {fileID: 0}
