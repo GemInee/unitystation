@@ -89,6 +89,7 @@ namespace Localization
 						currentParent = currentParent.parent;
 					}
 					localizedText.SetKey(currentKey);
+					//Debug.LogError("Not found LocalizedTesx component. Added new component: " + localizedText.name); // TODO: Довести до ума текст записи в журнал.
 				}
 
 				// Теперь компонента точно готова к работе
@@ -97,7 +98,9 @@ namespace Localization
 				{
 					localizationUIData.Add(localizedText.GetKey(), textLabel.text);
 				}
-				catch{}
+				catch{
+					//Debug.LogError("Cannot add item: " + localizedText.name + ". Possible doubled name in UI");
+				}
 			}
 
 			// Словарь с уникальными значениями готов, пока в качестве костыля переведем словарь в ранее заготовленную структуру данных для локализаций
@@ -146,12 +149,15 @@ namespace Localization
 		private void ExportItemLocalizationExample()
 		{
 			int index = 0;
-			var objectsInScene = GetNonSceneLocalizedTextComponents();
+			var objectsInScene = GetNonSceneItemPrefabs();
+			var exportItemData = new Dictionary<string, ItemData>();
+
 			var localizedItemsData = new LocalizedItemData
 			{
 				ItemsData = new Item[objectsInScene.Count]
 			};
-			foreach (LocalizedText localizedText in objectsInScene)
+
+			foreach (Items.ItemAttributesV2 localizedText in objectsInScene)
 			{
 				var component = localizedText.gameObject.GetComponent<Items.ItemAttributesV2>();
 				if (component.InitialName != "Unnamed" && component.InitialName != "")
@@ -167,16 +173,16 @@ namespace Localization
 					item.ItemData = itemDataForExport;
 					localizedItemsData.ItemsData[index] = item;
 					index++;
-				}
 
-				//try
-				//{
-				//	localizedItemsData.Add(localizedText.name, itemDataForExport);
-				//}
-				//catch
-				//{
-				//	Debug.LogError("Cannot add item: " + localizedText.name + ". Possible doubled name in prefabs");
-				//}
+					try
+					{
+						exportItemData.Add(item.ItemName, item.ItemData);
+					}
+					catch
+					{
+						//debug.logerror("cannot add item: " + localizedtext.name + ". possible doubled name in prefabs");
+					}
+				}
 
 			}
 			string fileNameItems = "English_items.json";
@@ -186,7 +192,7 @@ namespace Localization
 			{
 				File.Delete(filePathItems);
 			}
-			File.WriteAllText(filePathItems, Newtonsoft.Json.JsonConvert.SerializeObject(localizedItemsData, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
+			File.WriteAllText(filePathItems, Newtonsoft.Json.JsonConvert.SerializeObject(exportItemData, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
 		}
 
 		//Добавить процедуру проверки наличия компоненты локализации и добавления, если её нет с созданием ключа
