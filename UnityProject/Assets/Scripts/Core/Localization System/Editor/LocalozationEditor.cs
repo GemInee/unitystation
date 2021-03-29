@@ -62,21 +62,23 @@ namespace Localization
 
 		}
 
+		// Обработчик процедуры экспорта файла дефолтной локали в ДЖСОН файл
 		private void ExportUILocalizationExample()
 		{
+			// Получаем все объекты содержащие текстовую компоненту
 			var textLabels = GetSceneTextComponents();
 
-			LocalizationUIData localizationUIData = new LocalizationUIData
-			{
-				Items = new LocalizationUIItem[textLabels.Count]
-			};
-			int index = 0;
+			// Подготовим словарик для дефолтной локализации, которую будем сериализовывать в ДЖСОН. Словарик автоматически удалит дубликаты ключей
+			Dictionary<string, string> localizationUIData = new Dictionary<string, string>();
+
+			// Обработаем полученные ранее геймобъекты содержащие текстовую компоненту
 			foreach (Text textLabel in textLabels)
 			{
-				LocalizationUIItem localizationUIItem = new LocalizationUIItem();
+				// Подготовим объект для получения компоненты локализации у геймобъекта с текстовой компонентой
 				LocalizedText localizedText = textLabel.gameObject.GetComponent<LocalizedText>();
-				if (localizedText == null)
+				if (localizedText == null) // Убедимся, что компонента действительно есть
 				{
+					// Если компонента не найдена, то сразу же добавим её и присвоим ключи
 					localizedText = textLabel.gameObject.AddComponent<LocalizedText>();
 
 					string currentKey = textLabel.gameObject.name;
@@ -89,11 +91,18 @@ namespace Localization
 					localizedText.SetKey(currentKey);
 				}
 
-				localizationUIItem.Key = localizedText.GetKey();
-				localizationUIItem.Value = textLabel.text;
-				localizationUIData.Items[index] = localizationUIItem;
-				index++;
+				// Теперь компонента точно готова к работе
+				// Обработаем ошибки дубликатов ключей, чтобы на выходе получить словарь только с уникальными ключами
+				try
+				{
+					localizationUIData.Add(localizedText.GetKey(), textLabel.text);
+				}
+				catch{}
 			}
+
+			// Словарь с уникальными значениями готов, пока в качестве костыля переведем словарь в ранее заготовленную структуру данных для локализаций
+
+
 			string fileNameItems = "English.json";
 			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
 

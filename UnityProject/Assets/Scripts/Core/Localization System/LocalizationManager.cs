@@ -10,8 +10,8 @@ namespace Localization
 {
 	public class LocalizationManager : MonoBehaviour
 	{
-		public delegate void LanguageIsChangeEventHandler();
-		public event LanguageIsChangeEventHandler OnLanguageChanged;
+		//public delegate void LanguageIsChangeEventHandler();
+		//public event LanguageIsChangeEventHandler OnLanguageChanged;
 		public static LocalizationManager instance;
 		public GameObject dropDown;
 		private Dictionary<string, string> localizedText;
@@ -61,11 +61,18 @@ namespace Localization
 			if (File.Exists(filePathUI))
 			{
 				string dataJson = File.ReadAllText(filePathUI);
-				LocalizationUIData loadedData = JsonUtility.FromJson<LocalizationUIData>(dataJson);
+				var loadedData = LocalizationUIData.FromJson(dataJson);
 
 				for (int i = 0; i < loadedData.Items.Length; i++)
 				{
-					localizedText.Add(loadedData.Items[i].Key, loadedData.Items[i].Value);
+					try
+					{
+						localizedText.Add(loadedData.Items[i].Key, loadedData.Items[i].Value);
+					}
+					catch
+					{
+						Debug.LogError("Duplicate UI Item Found");
+					}
 				}
 
 			}
