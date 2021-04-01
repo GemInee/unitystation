@@ -23,7 +23,7 @@ namespace Localization
 
 			if (GetComponent<Text>() != null)
 			{
-				textForLocalize = GetComponent<Text>();
+				//textForLocalize = GetComponent<Text>();
 				LocalizationManager.OnWakeGameObjectUICacheForLocalization(GetComponent<LocalizedText>());
 			}
 			else if (GetComponent<Items.ItemAttributesV2>() != null)
@@ -56,16 +56,22 @@ namespace Localization
 
 		public void SetLocalizationText(string localizedText)
 		{
-			Text text = textForLocalize as Text;
-			text.text = localizedText;
+			if(localizedText != null)
+			{
+				Text text = textForLocalize as Text;
+				this.gameObject.GetComponent<Text>().text = localizedText;
+			}
+
 		}
 
 		public void SetLocalizationItems(ItemData itemData)
 		{
-			var itemForLocalize = gameObject.GetComponent<Items.ItemAttributesV2>();
-			itemForLocalize.ServerSetArticleName(itemData.InitialItemName);
-			itemForLocalize.ServerSetArticleDescription(itemData.InitialItemDescription);
-
+			if(itemData != null)
+			{
+				var itemForLocalize = gameObject.GetComponent<Items.ItemAttributesV2>();
+				itemForLocalize.ServerSetArticleName(itemData.InitialItemName);
+				itemForLocalize.ServerSetArticleDescription(itemData.InitialItemDescription);
+			}
 		}
 
 		public void SetLocalizationStrings(Dictionary<string, string> localizedDictionary)

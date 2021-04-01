@@ -71,7 +71,7 @@ namespace Localization
 					}
 					catch
 					{
-						Debug.LogError("Duplicate UI Item Found");
+						Debug.LogError("Duplicate UI Item Found on i: " + i);
 					}
 				}
 
@@ -85,8 +85,10 @@ namespace Localization
 			//Применяем локализацию для UI
 			foreach (LocalizedText component in cacheLocalizedGameObjectsUIComponents)
 			{
-
-				component.SetLocalizationText((GetLocalizedValue(component.GetKey())));
+				if(component != null)
+				{
+					component.SetLocalizationText((GetLocalizedValue(component.GetKey())));
+				}
 
 			}
 			//f.Name.Remove(f.Name.Length - f.Extension.Length)
@@ -116,8 +118,11 @@ namespace Localization
 
 			foreach(LocalizedText component in cacheLocalizedItems)
 			{
-
-				component.SetLocalizationItems(GetLocalizedValueForItem(component.GetKey()));
+				if(component != null)
+				{
+					component.SetLocalizationItems(GetLocalizedValueForItem(component.GetKey()));
+				}
+				
 			}
 
 
@@ -135,7 +140,7 @@ namespace Localization
 
 			else
 			{
-				result = key;
+				result = null;
 				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
 			}
 

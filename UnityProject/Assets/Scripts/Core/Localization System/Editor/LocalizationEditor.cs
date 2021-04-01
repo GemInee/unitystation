@@ -69,7 +69,7 @@ namespace Localization
 			var textLabels = GetSceneTextComponents();
 
 			// Подготовим словарик для дефолтной локализации, которую будем сериализовывать в ДЖСОН. Словарик автоматически удалит дубликаты ключей
-			Dictionary<string, string> localizationUIData = new Dictionary<string, string>();
+			Dictionary<string, string> localizationUIDataFilter = new Dictionary<string, string>();
 
 			// Обработаем полученные ранее геймобъекты содержащие текстовую компоненту
 			foreach (Text textLabel in textLabels)
@@ -96,15 +96,28 @@ namespace Localization
 				// Обработаем ошибки дубликатов ключей, чтобы на выходе получить словарь только с уникальными ключами
 				try
 				{
-					localizationUIData.Add(localizedText.GetKey(), textLabel.text);
+					localizationUIDataFilter.Add(localizedText.GetKey(), textLabel.text);
 				}
 				catch{
 					//Debug.LogError("Cannot add item: " + localizedText.name + ". Possible doubled name in UI");
 				}
 			}
 
-			// Словарь с уникальными значениями готов, пока в качестве костыля переведем словарь в ранее заготовленную структуру данных для локализаций
+			LocalizationUIData localizationUIData = new LocalizationUIData
+			{
+				Items = new LocalizationUIItem[textLabels.Count]
+			};
 
+			// Словарь с уникальными значениями готов, пока в качестве костыля переведем словарь в ранее заготовленную структуру данных для локализаций
+			var i = 0;
+			foreach (var itemUI in localizationUIDataFilter)
+			{
+				LocalizationUIItem item = new LocalizationUIItem();
+				item.Key = itemUI.Key;
+				item.Value = itemUI.Value;
+				localizationUIData.Items[i] = item;
+				i++;
+			}
 
 			string fileNameItems = "English.json";
 			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
@@ -183,8 +196,22 @@ namespace Localization
 						//debug.logerror("cannot add item: " + localizedtext.name + ". possible doubled name in prefabs");
 					}
 				}
-
 			}
+			var itemDataExportStructure = new LocalizedItemData
+			{
+				ItemsData = new Item[objectsInScene.Count]
+			};
+			int i = 0;
+			foreach(var exportItem in exportItemData)
+			{
+				Item item = new Item();
+				item.ItemName = exportItem.Key;
+				item.ItemData = exportItem.Value;
+				itemDataExportStructure.ItemsData[i] = item;
+
+				i++;
+			}
+
 			string fileNameItems = "English_items.json";
 			string filePathItems = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameItems);
 
@@ -192,7 +219,7 @@ namespace Localization
 			{
 				File.Delete(filePathItems);
 			}
-			File.WriteAllText(filePathItems, Newtonsoft.Json.JsonConvert.SerializeObject(exportItemData, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
+			File.WriteAllText(filePathItems, Newtonsoft.Json.JsonConvert.SerializeObject(itemDataExportStructure, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
 		}
 
 		//Добавить процедуру проверки наличия компоненты локализации и добавления, если её нет с созданием ключа
