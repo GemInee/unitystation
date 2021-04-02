@@ -10,6 +10,7 @@ namespace Localization
 
 		[SerializeField]
 		private string key;
+		private LocalizationManager localLocalizationManager;
 		//public string KeyString;
 
 
@@ -19,18 +20,19 @@ namespace Localization
 		void Start()
 		{
 			//this.gameObject.GetType();
-
+			localLocalizationManager = LocalizationManager.GetLocalizationManager();
 
 			if (GetComponent<Text>() != null)
 			{
 				//textForLocalize = GetComponent<Text>();
-				LocalizationManager.OnWakeGameObjectUICacheForLocalization(GetComponent<LocalizedText>());
+				localLocalizationManager.OnWakeGameObjectUICacheForLocalization(GetComponent<LocalizedText>());
+
 			}
 			else if (GetComponent<Items.ItemAttributesV2>() != null)
 			{
 				// тут надо получить дикшинари со списком всего необходимого к локализации текста
 				//itemForLocalize = GetComponent<Items.ItemAttributesV2>
-				LocalizationManager.OnWakeItemsCacheForLocalization(GetComponent<LocalizedText>());
+				localLocalizationManager.OnWakeItemsCacheForLocalization(GetComponent<LocalizedText>());
 			}
 			//GetComponent<Strings.ChatTemplates>() != null || GetComponent<Strings.ReportTemplates>() != null с этим надо что то делать
 			//else if (null != null)

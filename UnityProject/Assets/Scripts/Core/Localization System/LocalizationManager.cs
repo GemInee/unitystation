@@ -44,6 +44,11 @@ namespace Localization
 			FillDropDown();
 		}
 
+		public static LocalizationManager GetLocalizationManager()
+		{
+			return instance;
+		}
+
 		public void LoadLocalizedText()
 		{
 			//Выбор локализации
@@ -87,7 +92,7 @@ namespace Localization
 			{
 				if(component != null)
 				{
-					component.SetLocalizationText((GetLocalizedValue(component.GetKey())));
+					component.SetLocalizationText(GetLocalizedValue(component.GetKey()));
 				}
 
 			}
@@ -130,48 +135,51 @@ namespace Localization
 			isReady = true;
 		}
 
-		public string GetLocalizedValue(string key)
-		{
-			string result;
-			if (localizedText.ContainsKey(key))
-			{
-				result = localizedText[key];
-			}
+		//public string GetLocalizedValue(string key)
+		//{
+		//	string result;
+		//	if (localizedText.ContainsKey(key))
+		//	{
+		//		result = localizedText[key];
+		//	}
 
-			else
-			{
-				result = null;
-				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
-			}
+		//	else
+		//	{
+		//		result = null;
+		//		Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
+		//	}
 
-			return result;
-		}
+		//	return result;
+		//}
 
-		public ItemData GetLocalizedValueForItem(string key)
-		{
-			ItemData result = null;
+		//public ItemData GetLocalizedValueForItem(string key)
+		//{
+		//	ItemData result = null;
 
-			if (localizedItemsData.ContainsKey(key))
-			{
-				result = localizedItemsData[key];
-			}
-			else
-			{
-				//result = key;
-				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
-			}
+		//	if (localizedItemsData.ContainsKey(key))
+		//	{
+		//		result = localizedItemsData[key];
+		//	}
+		//	else
+		//	{
+		//		//result = key;
+		//		Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
+		//	}
 
-			return result;
-		}
+		//	return result;
+		//}
 
-		public static void OnWakeGameObjectUICacheForLocalization(LocalizedText component)
+		public void OnWakeGameObjectUICacheForLocalization(LocalizedText component)
 		{
 			cacheLocalizedGameObjectsUIComponents.Add(component);
+			component.SetLocalizationText(GetLocalizedValue(component.GetKey()));
+
 		}
 
-		public static void OnWakeItemsCacheForLocalization(LocalizedText component)
+		public void OnWakeItemsCacheForLocalization(LocalizedText component)
 		{
 			cacheLocalizedItems.Add(component);
+			component.SetLocalizationItems(GetLocalizedValueForItem(component.GetKey()));
 		}
 
 		public static void OnWakeStringsCacheForLocalization(LocalizedText component)
@@ -212,5 +220,41 @@ namespace Localization
 		{
 
 		}
+
+		public string GetLocalizedValue(string key)
+		{
+			string result;
+			if (localizedText.ContainsKey(key))
+			{
+				result = localizedText[key];
+			}
+
+			else
+			{
+				result = null;
+				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
+			}
+
+			return result;
+		}
+
+		public ItemData GetLocalizedValueForItem(string key)
+		{
+			ItemData result = null;
+
+			if (localizedItemsData.ContainsKey(key))
+			{
+				result = localizedItemsData[key];
+			}
+			else
+			{
+				//result = key;
+				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
+			}
+
+			return result;
+		}
 	}
+
+
 }
