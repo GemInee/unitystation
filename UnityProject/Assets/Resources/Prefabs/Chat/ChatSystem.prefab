@@ -6562,6 +6562,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1369039240316595895}
     m_Modifications:
+    - target: {fileID: -8181947556888121648, guid: a311e2bde4b0f554c980666c969a060c,
+        type: 3}
+      propertyPath: key
+      value: Text_Channel_ActiveChannelTemplate_ChannelList_ActiveRadioChannels_WindowFloat_Chat_Chat_SafeArea_System_ChatSystem
+      objectReference: {fileID: 0}
     - target: {fileID: 2400726790984915926, guid: a311e2bde4b0f554c980666c969a060c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6703,6 +6708,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224044340976132104}
     m_Modifications:
+    - target: {fileID: -6293062874265450141, guid: 115e79e65ed316546aea2bf6ffdcc366,
+        type: 3}
+      propertyPath: key
+      value: Text_Tooltip_ChannelToggleTemplate_ChannelListPanel_WindowFloat_Chat_Chat_SafeArea_System_ChatSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: -3309724447746090215, guid: 115e79e65ed316546aea2bf6ffdcc366,
+        type: 3}
+      propertyPath: key
+      value: Label_ChannelToggleTemplate_ChannelListPanel_WindowFloat_Chat_Chat_SafeArea_System_ChatSystem
+      objectReference: {fileID: 0}
     - target: {fileID: 1618776996635460, guid: 115e79e65ed316546aea2bf6ffdcc366, type: 3}
       propertyPath: m_Name
       value: ChannelToggleTemplate

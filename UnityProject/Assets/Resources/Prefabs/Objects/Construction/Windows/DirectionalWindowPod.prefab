@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1686528676404301756, guid: 044c5be8ebc308b4b9e450ab85fec306,
+        type: 3}
+      propertyPath: pushPullSound.AssetAddress
+      value: null
+      objectReference: {fileID: 0}
     - target: {fileID: 1997010105179189354, guid: 044c5be8ebc308b4b9e450ab85fec306,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -30,6 +35,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -45,6 +55,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -56,16 +71,6 @@ PrefabInstance:
     - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6481677162204650602, guid: 044c5be8ebc308b4b9e450ab85fec306,

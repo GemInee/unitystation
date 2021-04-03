@@ -870,6 +870,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7814199626047965460}
     m_Modifications:
+    - target: {fileID: -8235193702884777708, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_R_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -6213488820013939270, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_G_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -5978828503171745371, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: Text_InputField_ColorField_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -3685880534148329388, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_H_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -3347218367981893217, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_V_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -3187616727029179202, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: Placeholder_InputField_ColorField_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -2116248560629873904, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_H_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: -1713159041967691525, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_A_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
     - target: {fileID: 157272, guid: 916ee089a0d7b63419075f91e1c657ec, type: 3}
       propertyPath: m_Name
       value: Picker 2.0
@@ -1570,6 +1610,11 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 53500955307445814, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: Text_Create Button_Presets_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
     - target: {fileID: 224930228632997228, guid: 916ee089a0d7b63419075f91e1c657ec,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1680,6 +1725,11 @@ PrefabInstance:
       propertyPath: m_textInfo.characterCount
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1386830902933743327, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: Text_Button_Toggle_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
     - target: {fileID: 1440340546253466085, guid: 916ee089a0d7b63419075f91e1c657ec,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1770,6 +1820,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 3509310825948913399, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_S_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989941010427963280, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_V_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041874361598415807, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_R_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059607980027237680, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_G_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
     - target: {fileID: 5078837637579408882, guid: 916ee089a0d7b63419075f91e1c657ec,
         type: 3}
       propertyPath: m_textInfo.lineCount
@@ -1789,6 +1859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5332806031522630226, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: LeftText_B_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
       objectReference: {fileID: 0}
     - target: {fileID: 5371010756907530599, guid: 916ee089a0d7b63419075f91e1c657ec,
         type: 3}
@@ -1819,6 +1894,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6734371955970472196, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_S_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
+      objectReference: {fileID: 0}
+    - target: {fileID: 7399713353757354058, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_A_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
       objectReference: {fileID: 0}
     - target: {fileID: 7841828214527297421, guid: 916ee089a0d7b63419075f91e1c657ec,
         type: 3}
@@ -1899,6 +1984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212587493082443013, guid: 916ee089a0d7b63419075f91e1c657ec,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_B_Sliders_Picker 2.0_Canvas_Panel_InputField_UIColour
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 916ee089a0d7b63419075f91e1c657ec, type: 3}

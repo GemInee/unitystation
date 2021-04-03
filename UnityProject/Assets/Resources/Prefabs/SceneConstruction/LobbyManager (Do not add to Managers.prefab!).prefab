@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 6296311149160515833}
   - component: {fileID: 6296311149160515835}
   - component: {fileID: 6296311149160515834}
+  - component: {fileID: -7713799368883159136}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -116,6 +117,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: BACK
+--- !u!114 &-7713799368883159136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149160515832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ReturnToPlayerLoginButton_InformationPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149170988474
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +356,7 @@ GameObject:
   - component: {fileID: 6296311149234577236}
   - component: {fileID: 6296311149234577238}
   - component: {fileID: 6296311149234577237}
+  - component: {fileID: 6734285280467363122}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -409,6 +425,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.25
   m_Text: CONTROLS
+--- !u!114 &6734285280467363122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149234577235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Info_ControlInformationPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149254511545
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +450,7 @@ GameObject:
   - component: {fileID: 6296311149254511546}
   - component: {fileID: 6296311149254511548}
   - component: {fileID: 6296311149254511547}
+  - component: {fileID: -8536468923962979693}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -488,6 +519,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Next
+--- !u!114 &-8536468923962979693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149254511545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_NextButton (1)_CreateAccountPendingPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149255628332
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +581,7 @@ GameObject:
   - component: {fileID: 6296311149265179738}
   - component: {fileID: 6296311149265179740}
   - component: {fileID: 6296311149265179739}
+  - component: {fileID: -7662179466108493935}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -604,6 +650,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: TRY AGAIN
+--- !u!114 &-7662179466108493935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149265179737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_TryAgainButton_WrongVersionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149300384027
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +807,7 @@ GameObject:
   - component: {fileID: 6296311149300652126}
   - component: {fileID: 6296311149300652192}
   - component: {fileID: 6296311149300652127}
+  - component: {fileID: 5594445027347667027}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -815,6 +876,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: CONTROLS
+--- !u!114 &5594445027347667027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149300652125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ShowControlInfoButton_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149323912681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,6 +1165,7 @@ GameObject:
   - component: {fileID: 6296311149434613003}
   - component: {fileID: 6296311149434613005}
   - component: {fileID: 6296311149434613004}
+  - component: {fileID: 1607311391253656923}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1162,6 +1238,20 @@ MonoBehaviour:
 
     Visit
     https://unitystation.org for more info.'
+--- !u!114 &1607311391253656923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149434613002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_Info_WrongVersionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149477034884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,6 +1960,7 @@ GameObject:
   - component: {fileID: 6296311149631747323}
   - component: {fileID: 6296311149631747325}
   - component: {fileID: 6296311149631747324}
+  - component: {fileID: 7134300894157799676}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1938,6 +2029,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &7134300894157799676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149631747322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_PasswordInput_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149645971083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2372,7 @@ GameObject:
   - component: {fileID: 6296311149700904629}
   - component: {fileID: 6296311149700904631}
   - component: {fileID: 6296311149700904630}
+  - component: {fileID: 5109333906561301243}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2335,6 +2441,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Go Back
+--- !u!114 &5109333906561301243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149700904628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_GoBackButton_LoggingInPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149708501643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,6 +2540,7 @@ GameObject:
   - component: {fileID: 6296311149767101120}
   - component: {fileID: 6296311149767101122}
   - component: {fileID: 6296311149767101121}
+  - component: {fileID: 8682220494192997809}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2488,6 +2609,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Resend
+--- !u!114 &8682220494192997809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149767101183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ResendEmailButton_LoggingInPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149807768287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,6 +2679,7 @@ GameObject:
   - component: {fileID: 6296311149836360398}
   - component: {fileID: 6296311149836360400}
   - component: {fileID: 6296311149836360399}
+  - component: {fileID: 420674721844485737}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2612,6 +2748,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Next
+--- !u!114 &420674721844485737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149836360397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_NextButton (1)_LoggingInPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149844327183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,6 +2927,7 @@ GameObject:
   - component: {fileID: 6296311149846464392}
   - component: {fileID: 6296311149846464391}
   - component: {fileID: 6296311149846464390}
+  - component: {fileID: 3025258185424448710}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2845,6 +2996,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &3025258185424448710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149846464389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_EmailInput_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149858229053
 GameObject:
   m_ObjectHideFlags: 0
@@ -3287,6 +3452,7 @@ GameObject:
   - component: {fileID: 6296311149939431916}
   - component: {fileID: 6296311149939431918}
   - component: {fileID: 6296311149939431917}
+  - component: {fileID: -176456749531286758}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3355,6 +3521,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 7777
+--- !u!114 &-176456749531286758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149939431915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_ServerPortInput_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149950080479
 GameObject:
   m_ObjectHideFlags: 0
@@ -3366,6 +3546,7 @@ GameObject:
   - component: {fileID: 6296311149950080544}
   - component: {fileID: 6296311149950080546}
   - component: {fileID: 6296311149950080545}
+  - component: {fileID: -3959168345511335108}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -3434,6 +3615,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Choose a password:'
+--- !u!114 &-3959168345511335108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149950080479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_PasswordInput_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149952488905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3748,7 @@ GameObject:
   - component: {fileID: 6296311149961726396}
   - component: {fileID: 6296311149961726398}
   - component: {fileID: 6296311149961726397}
+  - component: {fileID: -2202631746679909671}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3621,6 +3817,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 127.0.0.1
+--- !u!114 &-2202631746679909671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311149961726395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_ServerAddressInput_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311149983502835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3896,6 +4106,7 @@ GameObject:
   - component: {fileID: 6296311150007616503}
   - component: {fileID: 6296311150007616505}
   - component: {fileID: 6296311150007616504}
+  - component: {fileID: 7446915486099426406}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3964,6 +4175,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: START GAME
+--- !u!114 &7446915486099426406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150007616502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_StartGameButton_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150036476428
 GameObject:
   m_ObjectHideFlags: 0
@@ -3975,6 +4200,7 @@ GameObject:
   - component: {fileID: 6296311150036476429}
   - component: {fileID: 6296311150036476431}
   - component: {fileID: 6296311150036476430}
+  - component: {fileID: -6981767031050955806}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -4043,6 +4269,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Valid email address:'
+--- !u!114 &-6981767031050955806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150036476428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_EmailInput_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150045756583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4054,6 +4294,7 @@ GameObject:
   - component: {fileID: 6296311150045756584}
   - component: {fileID: 6296311150045756586}
   - component: {fileID: 6296311150045756585}
+  - component: {fileID: -3400256766028665434}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -4122,6 +4363,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Host Server
+--- !u!114 &-3400256766028665434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150045756583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Label_HostServerToggle_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150046997674
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,6 +4725,7 @@ GameObject:
   - component: {fileID: 6296311150116360290}
   - component: {fileID: 6296311150116360292}
   - component: {fileID: 6296311150116360291}
+  - component: {fileID: -7782988637342750107}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -4538,6 +4794,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: EXIT
+--- !u!114 &-7782988637342750107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150116360289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ExitButton_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150148322970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4549,6 +4819,7 @@ GameObject:
   - component: {fileID: 6296311150148322971}
   - component: {fileID: 6296311150148322973}
   - component: {fileID: 6296311150148322972}
+  - component: {fileID: -7316207306426019998}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -4617,6 +4888,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Please Wait...
+--- !u!114 &-7316207306426019998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150148322970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_CreateAccountPendingPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150160105076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4628,6 +4913,7 @@ GameObject:
   - component: {fileID: 6296311150160105077}
   - component: {fileID: 6296311150160105079}
   - component: {fileID: 6296311150160105078}
+  - component: {fileID: 5491553204149884665}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -4696,6 +4982,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.25
   m_Text: ERROR
+--- !u!114 &5491553204149884665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150160105076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Info_WrongVersionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150169923086
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,6 +5175,7 @@ GameObject:
   - component: {fileID: 6296311150170458771}
   - component: {fileID: 6296311150170458773}
   - component: {fileID: 6296311150170458772}
+  - component: {fileID: -6287222830924797973}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -4943,6 +5244,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Choose a username:'
+--- !u!114 &-6287222830924797973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150170458770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_UserNameInput_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150198699893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4954,6 +5269,7 @@ GameObject:
   - component: {fileID: 6296311150198699896}
   - component: {fileID: 6296311150198699895}
   - component: {fileID: 6296311150198699894}
+  - component: {fileID: 6449475201717209493}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5022,6 +5338,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &6449475201717209493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150198699893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_UserNameInput_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150209057943
 GameObject:
   m_ObjectHideFlags: 0
@@ -5033,6 +5363,7 @@ GameObject:
   - component: {fileID: 6296311150209057944}
   - component: {fileID: 6296311150209057946}
   - component: {fileID: 6296311150209057945}
+  - component: {fileID: 4718737104815312638}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -5101,6 +5432,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Change Log
+--- !u!114 &4718737104815312638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150209057943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Header_Window_ChangeLog_Canvas_LobbyManager (Do not add to Managers.prefab!)
 --- !u!1 &6296311150218328015
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,6 +5548,7 @@ GameObject:
   - component: {fileID: 6296311150220046843}
   - component: {fileID: 6296311150220046845}
   - component: {fileID: 6296311150220046844}
+  - component: {fileID: 645331065922402449}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5272,6 +5617,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: EXIT
+--- !u!114 &645331065922402449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150220046842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ExitButton_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150241872203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,6 +5642,7 @@ GameObject:
   - component: {fileID: 6296311150241872204}
   - component: {fileID: 6296311150241872206}
   - component: {fileID: 6296311150241872205}
+  - component: {fileID: -426798603423627527}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5351,6 +5711,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: BACK
+--- !u!114 &-426798603423627527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150241872203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ReturnToPlayerLoginButton_ControlInformationPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150250406740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5554,6 +5928,7 @@ GameObject:
   - component: {fileID: 6296311150283111815}
   - component: {fileID: 6296311150283111817}
   - component: {fileID: 6296311150283111816}
+  - component: {fileID: 7800868476674504532}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5622,6 +5997,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Go Back
+--- !u!114 &7800868476674504532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150283111814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_GoBackButton_CreateAccountPendingPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150293247543
 GameObject:
   m_ObjectHideFlags: 0
@@ -5633,6 +6022,7 @@ GameObject:
   - component: {fileID: 6296311150293247544}
   - component: {fileID: 6296311150293247546}
   - component: {fileID: 6296311150293247545}
+  - component: {fileID: 1558096608268816251}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5701,6 +6091,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: X
+--- !u!114 &1558096608268816251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150293247543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_CloseButton_Window_ChangeLog_Canvas_LobbyManager (Do not add to Managers.prefab!)
 --- !u!1 &6296311150296763296
 GameObject:
   m_ObjectHideFlags: 0
@@ -6045,6 +6448,7 @@ GameObject:
   - component: {fileID: 6296311150353009220}
   - component: {fileID: 6296311150353009222}
   - component: {fileID: 6296311150353009221}
+  - component: {fileID: 6835241815193567654}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6130,6 +6534,20 @@ MonoBehaviour:
 
     X
     = Swap hands'
+--- !u!114 &6835241815193567654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150353009219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_Info_ControlInformationPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150397594701
 GameObject:
   m_ObjectHideFlags: 0
@@ -6141,6 +6559,7 @@ GameObject:
   - component: {fileID: 6296311150397594702}
   - component: {fileID: 6296311150397594704}
   - component: {fileID: 6296311150397594703}
+  - component: {fileID: -6537441268110658238}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6209,6 +6628,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: LOGOUT
+--- !u!114 &-6537441268110658238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150397594701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_LogOutButton_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150412173386
 GameObject:
   m_ObjectHideFlags: 0
@@ -6352,6 +6785,7 @@ GameObject:
   - component: {fileID: 6296311150423724838}
   - component: {fileID: 6296311150423724840}
   - component: {fileID: 6296311150423724839}
+  - component: {fileID: 2646091586633398518}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -6420,6 +6854,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Email Address
+--- !u!114 &2646091586633398518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150423724837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_UserNameInput_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150441738965
 GameObject:
   m_ObjectHideFlags: 0
@@ -6431,6 +6879,7 @@ GameObject:
   - component: {fileID: 6296311150441738966}
   - component: {fileID: 6296311150441738968}
   - component: {fileID: 6296311150441738967}
+  - component: {fileID: 264347304256534358}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -6499,6 +6948,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Auto login
+--- !u!114 &264347304256534358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150441738965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Label_LoginAutomatically_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150449109889
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,6 +6973,7 @@ GameObject:
   - component: {fileID: 6296311150449109890}
   - component: {fileID: 6296311150449109892}
   - component: {fileID: 6296311150449109891}
+  - component: {fileID: -3835694599762339303}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6578,6 +7042,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: INFO
+--- !u!114 &-3835694599762339303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150449109889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_ShowInfoButton_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150454148192
 GameObject:
   m_ObjectHideFlags: 0
@@ -6875,6 +7353,7 @@ GameObject:
   - component: {fileID: 6296311150534155681}
   - component: {fileID: 6296311150534155683}
   - component: {fileID: 6296311150534155682}
+  - component: {fileID: 7843755449402172623}
   m_Layer: 5
   m_Name: ConnectionFailedMessage
   m_TagString: Untagged
@@ -6943,6 +7422,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Failed to connect to server...
+--- !u!114 &7843755449402172623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150534155680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: ConnectionFailedMessage_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150544756294
 GameObject:
   m_ObjectHideFlags: 0
@@ -7122,6 +7615,7 @@ GameObject:
   - component: {fileID: 6296311150545173592}
   - component: {fileID: 6296311150545173594}
   - component: {fileID: 6296311150545173593}
+  - component: {fileID: -3720726600855072639}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -7190,6 +7684,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Server Port
+--- !u!114 &-3720726600855072639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150545173591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_ServerPortInput_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150562581682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7568,6 +8076,7 @@ GameObject:
   - component: {fileID: 6296311150678593325}
   - component: {fileID: 6296311150678593327}
   - component: {fileID: 6296311150678593326}
+  - component: {fileID: 6569944595225139292}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -7639,6 +8148,20 @@ MonoBehaviour:
     getting all Space Station 13 features in eventually, most are not in yet, and
     some are jerry-rigged.\n\nSo keep in mind that this game does not yet represent
     SS13 in current state, and be warned of bugs you're likely to encounter!"
+--- !u!114 &6569944595225139292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150678593324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_Info_InformationPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150680667340
 GameObject:
   m_ObjectHideFlags: 0
@@ -7917,6 +8440,7 @@ GameObject:
   - component: {fileID: 6296311150717862168}
   - component: {fileID: 6296311150717862170}
   - component: {fileID: 6296311150717862169}
+  - component: {fileID: 4008190681078012390}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -7985,6 +8509,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Server Address
+--- !u!114 &4008190681078012390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150717862167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_ServerAddressInput_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150731234053
 GameObject:
   m_ObjectHideFlags: 0
@@ -7996,6 +8534,7 @@ GameObject:
   - component: {fileID: 6296311150731234056}
   - component: {fileID: 6296311150731234055}
   - component: {fileID: 6296311150731234054}
+  - component: {fileID: 9075152548944769057}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -8064,6 +8603,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: ACCOUNT LOGIN
+--- !u!114 &9075152548944769057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150731234053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Header_LobbyDialogue_Canvas_LobbyManager (Do not add to Managers.prefab!)
 --- !u!1 &6296311150745302279
 GameObject:
   m_ObjectHideFlags: 0
@@ -8128,6 +8680,7 @@ GameObject:
   - component: {fileID: 6296311150779503904}
   - component: {fileID: 6296311150779503906}
   - component: {fileID: 6296311150779503905}
+  - component: {fileID: -498819157710449816}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -8196,6 +8749,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.25
   m_Text: REMINDER
+--- !u!114 &-498819157710449816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150779503839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Title_Info_InformationPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150872075328
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,6 +8774,7 @@ GameObject:
   - component: {fileID: 6296311150872075329}
   - component: {fileID: 6296311150872075331}
   - component: {fileID: 6296311150872075330}
+  - component: {fileID: 8065858048257949917}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -8275,6 +8843,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Password
+--- !u!114 &8065858048257949917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150872075328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_PasswordInput_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150882838386
 GameObject:
   m_ObjectHideFlags: 0
@@ -9099,6 +9681,7 @@ GameObject:
   - component: {fileID: 6296311150990809789}
   - component: {fileID: 6296311150990809791}
   - component: {fileID: 6296311150990809790}
+  - component: {fileID: -8149681318801435470}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -9167,6 +9750,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &-8149681318801435470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150990809788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_PasswordInput_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311150999290677
 GameObject:
   m_ObjectHideFlags: 0
@@ -9178,6 +9775,7 @@ GameObject:
   - component: {fileID: 6296311150999290678}
   - component: {fileID: 6296311150999290680}
   - component: {fileID: 6296311150999290679}
+  - component: {fileID: 1861857942754479280}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -9246,6 +9844,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &1861857942754479280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311150999290677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_InputField_UserNameInput_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311151036477903
 GameObject:
   m_ObjectHideFlags: 0
@@ -9300,6 +9912,7 @@ GameObject:
   - component: {fileID: 6296311151038234198}
   - component: {fileID: 6296311151038234200}
   - component: {fileID: 6296311151038234199}
+  - component: {fileID: 2720374046835355602}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -9368,6 +9981,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Create
+--- !u!114 &2720374046835355602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311151038234197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_CreateAccountButton_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311151046906490
 GameObject:
   m_ObjectHideFlags: 0
@@ -9379,6 +10006,7 @@ GameObject:
   - component: {fileID: 6296311151046906491}
   - component: {fileID: 6296311151046906493}
   - component: {fileID: 6296311151046906492}
+  - component: {fileID: -2978892670510459770}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -9447,6 +10075,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Cancel
+--- !u!114 &-2978892670510459770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311151046906490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_CancelButton_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311151049190277
 GameObject:
   m_ObjectHideFlags: 0
@@ -9864,6 +10506,7 @@ GameObject:
   - component: {fileID: 6296311151182457735}
   - component: {fileID: 6296311151182457737}
   - component: {fileID: 6296311151182457736}
+  - component: {fileID: -8792938365981856578}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -9932,6 +10575,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: CHARACTER
+--- !u!114 &-8792938365981856578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311151182457734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_CharacterButton_ConnectionPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311151198619771
 GameObject:
   m_ObjectHideFlags: 0
@@ -9943,6 +10600,7 @@ GameObject:
   - component: {fileID: 6296311151198619772}
   - component: {fileID: 6296311151198619774}
   - component: {fileID: 6296311151198619773}
+  - component: {fileID: 3863719132016889898}
   m_Layer: 5
   m_Name: InputLabel
   m_TagString: Untagged
@@ -10011,6 +10669,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Logging in..
+--- !u!114 &3863719132016889898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311151198619771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: InputLabel_LoggingInPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311151259302130
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,6 +10694,7 @@ GameObject:
   - component: {fileID: 6296311151259302131}
   - component: {fileID: 6296311151259302133}
   - component: {fileID: 6296311151259302132}
+  - component: {fileID: 1304692187985518743}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -10090,6 +10763,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Next
+--- !u!114 &1304692187985518743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311151259302130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_NextButton_CreateAccountPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1 &6296311151274725489
 GameObject:
   m_ObjectHideFlags: 0
@@ -10233,6 +10920,7 @@ GameObject:
   - component: {fileID: 6296311151290375200}
   - component: {fileID: 6296311151290375202}
   - component: {fileID: 6296311151290375201}
+  - component: {fileID: -3734389789617751336}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -10301,6 +10989,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Login
+--- !u!114 &-3734389789617751336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296311151290368991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fe6c2ec5574784ea0de3e0a6c42187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Text_LoginButton_AccountLoginPanel_TopPanel_Body_LobbyDialogue_Canvas_LobbyManager
+    (Do not add to Managers.prefab!)
 --- !u!1001 &6194484311469972379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10308,6 +11010,101 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6296311151145105694}
     m_Modifications:
+    - target: {fileID: -8903207314795464404, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_ClothingButton_Clothing_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -7184733577938865245, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_GenderButton_Gender_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -6163266827701438062, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_CharacterName_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -5463090731255361369, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LabelUnderwear_DropdownUnderwear_Underwear_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -5163818043557918268, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Body Title_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -4040330216462076974, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Item Label_Item_Content_Viewport_Template_DropdownUnderwear_Underwear_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -3732571617723928311, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_HairStyle_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -3143149609724241520, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LabelSocks_DropdownSocks_Socks_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -3066452879728557865, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Header_AntagonistPreferences_CharacterCreator_Canvas_LobbyManager (Do
+        not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -2443174260453594394, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_ApplyButton_Footer_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -974914315167189408, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_InputField_Age_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -973999610691793778, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_SkinTone_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -879618032120348465, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ErrorLabel_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -312437929798404704, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_CharacterViewNavButtons_CHARACTERVIEW_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: -169663763337820989, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_ExitButton_Footer_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024800485661379, guid: 464eef54ebfa2cd47918181c9a33e358, type: 3}
+      propertyPath: key
+      value: LeftText_R_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
     - target: {fileID: 186836749994921382, guid: 464eef54ebfa2cd47918181c9a33e358,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -10338,10 +11135,202 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 275707080498682956, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_G_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 352031111139488631, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_AccentButton_Accent_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 374996625362997277, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_Socks_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 583005881797017452, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_Age_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 665912248490891560, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_H_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 779377617513393425, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_EyeColor_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145385810264703790, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LeftText_B_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470599169980268771, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LeftText_V_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596416108590224834, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Placeholder_InputField_ColorField_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608042268522413715, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_JobPrefsButton_Footer_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676096126071931091, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: EditText_ColorLabel_HairStyle_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770371065765605496, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_S_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
     - target: {fileID: 1924942308337441463, guid: 464eef54ebfa2cd47918181c9a33e358,
         type: 3}
       propertyPath: m_Name
       value: CharacterCreator
+      objectReference: {fileID: 0}
+    - target: {fileID: 2023329903954715069, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LabelFacialHair_DropdownFacialHair_HairType_FacialHair_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546157289803718966, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_A_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2829746705679239788, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LeftText_H_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304927900014879111, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LeftText_A_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468986544816020563, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_BackpackButton_BackpackPreference_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932281217270154687, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: IdentityTitle_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196645685292754041, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_B_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4465764957317338624, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Title_Header_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572098675017804128, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_Accent_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592861858051601852, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_FacialHair_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672298826883373354, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Item Label_Item_Content_Viewport_Template_DropdownFacialHair_HairType_FacialHair_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879112934013387629, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: EditText_ColorLabel_FacialHair_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997524794146604874, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_Create Button_Presets_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081187909437988505, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Item Label_Item_Content_Viewport_Template_DropdownHair_HairType_HairStyle_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211335961264957544, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_R_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5251599503167017679, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_Gender_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891798143422706341, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LabelHair_DropdownHair_HairType_HairStyle_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898844570891597067, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: EditText_ColorLabel_EyeColor_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5941613955837415833, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: InputLabel_Underwear_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149503460552248349, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_RandomButton_Footer_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
       objectReference: {fileID: 0}
     - target: {fileID: 6184246790101725093, guid: 464eef54ebfa2cd47918181c9a33e358,
         type: 3}
@@ -10447,6 +11436,60 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6258833448791191459, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_Button_Toggle_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725270310201967183, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Header_JobPreferences_CharacterCreator_Canvas_LobbyManager (Do not add
+        to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263801437634703941, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Item Label_Item_Content_Viewport_Template_DropdownSocks_Socks_Group2_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318707694864156173, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_InputField_CharacterName_Group1_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557668687023042777, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_InputField_ColorField_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791671906215333062, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LeftText_G_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956544698764158820, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: Text_AntagPrefsButton_Footer_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8267424407798689516, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: ValueText_InputField_V_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8455305018519607179, guid: 464eef54ebfa2cd47918181c9a33e358,
+        type: 3}
+      propertyPath: key
+      value: LeftText_S_Sliders_Picker 2.0_CharacterCustomization_TopPanel_Body_CharacterCustomization_CharacterCreator_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 464eef54ebfa2cd47918181c9a33e358, type: 3}
@@ -10600,6 +11643,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6296311150667213412}
     m_Modifications:
+    - target: {fileID: -6383823625967440078, guid: 8aa915d84ac124abda89c0b2d5ed84e8,
+        type: 3}
+      propertyPath: key
+      value: ChangeLogEntry_Viewport_Scroll View_Body_Window_ChangeLog_Canvas_LobbyManager
+        (Do not add to Managers.prefab!)
+      objectReference: {fileID: 0}
     - target: {fileID: 2210627262343931100, guid: 8aa915d84ac124abda89c0b2d5ed84e8,
         type: 3}
       propertyPath: m_Pivot.x

@@ -59,6 +59,10 @@ namespace Localization
 			{
 				ExportUILocalizationExample();
 			}
+			if (GUILayout.Button("Export Objects localization example"))
+			{
+				ExportObjectsLocalizationExample();
+			}
 
 		}
 
@@ -222,6 +226,71 @@ namespace Localization
 			File.WriteAllText(filePathItems, Newtonsoft.Json.JsonConvert.SerializeObject(itemDataExportStructure, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
 		}
 
+		// Экспорт примера локализации для Объектов (не предметов)
+		private void ExportObjectsLocalizationExample()
+		{
+			int index = 0;
+			var objectsInScene = GetNonSceneObjectsPrefabs();
+			var exportObjectData = new Dictionary<string, ObjectData>();
+
+			var localizedItemsData = new LocalizedObjectData
+			{
+				ObjectsData = new Object[objectsInScene.Count]
+			};
+
+			foreach (ObjectAttributes localizedText in objectsInScene)
+			{
+				var component = localizedText.gameObject.GetComponent<ObjectAttributes>();
+				if (component.InitialName != "Unnamed" && component.InitialName != "")
+				{
+					Object obj = new Object();
+					ObjectData objectDataForExport = new ObjectData();
+
+					obj.ObjectName = localizedText.name;
+					objectDataForExport.InitialObjectName = component.InitialName;
+					objectDataForExport.InitialObjectDescription = component.InitialDescription;
+					objectDataForExport.ExportName = component.ExportName;
+					objectDataForExport.ExportMessage = component.ExportMessage;
+					obj.ObjectData = objectDataForExport;
+					localizedItemsData.ObjectsData[index] = obj;
+					index++;
+
+					try
+					{
+						exportObjectData.Add(obj.ObjectName, obj.ObjectData);
+					}
+					catch
+					{
+						//debug.logerror("cannot add item: " + localizedtext.name + ". possible doubled name in prefabs");
+					}
+				}
+			}
+			var objectDataExportStructure = new LocalizedObjectData
+			{
+				ObjectsData = new Object[objectsInScene.Count]
+			};
+			int i = 0;
+			foreach (var exportObject in exportObjectData)
+			{
+				Object obj = new Object();
+				obj.ObjectName = exportObject.Key;
+				obj.ObjectData = exportObject.Value;
+				objectDataExportStructure.ObjectsData[i] = obj;
+
+				i++;
+			}
+
+			string fileNameObjects = "English_objects.json";
+			string filePathObjects = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameObjects);
+
+			if (File.Exists(filePathObjects))
+			{
+				File.Delete(filePathObjects);
+			}
+			File.WriteAllText(filePathObjects, Newtonsoft.Json.JsonConvert.SerializeObject(objectDataExportStructure, Newtonsoft.Json.Formatting.Indented, Localization.Converter.Settings), System.Text.Encoding.UTF8);
+		}
+
+
 		//Добавить процедуру проверки наличия компоненты локализации и добавления, если её нет с созданием ключа
 		private void AddRenewLocalizationInItemPrefabs()
 		{
@@ -297,6 +366,20 @@ namespace Localization
 
 			return objectsInScene;
 		}
+
+		private List<ObjectAttributes> GetNonSceneObjectsPrefabs()
+		{
+			List<ObjectAttributes> objectsInScene = new List<ObjectAttributes>();
+
+			foreach (ObjectAttributes go in Resources.FindObjectsOfTypeAll(typeof(ObjectAttributes)) as ObjectAttributes[])
+			{
+				if (EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+					objectsInScene.Add(go);
+			}
+
+			return objectsInScene;
+		}
+
 		private List<Text> GetSceneTextComponents()
 		{
 			List<Text> objectsInScene = new List<Text>();
