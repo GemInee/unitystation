@@ -76,6 +76,16 @@ namespace Localization
 			}
 		}
 
+		public void SetLocalizationObjects(ObjectData objectData)
+		{
+			if (objectData != null)
+			{
+				var objectForLocalize = gameObject.GetComponent<ObjectAttributes>();
+				objectForLocalize.ServerSetArticleName(objectData.InitialObjectName);
+				objectForLocalize.ServerSetArticleDescription(objectData.InitialObjectDescription);
+			}
+		}
+
 		public void SetLocalizationStrings(Dictionary<string, string> localizedDictionary)
 		{
 			//присрать отправку набора переведенных текстов в скрипты чата, либо прировнять чат к айтему

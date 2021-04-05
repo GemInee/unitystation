@@ -16,8 +16,10 @@ namespace Localization
 		public GameObject dropDown;
 		private Dictionary<string, string> localizedText;
 		private Dictionary<string, ItemData> localizedItemsData;
+		private Dictionary<string, ObjectData> localizedObjectsData;
 		private static List<LocalizedText> cacheLocalizedGameObjectsUIComponents;
 		private static List<LocalizedText> cacheLocalizedItems;
+		private static List<LocalizedText> cacheLocalizedObjects;
 		private static List<LocalizedText> cacheLocalizedStrings;
 		private FileInfo[] LocalizedFilesCache;
 		private bool isReady = false;
@@ -57,9 +59,9 @@ namespace Localization
 
 			//Грузим локализацию для UI
 			string fileNameUI = dropdown.options[dropdown.value].text + ".json";
-				//currentAvailableLocalizationFileNames.;
-				//LocalizedFilesCache[dropdown.value].Name;
-
+			//currentAvailableLocalizationFileNames.;
+			//LocalizedFilesCache[dropdown.value].Name;
+			#region Загрузка локализации UI
 			localizedText = new Dictionary<string, string>();
 			string filePathUI = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameUI);
 
@@ -96,7 +98,9 @@ namespace Localization
 				}
 
 			}
-			//f.Name.Remove(f.Name.Length - f.Extension.Length)
+			#endregion
+
+			#region Загрузка локализации предметов
 			//Грузим локализацию для Items
 			string fileNameItems = dropdown.options[dropdown.value].text + "_items.json";
 
@@ -130,50 +134,52 @@ namespace Localization
 				
 			}
 
+			#endregion
 
+			#region Загрузка локализации объектов
+			//Грузим локализацию для Objects
+			string fileNameObjects = dropdown.options[dropdown.value].text + "_objects.json";
+
+			//Готовим словарик приёмник для локализаций
+			localizedObjectsData = new Dictionary<string, ObjectData>();
+			string filePathObjetcs = Path.Combine(Application.streamingAssetsPath, "Localizations", fileNameObjects);
+
+			if (File.Exists(filePathObjetcs))
+			{
+				string jsonString = File.ReadAllText(filePathObjetcs);
+
+				var loadedLocalizedObjectData = LocalizedObjectData.FromJson(jsonString);
+
+				for (int i = 0; i < loadedLocalizedObjectData.ObjectsData.Length; i++)
+				{
+					localizedObjectsData.Add(loadedLocalizedObjectData.ObjectsData[i].ObjectName, loadedLocalizedObjectData.ObjectsData[i].ObjectData);
+				}
+
+			}
+			else
+			{
+				Debug.LogError("Cannot find file");
+			}
+
+			foreach (LocalizedText component in cacheLocalizedObjects)
+			{
+				if (component != null)
+				{
+					component.SetLocalizationObjects(GetLocalizedValueForObject(component.GetKey()));
+				}
+
+			}
+
+			#endregion
 
 			isReady = true;
 		}
 
-		//public string GetLocalizedValue(string key)
-		//{
-		//	string result;
-		//	if (localizedText.ContainsKey(key))
-		//	{
-		//		result = localizedText[key];
-		//	}
-
-		//	else
-		//	{
-		//		result = null;
-		//		Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
-		//	}
-
-		//	return result;
-		//}
-
-		//public ItemData GetLocalizedValueForItem(string key)
-		//{
-		//	ItemData result = null;
-
-		//	if (localizedItemsData.ContainsKey(key))
-		//	{
-		//		result = localizedItemsData[key];
-		//	}
-		//	else
-		//	{
-		//		//result = key;
-		//		Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
-		//	}
-
-		//	return result;
-		//}
 
 		public void OnWakeGameObjectUICacheForLocalization(LocalizedText component)
 		{
 			cacheLocalizedGameObjectsUIComponents.Add(component);
 			component.SetLocalizationText(GetLocalizedValue(component.GetKey()));
-
 		}
 
 		public void OnWakeItemsCacheForLocalization(LocalizedText component)
@@ -216,11 +222,6 @@ namespace Localization
 			return isReady;
 		}
 
-		public void ExportLocalizationExample()
-		{
-
-		}
-
 		public string GetLocalizedValue(string key)
 		{
 			string result;
@@ -254,6 +255,24 @@ namespace Localization
 
 			return result;
 		}
+
+		public ObjectData GetLocalizedValueForObject(string key)
+		{
+			ObjectData result = null;
+
+			if (localizedObjectsData.ContainsKey(key))
+			{
+				result = localizedObjectsData[key];
+			}
+			else
+			{
+				//result = key;
+				Debug.LogError("ERROR: Scrip in " + gameObject.name + " not found text for localaizeing with KEY: " + key + "!", gameObject);
+			}
+
+			return result;
+		}
+
 	}
 
 
