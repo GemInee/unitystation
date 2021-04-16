@@ -13485,8 +13485,8 @@
     {
       "itemName": "SingleLowCableCoil",
       "itemData": {
-        "InitialItemName": "low power cable coil",
-        "InitialItemDescription": "A coil of insulated low power cable.",
+        "InitialItemName": "катушка кабеля малой мощности",
+        "InitialItemDescription": "Катушка изолированного кабеля малой мощности.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13494,8 +13494,8 @@
     {
       "itemName": "SingleMediumCableCoil",
       "itemData": {
-        "InitialItemName": "medium power cable coil",
-        "InitialItemDescription": "A coil of insulated medium power cable.",
+        "InitialItemName": "катушка кабеля средней мощности",
+        "InitialItemDescription": "Катушка изолированного кабеля средней мощности.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13503,8 +13503,8 @@
     {
       "itemName": "AstrotamePack",
       "itemData": {
-        "InitialItemName": "astrotame pack",
-        "InitialItemDescription": "A small plastic pack with condiments to put on your food.",
+        "InitialItemName": "стая астрономов",
+        "InitialItemDescription": "Небольшой пластиковый пакет с приправами, чтобы положить их в еду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13512,8 +13512,8 @@
     {
       "itemName": "BBQSaucePack",
       "itemData": {
-        "InitialItemName": "bbq sauce pack",
-        "InitialItemDescription": "A small plastic pack with condiments to put on your food.",
+        "InitialItemName": "пакет соуса барбекю",
+        "InitialItemDescription": "Небольшой пластиковый пакет с приправами, чтобы положить их в еду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13521,8 +13521,8 @@
     {
       "itemName": "CondimentBottle",
       "itemData": {
-        "InitialItemName": "condiment bottle",
-        "InitialItemDescription": "Just your average condiment bottle.",
+        "InitialItemName": "бутылка с приправой",
+        "InitialItemDescription": "Обычная бутылка для приправы.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13530,8 +13530,8 @@
     {
       "itemName": "CondimentPack",
       "itemData": {
-        "InitialItemName": "condiment pack",
-        "InitialItemDescription": "A small plastic pack with condiments to put on your food.",
+        "InitialItemName": "пакет приправ",
+        "InitialItemDescription": "Небольшой пластиковый пакет с приправами, чтобы положить их в еду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13539,8 +13539,8 @@
     {
       "itemName": "FlourSack",
       "itemData": {
-        "InitialItemName": "flour sack",
-        "InitialItemDescription": "A big bag of flour. Good for baking!",
+        "InitialItemName": "мешок муки",
+        "InitialItemDescription": "Большой мешок муки. Подходит для выпечки!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13548,8 +13548,8 @@
     {
       "itemName": "HotsaucePack",
       "itemData": {
-        "InitialItemName": "hotsauce pack",
-        "InitialItemDescription": "A small plastic pack with condiments to put on your food.",
+        "Initial ItemName": "пакет с горячим соусом",
+        "InitialItemDescription": "Небольшой пластиковый пакет с приправами, чтобы добавить в еду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13557,8 +13557,8 @@
     {
       "itemName": "KetchupPack",
       "itemData": {
-        "InitialItemName": "ketchup pack",
-        "InitialItemDescription": "A small plastic pack with condiments to put on your food.",
+        "InitialItemName": "упаковка кетчупа",
+        "InitialItemDescription": "Небольшой пластиковый пакет с приправами, чтобы положить их в еду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13566,8 +13566,8 @@
     {
       "itemName": "Mayonnaise",
       "itemData": {
-        "InitialItemName": "mayonnaise",
-        "InitialItemDescription": "An oily condiment made from egg yolks.",
+        "InitialItemName": "майонез",
+        "InitialItemDescription": "Масляная приправа из яичных желтков.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13575,8 +13575,8 @@
     {
       "itemName": "PepperMill",
       "itemData": {
-        "InitialItemName": "pepper mill",
-        "InitialItemDescription": "Often used to flavor food or make people sneeze.",
+        "InitialItemName": "мельница для перца",
+        "InitialItemDescription": "Часто используется для придания вкуса еде или для того, чтобы заставить людей чихать.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13584,8 +13584,8 @@
     {
       "itemName": "RiceSack",
       "itemData": {
-        "InitialItemName": "rice sack",
-        "InitialItemDescription": "A big bag of rice. Good for cooking!",
+        "InitialItemName": "мешок риса",
+        "InitialItemDescription": "Большой мешок риса. Подходит для приготовления!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13593,8 +13593,8 @@
     {
       "itemName": "SaltShaker",
       "itemData": {
-        "InitialItemName": "salt shaker",
-        "InitialItemDescription": "Salt. From space oceans, presumably.",
+        "InitialItemName": "солонка",
+        "InitialItemDescription": "Соль. Предположительно, из космоса.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13602,8 +13602,8 @@
     {
       "itemName": "SoyMilk",
       "itemData": {
-        "InitialItemName": "soymilk",
-        "InitialItemDescription": "It's soy milk. White and nutritious goodness!",
+        "InitialItemName": "соевое молоко",
+        "InitialItemDescription": "Это соевое молоко. Белое и питательное добро!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13611,8 +13611,8 @@
     {
       "itemName": "SoySauce",
       "itemData": {
-        "InitialItemName": "soy sauce",
-        "InitialItemDescription": "A salty soy-based flavoring.",
+        "InitialItemName": "соевый соус",
+        "InitialItemDescription": "Ароматизатор на основе соленой сои.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13620,8 +13620,8 @@
     {
       "itemName": "SpaceMilk",
       "itemData": {
-        "InitialItemName": "space milk",
-        "InitialItemDescription": "It's milk. White and nutritious goodness!",
+        "InitialItemName": "космическое молоко",
+        "InitialItemDescription": "Это молоко. Белое и питательное добро!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13629,8 +13629,8 @@
     {
       "itemName": "SugarSack",
       "itemData": {
-        "InitialItemName": "sugar sack",
-        "InitialItemDescription": "Tasty spacey sugar!",
+        "Initial ItemName": "сахарный мешок",
+        "Initial Item Description": "Вкусный космический сахар!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13638,8 +13638,8 @@
     {
       "itemName": "UniversalEnzyme",
       "itemData": {
-        "InitialItemName": "condiment bottle",
-        "InitialItemDescription": "Just your average condiment bottle.",
+        "InitialItemName": "бутылка с приправой",
+        "InitialItemDescription": "Обычная бутылка для приправы.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13647,8 +13647,8 @@
     {
       "itemName": "_DrinkBase",
       "itemData": {
-        "InitialItemName": "drink",
-        "InitialItemDescription": "yummy",
+        "InitialItemName": "пить",
+        "InitialItemDescription": "вкусно",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13656,8 +13656,8 @@
     {
       "itemName": "BottleOfWater",
       "itemData": {
-        "InitialItemName": "bottle of water",
-        "InitialItemDescription": "A bottle of water filled at an old Earth bottling facility.",
+        "InitialItemName": "бутылка воды",
+        "InitialItemDescription": "Бутылка воды, наполненная на старом заводе по розливу в бутылки.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13665,8 +13665,8 @@
     {
       "itemName": "BottleOfWaterEmpty",
       "itemData": {
-        "InitialItemName": "bottle of water",
-        "InitialItemDescription": "A bottle of water filled at an old Earth bottling facility.",
+        "InitialItemName": "бутылка воды",
+        "InitialItemDescription": "Бутылка воды, наполненная на старом заводе по розливу в бутылки.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13674,8 +13674,8 @@
     {
       "itemName": "BottleOfWaterLarge",
       "itemData": {
-        "InitialItemName": "bottle of water",
-        "InitialItemDescription": "A fresh commercial-sized bottle of water.",
+        "InitialItemName": "бутылка воды",
+        "InitialItemDescription": "Бутылка свежей воды коммерческого размера.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13683,8 +13683,8 @@
     {
       "itemName": "BritCup",
       "itemData": {
-        "InitialItemName": "cup",
-        "InitialItemDescription": "A cup with the british flag emblazoned on it.",
+        "InitialItemName": "чашка",
+        "InitialItemDescription": "Чашка с изображением британского флага.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13692,8 +13692,8 @@
     {
       "itemName": "CaptainsFlask",
       "itemData": {
-        "InitialItemName": "captain's flask",
-        "InitialItemDescription": "A gold flask belonging to the captain.",
+        "InitialItemName": "капитанская фляжка",
+        "InitialItemDescription": "Золотая фляга капитана.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13701,8 +13701,8 @@
     {
       "itemName": "ColoCup",
       "itemData": {
-        "InitialItemName": "colo cup",
-        "InitialItemDescription": "A cheap, mass produced style of cup, typically used at parties. They never seem to come out red, for some reason...",
+        "InitialItemName": "чашка коло",
+        "InitialItemDescription": "Дешевые чашки массового производства, обычно используемые на вечеринках. По какой-то причине они никогда не выходят красными ...",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13710,8 +13710,8 @@
     {
       "itemName": "CupRamen",
       "itemData": {
-        "InitialItemName": "cup ramen",
-        "InitialItemDescription": "Just add 5ml of water, self heats! A taste that reminds you of your school years. Now new with salty flavour!",
+        "Initial ItemName": "cup ramen",
+        "InitialItemDescription": "Просто добавьте 5 мл воды, саморазогревается! Вкус, который напоминает вам о ваших школьных годах. Теперь новинка с соленым вкусом!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13719,8 +13719,8 @@
     {
       "itemName": "DetectivesFlask",
       "itemData": {
-        "InitialItemName": "detective's flask",
-        "InitialItemDescription": "The detective's only true friend.",
+        "InitialItemName": "колба детектива",
+        "InitialItemDescription": "Единственный верный друг детектива.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13728,8 +13728,8 @@
     {
       "itemName": "DirtyIceCup",
       "itemData": {
-        "InitialItemName": "dirty ice cup",
-        "InitialItemDescription": "Either Nanotrasen's water supply is contaminated, or this machine actually vends lemon, chocolate, and cherry snow cones.",
+        "InitialItemName": "чашка грязного льда",
+        "InitialItemDescription": "Либо вода в системе Nanotrasen загрязнена, либо этот автомат действительно продает лимонные, шоколадные и вишневые шишки.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13737,8 +13737,8 @@
     {
       "itemName": "_DrinkBottleBase",
       "itemData": {
-        "InitialItemName": "glass bottle",
-        "InitialItemDescription": "This blank bottle is unyieldingly anonymous, offering no clues to its contents.",
+        "InitialItemName": "стеклянная бутылка",
+        "InitialItemDescription": "Эта пустая бутылка неизменно анонимна и не дает никаких ключей к разгадке ее содержимого.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13747,7 +13747,7 @@
       "itemName": "BadminBrew",
       "itemData": {
         "InitialItemName": "Badmin Brew",
-        "InitialItemDescription": "....It's green!",
+        "InitialItemDescription": ".... Он зеленый!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13755,8 +13755,8 @@
     {
       "itemName": "BadminkaVodka",
       "itemData": {
-        "InitialItemName": "Badminka vodka",
-        "InitialItemDescription": "The label's written in Cyrillic. All you can make out is the name and a word that looks vaguely like 'Vodka'.",
+        "InitialItemName": "Водка Бадминка",
+        "InitialItemDescription": "Этикетка написана кириллицей. Все, что вы можете разобрать, - это название и слово, отдаленно напоминающее \"Водка\".",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13764,8 +13764,8 @@
     {
       "itemName": "BottleOfLizardWine",
       "itemData": {
-        "InitialItemName": "bottle of lizard wine",
-        "InitialItemDescription": "An alcoholic beverage from Space China, made by infusing lizard tails in ethanol. Inexplicably popular among command staff.",
+        "InitialItemName": "бутылка вина из ящериц",
+        "InitialItemDescription": "Алкогольный напиток из Космического Китая, приготовленный путем вливания хвостов ящериц в этанол. Необъяснимо популярный среди командного состава.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13773,8 +13773,8 @@
     {
       "itemName": "BottleOfNothing",
       "itemData": {
-        "InitialItemName": "bottle of nothing",
-        "InitialItemDescription": "A bottle filled with nothing.",
+        "InitialItemName": "пустая бутылка",
+        "InitialItemDescription": "Пустая бутылка.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13782,8 +13782,8 @@
     {
       "itemName": "BuckinBroncosApplejack",
       "itemData": {
-        "InitialItemName": "Buckin' Bronco's Applejack",
-        "InitialItemDescription": "Kicks like a horse, tastes like an apple!",
+        "InitialItemName": "Эпплджек Buckin 'Bronco",
+        "InitialItemDescription": "Пинает как лошадь, на вкус как яблоко!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13791,8 +13791,8 @@
     {
       "itemName": "CaccavoGuaranteedQualityTequila",
       "itemData": {
-        "InitialItemName": "Caccavo guaranteed quality tequila",
-        "InitialItemDescription": "Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!",
+        "InitialItemName": "Текила гарантированного качества Caccavo",
+        "InitialItemDescription": "Изготовлено из нефтяных дистиллятов высшего качества, чистого талидомида и других высококачественных ингредиентов!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13800,8 +13800,8 @@
     {
       "itemName": "CaptainPetesCubanSpicedRum",
       "itemData": {
-        "InitialItemName": "Captain Pete's Cuban spiced rum",
-        "InitialItemDescription": "This isn't just rum, oh no. It's practically GRIFF in a bottle.",
+        "InitialItemName": "Кубинский пряный ром капитана Пита",
+        "InitialItemDescription": "Это не просто ром, о нет. Это практически GRIFF в бутылке.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13809,8 +13809,8 @@
     {
       "itemName": "ChateauDeBatonPremiumCognac",
       "itemData": {
-        "InitialItemName": "Chateau de Baton premium cognac",
-        "InitialItemDescription": "A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.",
+        "InitialItemName": "Коньяк премиум-класса Chateau de Baton",
+        "InitialItemDescription": "Сладкий и крепкоалкогольный напиток, сделанный после многочисленных перегонок и многолетней выдержки. На этот раз вы можете не кричать \"SHITCURITY\".",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13818,8 +13818,8 @@
     {
       "itemName": "CollegeGirlGoldschlager",
       "itemData": {
-        "InitialItemName": "College Girl goldschlager",
-        "InitialItemDescription": "Because they are the only ones who will drink 100 proof cinnamon schnapps.",
+        "InitialItemName": "Золотая школьница из колледжа",
+        "InitialItemDescription": "Потому что они единственные, кто выпьет 100 пробы шнапса с корицей.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13827,8 +13827,8 @@
     {
       "itemName": "DoublebeardsBeardedSpecialWine",
       "itemData": {
-        "InitialItemName": "Doublebeard's bearded special wine",
-        "InitialItemDescription": "A faint aura of unease and asspainery surrounds the bottle.",
+        "InitialItemName": "Особое вино бородатого двуборода",
+        "InitialItemDescription": "Бутылку окружает слабая аура беспокойства и задирчивости.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13836,8 +13836,8 @@
     {
       "itemName": "ExtraStrongAbsinthe",
       "itemData": {
-        "InitialItemName": "extra-strong absinthe",
-        "InitialItemDescription": "A strong alcoholic drink brewed and distributed by... someone.",
+        "InitialItemName": "абсент особо крепкого",
+        "InitialItemDescription": "Крепкий алкогольный напиток, сваренный и распространенный ... кем-то.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13845,8 +13845,8 @@
     {
       "itemName": "FernetBronca",
       "itemData": {
-        "InitialItemName": "Fernet Bronca",
-        "InitialItemDescription": "A bottle of pure Fernet Bronca, produced in Cordoba Space Station.",
+        "InitialItemName": "Фернет Бронка",
+        "InitialItemDescription": "Бутылка чистого Fernet Bronca, произведенного на космической станции Кордова.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13854,8 +13854,8 @@
     {
       "itemName": "FlaskOfHolyWater",
       "itemData": {
-        "InitialItemName": "flask of holy water",
-        "InitialItemDescription": "A flask of the chaplain's holy water.",
+        "InitialItemName": "фляга святой воды",
+        "InitialItemDescription": "Фляга святой воды капеллана.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13863,8 +13863,8 @@
     {
       "itemName": "GinbadsBlazaam",
       "itemData": {
-        "InitialItemName": "Ginbad's Blazaam",
-        "InitialItemDescription": "You feel like you should give the bottle a good rub before opening.",
+        "InitialItemName": "Blazaam Гинбада",
+        "InitialItemDescription": "Вы чувствуете, что должны хорошенько потереть бутылку перед открытием.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13872,8 +13872,8 @@
     {
       "itemName": "GlassBottle",
       "itemData": {
-        "InitialItemName": "glass bottle",
-        "InitialItemDescription": "This blank bottle is unyieldingly anonymous, offering no clues to its contents.",
+        "InitialItemName": "стеклянная бутылка",
+        "InitialItemDescription": "Эта пустая бутылка неизменно анонимна и не дает никаких ключей к разгадке ее содержимого.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13881,8 +13881,8 @@
     {
       "itemName": "GlassBottleSmall",
       "itemData": {
-        "InitialItemName": "small glass bottle",
-        "InitialItemDescription": "This blank bottle is unyieldingly anonymous, offering no clues to its contents.",
+        "InitialItemName": "маленькая стеклянная бутылка",
+        "InitialItemDescription": "Эта пустая бутылка неизменно анонимна и не дает никаких ключей к разгадке ее содержимого.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13890,8 +13890,8 @@
     {
       "itemName": "GoldeneyeVermouth",
       "itemData": {
-        "InitialItemName": "Goldeneye vermouth",
-        "InitialItemDescription": "Sweet, sweet dryness~",
+        "InitialItemName": "Вермут с золотым глазом",
+        "InitialItemDescription": "Сладкая, сладкая сухость ~",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13899,8 +13899,8 @@
     {
       "itemName": "GriffeaterGin",
       "itemData": {
-        "InitialItemName": "Griffeater gin",
-        "InitialItemDescription": "A bottle of high quality gin, produced in the New London Space Station.",
+        "InitialItemName": "Джин Griffeater",
+        "InitialItemDescription": "Бутылка высококачественного джина, произведенного на Новой Лондонской космической станции.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13908,8 +13908,8 @@
     {
       "itemName": "GwynsPremiumAbsinthe",
       "itemData": {
-        "InitialItemName": "Gwyn's premium absinthe",
-        "InitialItemDescription": "A potent alcoholic beverage, almost makes you forget the ash in your lungs.",
+        "InitialItemName": "Абсент премиум-класса Гвин",
+        "InitialItemDescription": "Крепкий алкогольный напиток, почти заставляющий забыть о золе в легких.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13917,8 +13917,8 @@
     {
       "itemName": "HoochBottle",
       "itemData": {
-        "InitialItemName": "hooch bottle",
-        "InitialItemDescription": "A bottle of rotgut. Its owner has applied some street wisdom to cleverly disguise it as a brown paper bag.",
+        "InitialItemName": "бутыль",
+        "InitialItemDescription": "Бутылка тухлости. Ее владелец применил некоторую уличную мудрость, чтобы ловко замаскировать ее под коричневый бумажный пакет.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13926,8 +13926,8 @@
     {
       "itemName": "JesterGrenadine",
       "itemData": {
-        "InitialItemName": "Jester Grenadine",
-        "InitialItemDescription": "Contains 0% real cherries!",
+        "InitialItemName": "Шут Гренадин",
+        "InitialItemDescription": "Содержит 0% настоящих вишен!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13935,8 +13935,8 @@
     {
       "itemName": "JianHardCider",
       "itemData": {
-        "InitialItemName": "Jian Hard Cider",
-        "InitialItemDescription": "Apple juice for adults.",
+        "InitialItemName": "Цзянь твердый сидр",
+        "InitialItemDescription": "Яблочный сок для взрослых.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13944,8 +13944,8 @@
     {
       "itemName": "Menthol",
       "itemData": {
-        "InitialItemName": "menthol",
-        "InitialItemDescription": "Tastes naturally minty, and imparts a very mild numbing sensation.",
+        "InitialItemName": "ментол",
+        "InitialItemDescription": "Имеет естественный мятный вкус и вызывает очень легкое онемение.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13954,7 +13954,7 @@
       "itemName": "MonteDeRequinTrappistesBleu",
       "itemData": {
         "InitialItemName": "Mont de Requin Trappistes Bleu",
-        "InitialItemDescription": "Brewed in space-Belgium. Fancy!",
+        "InitialItemDescription": "Сделано в космосе - Бельгия. Необычно!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13962,8 +13962,8 @@
     {
       "itemName": "MoonshineJug",
       "itemData": {
-        "InitialItemName": "moonshine jug",
-        "InitialItemDescription": "It is said that the ancient Applalacians used these stoneware jugs to capture lightning in a bottle.",
+        "InitialItemName": "кувшин для самогона",
+        "InitialItemDescription": "Говорят, что древние Апплаласки использовали эти кувшины из керамики для улавливания молнии в бутылке.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13971,8 +13971,8 @@
     {
       "itemName": "PhillipesWellAgedGrappa",
       "itemData": {
-        "InitialItemName": "Phillipes well-aged Grappa",
-        "InitialItemDescription": "A bottle of Grappa.",
+        "InitialItemName": "Филлипес хорошо выдержанная Граппа",
+        "InitialItemDescription": "Бутылка граппы.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13980,8 +13980,8 @@
     {
       "itemName": "RobertRobustsCoffeeLiqueur",
       "itemData": {
-        "InitialItemName": "Robert Robust's coffee liqueur",
-        "InitialItemDescription": "A widely known, Mexican coffee-flavoured liqueur. In production since 1936, HONK.",
+        "InitialItemName": "Кофейный ликер Роберта Робуста",
+        "InitialItemDescription": "Широко известный мексиканский ликер со вкусом кофе. Производится с 1936 года, HONK.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13989,8 +13989,8 @@
     {
       "itemName": "RyosTraditionalSake",
       "itemData": {
-        "InitialItemName": "Ryo's traditional sake",
-        "InitialItemDescription": "Sweet as can be, and burns like fire going down.",
+        "InitialItemName": "Традиционное сакэ Ре",
+        "InitialItemDescription": "Сладкий, насколько это возможно, и горит, как потухающий огонь.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -13998,8 +13998,8 @@
     {
       "itemName": "TunguskaTripleDistilled",
       "itemData": {
-        "InitialItemName": "Tunguska triple distilled",
-        "InitialItemDescription": "Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.",
+        "InitialItemName": "Тунгуска тройной дистилляции",
+        "InitialItemDescription": "Ааа, водка. Лучший выбор напитка И топлива россиянами по всему миру.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14007,8 +14007,8 @@
     {
       "itemName": "UncleGitsSpecialReserve",
       "itemData": {
-        "InitialItemName": "Uncle Git's special reserve",
-        "InitialItemDescription": "A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.",
+        "InitialItemName": "Особый резерв дяди Гита",
+        "InitialItemDescription": "Односолодовый виски премиум-класса, осторожно выдержанный в туннелях ядерного убежища. ПРАВИЛА ТУННЕЛЬНОГО ВИСКИ.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14016,8 +14016,8 @@
     {
       "itemName": "WrappeArtistePatron",
       "itemData": {
-        "InitialItemName": "Wrapp Artiste Patron",
-        "InitialItemDescription": "Silver laced tequila, served in space night clubs across the galaxy.",
+        "Initial ItemName": "Wrap Artiste Patron",
+        "Initial ItemDescription": "Текила с серебряной заправкой, подается в космических ночных клубах по всей галактике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14025,8 +14025,8 @@
     {
       "itemName": "DrinkingGlass",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14034,8 +14034,8 @@
     {
       "itemName": "GlassOfAbsinthe",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14043,8 +14043,8 @@
     {
       "itemName": "GlassOfAle",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14052,8 +14052,8 @@
     {
       "itemName": "GlassOfBananaJuice",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14061,8 +14061,8 @@
     {
       "itemName": "GlassOfBeer",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14070,8 +14070,8 @@
     {
       "itemName": "GlassOfBerryJuice",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14079,8 +14079,8 @@
     {
       "itemName": "GlassOfCafeLatte",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14088,8 +14088,8 @@
     {
       "itemName": "GlassOfCarrotJuice",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14097,8 +14097,8 @@
     {
       "itemName": "GlassOfClownstears",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14106,8 +14106,8 @@
     {
       "itemName": "GlassOfCoffee",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14115,8 +14115,8 @@
     {
       "itemName": "GlassOfCognac",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14124,8 +14124,8 @@
     {
       "itemName": "GlassOfCremeDeMenthe",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14133,8 +14133,8 @@
     {
       "itemName": "GlassOfNukaCola",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14142,8 +14142,8 @@
     {
       "itemName": "GlassOfSodaWater",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14151,8 +14151,8 @@
     {
       "itemName": "GlassOfSpaceCola",
       "itemData": {
-        "InitialItemName": "drinking glass",
-        "InitialItemDescription": "Your standard drinking glass.",
+        "InitialItemName": "стакан",
+        "InitialItemDescription": "Ваш стандартный стакан.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14160,8 +14160,8 @@
     {
       "itemName": "Flask",
       "itemData": {
-        "InitialItemName": "flask",
-        "InitialItemDescription": "Every good spaceman knows it's a good idea to bring along a couple of pints of whiskey wherever they go.",
+        "InitialItemName": "колба",
+        "InitialItemDescription": "Каждый хороший космонавт знает, что брать с собой пару пинт виски - хорошая идея",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14169,8 +14169,8 @@
     {
       "itemName": "GromitMug",
       "itemData": {
-        "InitialItemName": "gromit mug",
-        "InitialItemDescription": "You can see funny dog on it.",
+        "InitialItemName": "громить кружку",
+        "InitialItemDescription": "На нем изображена забавная собака.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14178,8 +14178,8 @@
     {
       "itemName": "IceCup",
       "itemData": {
-        "InitialItemName": "ice cup",
-        "InitialItemDescription": "Careful, cold ice, do not chew.",
+        "InitialItemName": "чашка для льда",
+        "InitialItemDescription": "Осторожно, холодный лед, не жевать.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14187,8 +14187,8 @@
     {
       "itemName": "Mug",
       "itemData": {
-        "InitialItemName": "mug",
-        "InitialItemDescription": "A classy mug.",
+        "InitialItemName": "кружка",
+        "InitialItemDescription": "Классная кружка.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14196,8 +14196,8 @@
     {
       "itemName": "MugBrit",
       "itemData": {
-        "InitialItemName": "mug",
-        "InitialItemDescription": "A classy mug. This one has the British flag emblazoned on it.",
+        "InitialItemName": "кружка",
+        "InitialItemDescription": "Классная кружка. На ней изображен британский флаг.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14205,8 +14205,8 @@
     {
       "itemName": "MugDukePurpleTea",
       "itemData": {
-        "InitialItemName": "Duke Purple tea",
-        "InitialItemDescription": "An insult to Duke Purple is an insult to the Space Queen! Any proper gentleman will fight you, if you sully this tea.\"",
+        "InitialItemName": "Пурпурный чай герцога",
+        "InitialItemDescription": "Оскорбление Герцога Пурпурного - это оскорбление Космической Королевы! Любой настоящий джентльмен будет драться с вами, если вы испортите этот чай.\"",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14214,8 +14214,8 @@
     {
       "itemName": "MugDutchHotCoco",
       "itemData": {
-        "InitialItemName": "Dutch hot coco",
-        "InitialItemDescription": "Made in Space South America.",
+        "Initial ItemName": "Голландское горячее какао",
+        "InitialItemDescription": "Сделано в космосе, Южная Америка.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14223,8 +14223,8 @@
     {
       "itemName": "PaperCup",
       "itemData": {
-        "InitialItemName": "paper cup",
-        "InitialItemDescription": "A paper water cup.",
+        "InitialItemName": "бумажный стаканчик",
+        "InitialItemDescription": "Бумажный стаканчик для воды.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14232,8 +14232,8 @@
     {
       "itemName": "RobustCoffee",
       "itemData": {
-        "InitialItemName": "robust coffee",
-        "InitialItemDescription": "Careful, the beverage you're about to enjoy is extremely hot.",
+        "InitialItemName": "крепкий кофе",
+        "InitialItemDescription": "Будьте осторожны, напиток, который вы собираетесь попробовать, очень горячий.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14241,8 +14241,8 @@
     {
       "itemName": "Shaker",
       "itemData": {
-        "InitialItemName": "shaker",
-        "InitialItemDescription": "A metal shaker to mix drinks in.",
+        "InitialItemName": "шейкер",
+        "InitialItemDescription": "Металлический шейкер для смешивания напитков.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14250,8 +14250,8 @@
     {
       "itemName": "ShotGlass",
       "itemData": {
-        "InitialItemName": "shot glass",
-        "InitialItemDescription": "A shot glass - the universal symbol for bad decisions.",
+        "InitialItemName": "рюмка",
+        "InitialItemDescription": "Рюмка - универсальный символ плохих решений.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14259,8 +14259,8 @@
     {
       "itemName": "SmallCarton",
       "itemData": {
-        "InitialItemName": "small carton",
-        "InitialItemDescription": "A small carton, intended for holding drinks.",
+        "InitialItemName": "маленькая коробка",
+        "InitialItemDescription": "Маленькая картонная упаковка, предназначенная для хранения напитков.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14268,8 +14268,8 @@
     {
       "itemName": "_SodaCanBase",
       "itemData": {
-        "InitialItemName": "soda can",
-        "InitialItemDescription": "yummy",
+        "InitialItemName": "банка газировки",
+        "InitialItemDescription": "вкусно",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14277,8 +14277,8 @@
     {
       "itemName": "CannedAir",
       "itemData": {
-        "InitialItemName": "canned air",
-        "InitialItemDescription": "There is no air shortage. Do not drink.",
+        "InitialItemName": "сжатый воздух",
+        "InitialItemDescription": "Дефицита воздуха нет. Не пей.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14286,8 +14286,8 @@
     {
       "itemName": "GreyBull",
       "itemData": {
-        "InitialItemName": "Grey Bull",
-        "InitialItemDescription": "Grey Bull, it gives you gloves!",
+        "InitialItemName": "Серый бык",
+        "InitialItemDescription": "Серый Бык, он дает перчатки!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14295,8 +14295,8 @@
     {
       "itemName": "MonkeyEnergy",
       "itemData": {
-        "InitialItemName": "Monkey Energy",
-        "InitialItemDescription": "Unleash the ape!",
+        "InitialItemName": "Энергия обезьяны",
+        "InitialItemDescription": "Дайте волю обезьяне!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14304,8 +14304,8 @@
     {
       "itemName": "PwrGame",
       "itemData": {
-        "InitialItemName": "Pwr Game",
-        "InitialItemDescription": "The only drink with the PWR that true gamers crave. When a gamer talks about gamerfuel, this is what they're literally referring to.",
+        "InitialItemName": "Per Game",
+        "InitialItemDescription": "Единственный напиток с МОЩНОСТЬЮ, которую жаждут настоящие геймеры. Когда геймер говорит о gamerfuel, это то, что они буквально имеют в виду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14313,8 +14313,8 @@
     {
       "itemName": "ShamblersJuice",
       "itemData": {
-        "InitialItemName": "Shambler's juice",
-        "InitialItemDescription": "~Shake me up some of that Shambler's Juice!~",
+        "InitialItemName": "Сок Шамблера",
+        "InitialItemDescription": "~ Встряхни меня этим соком Шамблера! ~",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14322,8 +14322,8 @@
     {
       "itemName": "SodaWater",
       "itemData": {
-        "InitialItemName": "soda water",
-        "InitialItemDescription": "A can of soda water. Why not make a scotch and soda?",
+        "InitialItemName": "газированная вода",
+        "InitialItemDescription": "Банка газированной воды. Почему бы не сделать виски с содовой?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14331,8 +14331,8 @@
     {
       "itemName": "SolDry",
       "itemData": {
-        "InitialItemName": "Sol Dry",
-        "InitialItemDescription": "Maybe this will help your tummy feel better. Maybe not.",
+        "InitialItemName": "Сухой раствор",
+        "InitialItemDescription": "Может быть, это поможет вашему животику почувствовать себя лучше. Может быть, нет.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14340,8 +14340,8 @@
     {
       "itemName": "SpaceMountainWind",
       "itemData": {
-        "InitialItemName": "Space Mountain Wind",
-        "InitialItemDescription": "Blows right through you like a space wind.",
+        "InitialItemName": "Ветер космических гор",
+        "InitialItemDescription": "Дует насквозь, как космический ветер.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14349,8 +14349,8 @@
     {
       "itemName": "SpaceUp",
       "itemData": {
-        "InitialItemName": "Space-Up!",
-        "InitialItemDescription": "Tastes like a hull breach in your mouth.",
+        "InitialItemName": "Пробел!",
+        "InitialItemDescription": "На вкус как пробоина во рту.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14358,8 +14358,8 @@
     {
       "itemName": "StarKist",
       "itemData": {
-        "InitialItemName": "Star-kist",
-        "InitialItemDescription": "The taste of a star in liquid form. And, a bit of tuna...?",
+        "InitialItemName": "Стар-кисть",
+        "InitialItemDescription": "Вкус звезды в жидкой форме. И немного тунца ...?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14367,8 +14367,8 @@
     {
       "itemName": "TBorgsTonicWater",
       "itemData": {
-        "InitialItemName": "T-Borg's tonic water",
-        "InitialItemDescription": "Quinine tastes funny, but at least it'll keep that Space Malaria away.",
+        "InitialItemName": "Тоник Т-Борга",
+        "InitialItemDescription": "У хинина забавный вкус, но, по крайней мере, он избавит от этой космической малярии.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14376,8 +14376,8 @@
     {
       "itemName": "ThirteenLoko",
       "itemData": {
-        "InitialItemName": "Thirteen Loko",
-        "InitialItemDescription": "The CMO has advised crew members that consumption of Thirteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly.",
+        "InitialItemName": "Тринадцать Локо",
+        "InitialItemDescription": "Директор по маркетингу сообщил членам экипажа, что употребление Thirteen Loko может привести к судорогам, слепоте, опьянению или даже смерти. Пожалуйста, пейте ответственно.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14385,8 +14385,8 @@
     {
       "itemName": "BronzeCup",
       "itemData": {
-        "InitialItemName": "bronze cup",
-        "InitialItemDescription": "At least you ranked!",
+        "InitialItemName": "бронзовый кубок",
+        "InitialItemDescription": "По крайней мере, вы попали в рейтинг!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14394,8 +14394,8 @@
     {
       "itemName": "GoldCup",
       "itemData": {
-        "InitialItemName": "gold cup",
-        "InitialItemDescription": "You're winner!",
+        "InitialItemName": "золотой кубок",
+        "InitialItemDescription": "Вы победитель!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14403,8 +14403,8 @@
     {
       "itemName": "PewterCup",
       "itemData": {
-        "InitialItemName": "pewter cup",
-        "InitialItemDescription": "Everyone gets a trophy.",
+        "InitialItemName": "оловянная чашка",
+        "InitialItemDescription": "Каждый получает трофей.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14412,8 +14412,8 @@
     {
       "itemName": "SilverCup",
       "itemData": {
-        "InitialItemName": "silver cup",
-        "InitialItemDescription": "Best loser!",
+        "InitialItemName": "серебряная чашка",
+        "InitialItemDescription": "Лучший неудачник!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14421,8 +14421,8 @@
     {
       "itemName": "_FoodBase",
       "itemData": {
-        "InitialItemName": "generic container",
-        "InitialItemDescription": "It's a very generic container",
+        "InitialItemName": "универсальный контейнер",
+        "InitialItemDescription": "Это очень общий контейнер",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14430,8 +14430,8 @@
     {
       "itemName": "4noRaisins",
       "itemData": {
-        "InitialItemName": "4no raisins",
-        "InitialItemDescription": "Best raisins in the universe. Not sure why.",
+        "InitialItemName": "без изюма",
+        "InitialItemDescription": "Лучший изюм во вселенной. Не знаю почему.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14439,8 +14439,8 @@
     {
       "itemName": "BoritosCornChips",
       "itemData": {
-        "InitialItemName": "boritos corn chips",
-        "InitialItemDescription": "Triangular corn chips. They do seem a bit bland but would probably go well with some kind of dipping sauce.",
+        "InitialItemName": "кукурузные чипсы Boritos",
+        "InitialItemDescription": "Треугольные кукурузные чипсы. Они кажутся немного мягкими, но, вероятно, будут хорошо сочетаться с каким-нибудь соусом для макания.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14448,8 +14448,8 @@
     {
       "itemName": "BranRequestsCereal",
       "itemData": {
-        "InitialItemName": "Bran Requests Cereal",
-        "InitialItemDescription": "A dry cereal that satiates your requests for bran. Tastes uniquely like raisins and salt.",
+        "InitialItemName": "Отруби запрашивают зерно",
+        "InitialItemDescription": "Сухие хлопья, которые удовлетворят ваши запросы на отруби. По вкусу неповторимый, как изюм и соль.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14457,8 +14457,8 @@
     {
       "itemName": "BreadBase",
       "itemData": {
-        "InitialItemName": "snack",
-        "InitialItemDescription": "Yummy.",
+        "InitialItemName": "закуска",
+        "InitialItemDescription": "Вкусный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14466,8 +14466,8 @@
     {
       "itemName": "BreadSliceBase",
       "itemData": {
-        "InitialItemName": "snack",
-        "InitialItemDescription": "Yummy.",
+        "InitialItemName": "закуска",
+        "InitialItemDescription": "Вкусный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14475,8 +14475,8 @@
     {
       "itemName": "Bubblegum",
       "itemData": {
-        "InitialItemName": "bubblegum",
-        "InitialItemDescription": "A rubbery strip of gum. Not exactly filling, but it keeps you busy.",
+        "InitialItemName": "жевательная резинка",
+        "InitialItemDescription": "Резиновая полоска жевательной резинки. Не совсем начинка, но она заставляет вас чем-то занять.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14484,8 +14484,8 @@
     {
       "itemName": "BubblegumGum",
       "itemData": {
-        "InitialItemName": "bubblegum gum",
-        "InitialItemDescription": "A rubbery strip of gum. You don't feel like eating it is a good idea.",
+        "InitialItemName": "жевательная резинка",
+        "InitialItemDescription": "Резиновая полоска жевательной резинки. Не хочется есть, это хорошая идея.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14493,8 +14493,8 @@
     {
       "itemName": "AppendixBurger",
       "itemData": {
-        "InitialItemName": "appendix burger",
-        "InitialItemDescription": "Tastes like appendicitis.",
+        "InitialItemName": "бургер приложения",
+        "InitialItemDescription": "Вкус аппендицита.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14502,8 +14502,8 @@
     {
       "itemName": "BaconBurger",
       "itemData": {
-        "InitialItemName": "bacon burger",
-        "InitialItemDescription": "The perfect combination of all things American.",
+        "InitialItemName": "бургер с беконом",
+        "InitialItemDescription": "Идеальное сочетание всего американского.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14511,8 +14511,8 @@
     {
       "itemName": "Bearger",
       "itemData": {
-        "InitialItemName": "snack",
-        "InitialItemDescription": "Yummy.",
+        "InitialItemName": "закуска",
+        "InitialItemDescription": "Вкусный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14520,8 +14520,8 @@
     {
       "itemName": "BigBiteBurger",
       "itemData": {
-        "InitialItemName": "big bite burger",
-        "InitialItemDescription": "Forget the Big Mac. THIS is the future!",
+        "Initial ItemName": "большой бургер",
+        "Initial Item Description": "Забудьте о Биг Мак. ЭТО будущее!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14529,8 +14529,8 @@
     {
       "itemName": "BlackBurger",
       "itemData": {
-        "InitialItemName": "black burger",
-        "InitialItemDescription": "This is overcooked.",
+        "InitialItemName": "черный бургер",
+        "InitialItemDescription": "Это переварено.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14538,8 +14538,8 @@
     {
       "itemName": "BlueBurger",
       "itemData": {
-        "InitialItemName": "blue burger",
-        "InitialItemDescription": "Is this blue rare?",
+        "InitialItemName": "голубой бургер",
+        "InitialItemDescription": "Этот синий редкий?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14547,8 +14547,8 @@
     {
       "itemName": "Brainburger",
       "itemData": {
-        "InitialItemName": "brainburger",
-        "InitialItemDescription": "A strange looking burger. It looks almost sentient.",
+        "InitialItemName": "брейнбургер",
+        "InitialItemDescription": "Странно выглядящий бургер. Он выглядит почти разумным.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14556,8 +14556,8 @@
     {
       "itemName": "BurgerBase",
       "itemData": {
-        "InitialItemName": "snack",
-        "InitialItemDescription": "Yummy.",
+        "InitialItemName": "закуска",
+        "InitialItemDescription": "Вкусный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14565,8 +14565,8 @@
     {
       "itemName": "BurgerPlain",
       "itemData": {
-        "InitialItemName": "burger",
-        "InitialItemDescription": "The cornerstone of every nutritious breakfast.",
+        "InitialItemName": "бургер",
+        "InitialItemDescription": "Краеугольный камень любого питательного завтрака.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14574,8 +14574,8 @@
     {
       "itemName": "CheeseBurger",
       "itemData": {
-        "InitialItemName": "cheese burger",
-        "InitialItemDescription": "This noble burger stands proudly clad in golden cheese.",
+        "InitialItemName": "сырный бургер",
+        "InitialItemDescription": "Этот благородный бургер гордо покрыт золотым сыром.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14583,8 +14583,8 @@
     {
       "itemName": "ChickenSandwich",
       "itemData": {
-        "InitialItemName": "chicken sandwich",
-        "InitialItemDescription": "A delicious chicken sandwich, it is said the proceeds from this treat helps criminalize disarming people on the space frontier.",
+        "InitialItemName": "сэндвич с курицей",
+        "InitialItemDescription": "Вкусный сэндвич с курицей, говорят, доходы от этого угощения помогают криминализировать разоружение людей на космической границе.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14592,8 +14592,8 @@
     {
       "itemName": "ClownBurger",
       "itemData": {
-        "InitialItemName": "clown burger",
-        "InitialItemDescription": "This tastes funny...",
+        "InitialItemName": "клоунский бургер",
+        "InitialItemDescription": "Это забавный вкус ...",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14601,8 +14601,8 @@
     {
       "itemName": "CorgiBurger",
       "itemData": {
-        "InitialItemName": "corgi burger",
-        "InitialItemDescription": "You monster.",
+        "InitialItemName": "бургер корги",
+        "InitialItemDescription": "Ты монстр.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14610,8 +14610,8 @@
     {
       "itemName": "CrabBurger",
       "itemData": {
-        "InitialItemName": "crab burger",
-        "InitialItemDescription": "A delicious patty of the crabby kind, slapped in between a bun.",
+        "InitialItemName": "крабовый бургер",
+        "InitialItemDescription": "Вкусная лепешка, зажатая между булочкой.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14619,8 +14619,8 @@
     {
       "itemName": "EmpoweredBurger",
       "itemData": {
-        "InitialItemName": "empowered burger",
-        "InitialItemDescription": "It's shockingly good, if you live off of electricity that is.",
+        "InitialItemName": "усиленный бургер",
+        "InitialItemDescription": "Это потрясающе хорошо, если вы живете за счет электричества.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14628,8 +14628,8 @@
     {
       "itemName": "FilletOCarpSandwich",
       "itemData": {
-        "InitialItemName": "fillet -o- carp sandwich",
-        "InitialItemDescription": "Almost like a carp is yelling somewhere... Give me back that fillet -o- carp, give me that carp.",
+        "InitialItemName": "бутерброд с филе и карпом",
+        "InitialItemDescription": "Почти как карп где-то кричит ... Верни мне филе -о- карпа, дай мне этого карпа.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14637,7 +14637,7 @@
     {
       "itemName": "FiveAlarmBurger",
       "itemData": {
-        "InitialItemName": "five alarm burger",
+        "InitialItemName": "бургер с пятью будильниками",
         "InitialItemDescription": "HOT! HOT!",
         "ExportName": "",
         "ExportMessage": ""
@@ -14646,8 +14646,8 @@
     {
       "itemName": "GhostBurger",
       "itemData": {
-        "InitialItemName": "ghost burger",
-        "InitialItemDescription": "Too Spooky!",
+        "InitialItemName": "бургер с привидениями",
+        "InitialItemDescription": "Слишком жутко!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14655,8 +14655,8 @@
     {
       "itemName": "GreenBurger",
       "itemData": {
-        "InitialItemName": "green burger",
-        "InitialItemDescription": "It's not tainted meat, it's painted meat!",
+        "InitialItemName": "зеленый бургер",
+        "InitialItemDescription": "Это не испорченное мясо, а крашенное!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14664,8 +14664,8 @@
     {
       "itemName": "HomeRunBaseballBurger",
       "itemData": {
-        "InitialItemName": "home run baseball burger",
-        "InitialItemDescription": "It's still warm. The steam coming off of it looks like baseball.",
+        "InitialItemName": "бургер с домашним бейсболом",
+        "InitialItemDescription": "Он все еще теплый. Выходящий из него пар похож на бейсбольный мяч.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14673,8 +14673,8 @@
     {
       "itemName": "HumanBurger",
       "itemData": {
-        "InitialItemName": "human burger",
-        "InitialItemDescription": "A bloody burger.",
+        "InitialItemName": "человеческий бургер",
+        "InitialItemDescription": "Кровавый бургер.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14682,8 +14682,8 @@
     {
       "itemName": "JellyBurgerBase",
       "itemData": {
-        "InitialItemName": "jelly burger",
-        "InitialItemDescription": "Culinary delight..?",
+        "InitialItemName": "бургер с желе",
+        "InitialItemDescription": "Кулинарное наслаждение ..?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14691,8 +14691,8 @@
     {
       "itemName": "JellyBurgerCherry",
       "itemData": {
-        "InitialItemName": "jelly burger",
-        "InitialItemDescription": "Culinary delight..?",
+        "InitialItemName": "бургер с желе",
+        "InitialItemDescription": "Кулинарное наслаждение ..?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14700,8 +14700,8 @@
     {
       "itemName": "JellyBurgerSlime",
       "itemData": {
-        "InitialItemName": "jelly burger",
-        "InitialItemDescription": "Culinary delight..?",
+        "InitialItemName": "бургер с желе",
+        "InitialItemDescription": "Кулинарное наслаждение ..?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14709,8 +14709,8 @@
     {
       "itemName": "Mcguffin",
       "itemData": {
-        "InitialItemName": "mcguffin",
-        "InitialItemDescription": "A cheap and greasy imitation of an eggs benedict.",
+        "InitialItemName": "Макгуффин",
+        "InitialItemDescription": "Дешевая и жирная имитация яйца Бенедикт.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14719,7 +14719,7 @@
       "itemName": "Mcrib",
       "itemData": {
         "InitialItemName": "mcrib",
-        "InitialItemDescription": "An elusive rib shaped burger with limited availablity across the galaxy. Not as good as you remember it.",
+        "InitialItemDescription": "Неуловимый гамбургер в форме ребра, который можно найти в ограниченном количестве по всей галактике. Не так хорош, как вы его помните.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14727,8 +14727,8 @@
     {
       "itemName": "MimeBurger",
       "itemData": {
-        "InitialItemName": "mime burger",
-        "InitialItemDescription": "Its taste defies language.",
+        "InitialItemName": "пантомима бургер",
+        "InitialItemDescription": "Его вкус не поддается языку.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14736,8 +14736,8 @@
     {
       "itemName": "OrangeBurger",
       "itemData": {
-        "InitialItemName": "orange burger",
-        "InitialItemDescription": "Contains 0% juice.",
+        "InitialItemName": "апельсиновый бургер",
+        "InitialItemDescription": "Содержит 0% сока.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14745,8 +14745,8 @@
     {
       "itemName": "PurpleBurger",
       "itemData": {
-        "InitialItemName": "purple burger",
-        "InitialItemDescription": "Regal and low class at the same time.",
+        "InitialItemName": "пурпурный бургер",
+        "InitialItemDescription": "Королевский и низкий класс одновременно.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14754,8 +14754,8 @@
     {
       "itemName": "RatBurger",
       "itemData": {
-        "InitialItemName": "rat burger",
-        "InitialItemDescription": "Pretty much what you'd expect...",
+        "InitialItemName": "крысиный бургер",
+        "InitialItemDescription": "В основном то, что вы ожидаете ...",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14763,8 +14763,8 @@
     {
       "itemName": "RedBurger",
       "itemData": {
-        "InitialItemName": "red burger",
-        "InitialItemDescription": "Perfect for hiding the fact it's burnt to a crisp.",
+        "InitialItemName": "красный бургер",
+        "InitialItemDescription": "Идеально для того, чтобы скрыть тот факт, что он подгорел до хрустящей корочки.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14773,7 +14773,7 @@
       "itemName": "Roburger",
       "itemData": {
         "InitialItemName": "roburger",
-        "InitialItemDescription": "The lettuce is the only organic component. Beep.",
+        "InitialItemDescription": "Салат - единственный органический компонент. Звуковой сигнал.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14781,8 +14781,8 @@
     {
       "itemName": "SoylentBurger",
       "itemData": {
-        "InitialItemName": "soylent burger",
-        "InitialItemDescription": "An eco-friendly burger made using upcycled low value biomass.",
+        "InitialItemName": "сойлент бургер",
+        "InitialItemDescription": "Экологичный бургер, приготовленный с использованием переработанной малоценной биомассы.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14790,8 +14790,8 @@
     {
       "itemName": "SpellBurger",
       "itemData": {
-        "InitialItemName": "spell burger",
-        "InitialItemDescription": "This is absolutely Ei Nath.",
+        "InitialItemName": "заклинательный бургер",
+        "InitialItemDescription": "Это абсолютно Ei Nath.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14799,8 +14799,8 @@
     {
       "itemName": "SuperBiteBurger",
       "itemData": {
-        "InitialItemName": "super bite burger",
-        "InitialItemDescription": "This is a mountain of a burger. FOOD!",
+        "InitialItemName": "супербургер",
+        "InitialItemDescription": "Это гора бургеров. ЕДА!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14808,8 +14808,8 @@
     {
       "itemName": "TofuBurger",
       "itemData": {
-        "InitialItemName": "tofu burger",
-        "InitialItemDescription": "What.. is that meat?",
+        "InitialItemName": "бургер с тофу",
+        "InitialItemDescription": "Что .. это мясо?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14817,8 +14817,8 @@
     {
       "itemName": "WhiteBurger",
       "itemData": {
-        "InitialItemName": "white burger",
-        "InitialItemDescription": "Delicous Titanium!",
+        "InitialItemName": "белый бургер",
+        "InitialItemDescription": "Вкусный титан!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14826,8 +14826,8 @@
     {
       "itemName": "Xenoburger",
       "itemData": {
-        "InitialItemName": "xenoburger",
-        "InitialItemDescription": "Smells caustic. Tastes like heresy.",
+        "InitialItemName": "ксенобургер",
+        "InitialItemDescription": "Пахнет едкой. На вкус как ересь.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14835,8 +14835,8 @@
     {
       "itemName": "YellowBurger",
       "itemData": {
-        "InitialItemName": "yellow burger",
-        "InitialItemDescription": "Bright to the last bite.",
+        "InitialItemName": "желтый бургер",
+        "InitialItemDescription": "Яркий до последнего укуса.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14844,8 +14844,8 @@
     {
       "itemName": "BurnedMess",
       "itemData": {
-        "InitialItemName": "burned mess",
-        "InitialItemDescription": "Someone should be demoted from cook for this.",
+        "InitialItemName": "сгоревший беспорядок",
+        "InitialItemDescription": "За это кого-то следует понизить в должности с повара.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14853,8 +14853,8 @@
     {
       "itemName": "Burrito",
       "itemData": {
-        "InitialItemName": "burrito",
-        "InitialItemDescription": "Tortilla wrapped goodness.",
+        "InitialItemName": "буррито",
+        "InitialItemDescription": "Хорошее качество, завернутое в тортилью.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14862,8 +14862,8 @@
     {
       "itemName": "ButterOnAStick",
       "itemData": {
-        "InitialItemName": "butter on a stick",
-        "InitialItemDescription": "Delicious, golden, fatty goodness on a stick.",
+        "InitialItemName": "масло на палочке",
+        "InitialItemDescription": "Вкусное, золотистое, жирное на палочке.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14871,8 +14871,8 @@
     {
       "itemName": "AngelFoodCake",
       "itemData": {
-        "InitialItemName": "angel food cake",
-        "InitialItemDescription": "A cake made for angels and chaplains alike! Contains holy water.",
+        "InitialItemName": "торт с едой ангела",
+        "InitialItemDescription": "Торт, сделанный как для ангелов, так и для капелланов! Содержит святую воду.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14880,8 +14880,8 @@
     {
       "itemName": "AngelFoodCakeSlice",
       "itemData": {
-        "InitialItemName": "angel food cake slice",
-        "InitialItemDescription": "A slice of heavenly cake.",
+        "InitialItemName": "кусок торта с едой ангела",
+        "InitialItemDescription": "Кусочек райского торта.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14889,8 +14889,8 @@
     {
       "itemName": "AppleCake",
       "itemData": {
-        "InitialItemName": "apple cake",
-        "InitialItemDescription": "A cake centred with apple.",
+        "InitialItemName": "яблочный пирог",
+        "InitialItemDescription": "Торт с яблоком в центре.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14898,8 +14898,8 @@
     {
       "itemName": "AppleCakeSlice",
       "itemData": {
-        "InitialItemName": "apple cake slice",
-        "InitialItemDescription": "A slice of heavenly cake.",
+        "InitialItemName": "кусок яблочного торта",
+        "InitialItemDescription": "Кусочек райского торта.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14907,8 +14907,8 @@
     {
       "itemName": "BirthdayCake",
       "itemData": {
-        "InitialItemName": "birthday cake",
-        "InitialItemDescription": "Happy Birthday little clown...",
+        "InitialItemName": "праздничный торт",
+        "InitialItemDescription": "С Днем Рождения, маленький клоун ...",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14916,8 +14916,8 @@
     {
       "itemName": "BirthdayCakeSlice",
       "itemData": {
-        "InitialItemName": "birthday cake slice",
-        "InitialItemDescription": "A slice of your birthday.",
+        "InitialItemName": "кусок торта ко дню рождения",
+        "InitialItemDescription": "Кусочек вашего дня рождения.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14925,8 +14925,8 @@
     {
       "itemName": "BlackberryAndStrawberryChocolateCake",
       "itemData": {
-        "InitialItemName": "blackberry and strawberry chocolate cake",
-        "InitialItemDescription": "A chocolate cake, filled with assortment of blackberries and strawberries!",
+        "InitialItemName": "шоколадный торт с ежевикой и клубникой",
+        "InitialItemDescription": "Шоколадный торт с начинкой из ежевики и клубники!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14934,8 +14934,8 @@
     {
       "itemName": "BlackberryAndStrawberryChocolateCakeSlice",
       "itemData": {
-        "InitialItemName": "blackberry and strawberry chocolate cake slice",
-        "InitialItemDescription": "Just a slice of cake  filled with assortment of blackberries and strawberries!",
+        "InitialItemName": "кусок шоколадного торта с ежевикой и клубникой",
+        "InitialItemDescription": "Просто кусок торта с начинкой из ежевики и клубники!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14943,8 +14943,8 @@
     {
       "itemName": "BlackberryAndStrawberryVanillaCake",
       "itemData": {
-        "InitialItemName": "blackberry and strawberry vanilla cake",
-        "InitialItemDescription": "A plain cake, filled with assortment of blackberries and strawberries!",
+        "InitialItemName": "ванильный торт с ежевикой и клубникой",
+        "InitialItemDescription": "Простой торт с начинкой из ежевики и клубники!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14952,8 +14952,8 @@
     {
       "itemName": "BlackberryAndStrawberryVanillaCakeSlice",
       "itemData": {
-        "InitialItemName": "blackberry and strawberry vanilla cake slice",
-        "InitialItemDescription": "Just a slice of cake  filled with assortment of blackberries and strawberries!",
+        "InitialItemName": "кусок ванильного торта с ежевикой и клубникой",
+        "InitialItemDescription": "Просто кусок торта с начинкой из ежевики и клубники!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14961,8 +14961,8 @@
     {
       "itemName": "BrainCake",
       "itemData": {
-        "InitialItemName": "brain cake",
-        "InitialItemDescription": "A squishy cake-thing.",
+        "InitialItemName": "мозговой торт",
+        "InitialItemDescription": "Мягкий торт.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14970,8 +14970,8 @@
     {
       "itemName": "BrainCakeSlice",
       "itemData": {
-        "InitialItemName": "brain cake slice",
-        "InitialItemDescription": "Lemme tell you something about prions. THEY'RE DELICIOUS.",
+        "InitialItemName": "кусок мозгового торта",
+        "InitialItemDescription": "Дай мне кое-что рассказать о прионах. ОНИ ВКУСНЫЕ.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14979,8 +14979,8 @@
     {
       "itemName": "CakeBase",
       "itemData": {
-        "InitialItemName": "snack",
-        "InitialItemDescription": "Yummy.",
+        "InitialItemName": "закуска",
+        "InitialItemDescription": "Вкусный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14988,8 +14988,8 @@
     {
       "itemName": "CakeSliceBase",
       "itemData": {
-        "InitialItemName": "snack",
-        "InitialItemDescription": "Yummy.",
+        "InitialItemName": "закуска",
+        "InitialItemDescription": "Вкусный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -14997,8 +14997,8 @@
     {
       "itemName": "CarrotCake",
       "itemData": {
-        "InitialItemName": "carrot cake",
-        "InitialItemDescription": "A favorite desert of a certain wascally wabbit. Not a lie.",
+        "InitialItemName": "морковный торт",
+        "InitialItemDescription": "Любимая пустыня некоего чудаковатого ваббита. Не ложь.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15006,8 +15006,8 @@
     {
       "itemName": "CarrotCakeSlice",
       "itemData": {
-        "InitialItemName": "carrot cake slice",
-        "InitialItemDescription": "Carrotty slice of carrot cake, carrots are good for your eyes! Also not a lie.",
+        "InitialItemName": "кусок морковного торта",
+        "InitialItemDescription": "Морковный кусок морковного торта, морковь полезна для глаз! Тоже не ложь.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15015,8 +15015,8 @@
     {
       "itemName": "CheeseCake",
       "itemData": {
-        "InitialItemName": "cheese cake",
-        "InitialItemDescription": "DANGEROUSLY cheesy.",
+        "InitialItemName": "сырный пирог",
+        "InitialItemDescription": "ОПАСНО сырный.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15024,8 +15024,8 @@
     {
       "itemName": "CheeseCakeSlice",
       "itemData": {
-        "InitialItemName": "cheese cake slice",
-        "InitialItemDescription": "Slice of pure cheestisfaction.",
+        "InitialItemName": "кусок сырного торта",
+        "InitialItemDescription": "Кусочек чистого удовлетворения.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15033,8 +15033,8 @@
     {
       "itemName": "ChocolateCake",
       "itemData": {
-        "InitialItemName": "chocolate cake",
-        "InitialItemDescription": "A cake with added chocolate.",
+        "InitialItemName": "шоколадный торт",
+        "InitialItemDescription": "Торт с добавлением шоколада.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15042,8 +15042,8 @@
     {
       "itemName": "ChocolateCakeSlice",
       "itemData": {
-        "InitialItemName": "chocolate cake slice",
-        "InitialItemDescription": "Just a slice of cake, it is enough for everyone.",
+        "InitialItemName": "кусок шоколадного торта",
+        "InitialItemDescription": "Кусок торта, хватит на всех.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15051,8 +15051,8 @@
     {
       "itemName": "ClownCake",
       "itemData": {
-        "InitialItemName": "clown cake",
-        "InitialItemDescription": "A funny cake with a clown face on it.",
+        "InitialItemName": "торт клоуна",
+        "InitialItemDescription": "Забавный торт с лицом клоуна.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15060,8 +15060,8 @@
     {
       "itemName": "ClownCakeSlice",
       "itemData": {
-        "InitialItemName": "clown cake slice",
-        "InitialItemDescription": "A slice of bad jokes, and silly props.",
+        "InitialItemName": "кусок торта клоуна",
+        "InitialItemDescription": "Кусок плохих шуток и глупый реквизит.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15069,8 +15069,8 @@
     {
       "itemName": "EnergyCake",
       "itemData": {
-        "InitialItemName": "energy cake",
-        "InitialItemDescription": "Just enough calories for a whole nuclear operative squad.",
+        "InitialItemName": "энергетический пирог",
+        "InitialItemDescription": "Достаточно калорий для всего отряда ядерных оперативников.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15078,8 +15078,8 @@
     {
       "itemName": "EnergyCakeSlice",
       "itemData": {
-        "InitialItemName": "energy cake slice",
-        "InitialItemDescription": "For the traitor on the go.",
+        "InitialItemName": "кусок энергетического торта",
+        "InitialItemDescription": "Предатель в движении.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15087,8 +15087,8 @@
     {
       "itemName": "HardwareCake",
       "itemData": {
-        "InitialItemName": "hardware cake",
-        "InitialItemDescription": "A quote on quote cake that is made with electronic boards and leaks acid...",
+        "InitialItemName": "аппаратный торт",
+        "InitialItemDescription": "Цитата на торте с цитатой, сделанном с использованием электронных плат и утечки кислоты ...",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15096,8 +15096,8 @@
     {
       "itemName": "HardwareCakeSlice",
       "itemData": {
-        "InitialItemName": "hardware cake slice",
-        "InitialItemDescription": "A slice of electronic boards and some acid.",
+        "InitialItemName": "аппаратный кусок торта",
+        "InitialItemDescription": "Кусок электронных плат и немного кислоты.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15105,8 +15105,8 @@
     {
       "itemName": "LemonCake",
       "itemData": {
-        "InitialItemName": "lemon cake",
-        "InitialItemDescription": "A cake with added lemon.",
+        "InitialItemName": "лимонный торт",
+        "InitialItemDescription": "Торт с добавлением лимона.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15114,8 +15114,8 @@
     {
       "itemName": "LemonCakeSlice",
       "itemData": {
-        "InitialItemName": "lemon cake slice",
-        "InitialItemDescription": "Just a slice of cake, it is enough for everyone.",
+        "InitialItemName": "кусочек лимонного торта",
+        "InitialItemDescription": "Кусок торта, хватит на всех.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15123,8 +15123,8 @@
     {
       "itemName": "LimeCake",
       "itemData": {
-        "InitialItemName": "lime cake",
-        "InitialItemDescription": "A cake with added lime.",
+        "InitialItemName": "липовый пирог",
+        "InitialItemDescription": "Торт с добавлением лайма.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15132,8 +15132,8 @@
     {
       "itemName": "LimeCakeSlice",
       "itemData": {
-        "InitialItemName": "lime cake slice",
-        "InitialItemDescription": "Just a slice of cake, it is enough for everyone.",
+        "InitialItemName": "кусочек лаймового торта",
+        "InitialItemDescription": "Кусок торта, хватит на всех.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15141,8 +15141,8 @@
     {
       "itemName": "OrangeCake",
       "itemData": {
-        "InitialItemName": "orange cake",
-        "InitialItemDescription": "A cake with added orange.",
+        "InitialItemName": "апельсиновый торт",
+        "InitialItemDescription": "Торт с добавлением апельсина.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15150,8 +15150,8 @@
     {
       "itemName": "OrangeCakeSlice",
       "itemData": {
-        "InitialItemName": "orange cake slice",
-        "InitialItemDescription": "Just a slice of cake, it is enough for everyone.",
+        "InitialItemName": "кусочек апельсинового торта",
+        "InitialItemDescription": "Кусок торта, хватит на всех.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15159,8 +15159,8 @@
     {
       "itemName": "PlainCake",
       "itemData": {
-        "InitialItemName": "plain cake",
-        "InitialItemDescription": "A plain cake, not a lie.",
+        "InitialItemName": "простой торт",
+        "InitialItemDescription": "Обычный торт, а не ложь.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15168,8 +15168,8 @@
     {
       "itemName": "PlainCakeSlice",
       "itemData": {
-        "InitialItemName": "plain cake slice",
-        "InitialItemDescription": "Just a slice of cake, it is enough for everyone.",
+        "InitialItemName": "кусок простого торта",
+        "InitialItemDescription": "Кусок торта, хватит на всех.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15177,8 +15177,8 @@
     {
       "itemName": "PoundCake",
       "itemData": {
-        "InitialItemName": "pound cake",
-        "InitialItemDescription": "A condensed cake made for filling people up quickly.",
+        "InitialItemName": "фунтовый торт",
+        "InitialItemDescription": "Сгущенный торт для быстрого наполнения людей.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15186,8 +15186,8 @@
     {
       "itemName": "PoundCakeSlice",
       "itemData": {
-        "InitialItemName": "pound cake slice",
-        "InitialItemDescription": "A slice of condensed cake made for filling people up quickly.",
+        "InitialItemName": "фунтовый кусок торта",
+        "InitialItemDescription": "Кусочек сгущенного торта, сделанный для быстрого наполнения людей.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15195,8 +15195,8 @@
     {
       "itemName": "PumpkinSpiceCake",
       "itemData": {
-        "InitialItemName": "pumpkin spice cake",
-        "InitialItemDescription": "A hollow cake with real pumpkin.",
+        "InitialItemName": "пряный тыквенный пирог",
+        "InitialItemDescription": "Полый торт с настоящей тыквой.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15204,8 +15204,8 @@
     {
       "itemName": "PumpkinSpiceCakeSlice",
       "itemData": {
-        "InitialItemName": "pumpkin spice cake slice",
-        "InitialItemDescription": "A spicy slice of pumpkin goodness.",
+        "InitialItemName": "кусок пряного тыквенного торта",
+        "InitialItemDescription": "Пряный ломтик тыквенного добра.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15213,8 +15213,8 @@
     {
       "itemName": "SlimeCake",
       "itemData": {
-        "InitialItemName": "slime cake",
-        "InitialItemDescription": "A cake made of slimes. Probably not electrified.",
+        "InitialItemName": "торт слизи",
+        "InitialItemDescription": "Пирог из слизи. Наверное, не электрифицирован.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15222,8 +15222,8 @@
     {
       "itemName": "SlimeCakeSlice",
       "itemData": {
-        "InitialItemName": "slime cake slice",
-        "InitialItemDescription": "A slice of slime cake.",
+        "InitialItemName": "кусок торта слизи",
+        "InitialItemDescription": "Кусочек торта слизи.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15231,8 +15231,8 @@
     {
       "itemName": "VanillaCake",
       "itemData": {
-        "InitialItemName": "vanilla cake",
-        "InitialItemDescription": "A vanilla frosted cake.",
+        "InitialItemName": "ванильный пирог",
+        "InitialItemDescription": "Ванильный глазированный торт.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15240,8 +15240,8 @@
     {
       "itemName": "VanillaCakeSlice",
       "itemData": {
-        "InitialItemName": "vanilla cake slice",
-        "InitialItemDescription": "A slice of vanilla frosted cake.",
+        "InitialItemName": "кусок ванильного торта",
+        "InitialItemDescription": "Кусочек ванильного торта.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15249,8 +15249,8 @@
     {
       "itemName": "CandiedApple",
       "itemData": {
-        "InitialItemName": "candied apple",
-        "InitialItemDescription": "An apple coated in sugary sweetness.",
+        "InitialItemName": "засахаренное яблоко",
+        "InitialItemDescription": "Яблоко, покрытое сладкой сладостью.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15258,8 +15258,8 @@
     {
       "itemName": "Candy",
       "itemData": {
-        "InitialItemName": "candy",
-        "InitialItemDescription": "Nougat love it or hate it.",
+        "InitialItemName": "конфеты",
+        "InitialItemDescription": "Нуга любит или ненавидит.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15267,8 +15267,8 @@
     {
       "itemName": "CandyCigaretteButt",
       "itemData": {
-        "InitialItemName": "candy cigarette butt",
-        "InitialItemDescription": "The leftover from a smoked-out candy cigarette. Can be eaten!",
+        "InitialItemName": "леденец окурок",
+        "InitialItemDescription": "Остаток выкуренной конфетной сигареты. Можно съесть!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15276,8 +15276,8 @@
     {
       "itemName": "CandyCigaretteButtNicotine",
       "itemData": {
-        "InitialItemName": "candy cigarette butt",
-        "InitialItemDescription": "he leftover from a smoked-out candy cigarette. Smells like nicotine..?",
+        "InitialItemName": "леденец окурок",
+        "InitialItemDescription": "он остатки выкуренной конфетной сигареты. Пахнет никотином ..?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15285,8 +15285,8 @@
     {
       "itemName": "CandyCorn",
       "itemData": {
-        "InitialItemName": "candy corn",
-        "InitialItemDescription": "It's a handful of candy corn. Can be stored in a detective's hat.",
+        "InitialItemName": "сахарная кукуруза",
+        "InitialItemDescription": "Пригоршня сахарной кукурузы. Можно хранить в шляпе детектива.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15294,8 +15294,8 @@
     {
       "itemName": "CandyCornDesiccated",
       "itemData": {
-        "InitialItemName": "desiccated candy corn",
-        "InitialItemDescription": "If this candy corn were any harder Security would confiscate it for being a potential shiv.",
+        "InitialItemName": "сушеная конфетная кукуруза",
+        "InitialItemDescription": "Если бы эта сладкая кукуруза была тяжелее, служба безопасности конфисковала бы ее как потенциальную заточку.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15303,8 +15303,8 @@
     {
       "itemName": "CannedPeaches",
       "itemData": {
-        "InitialItemName": "canned peaches",
-        "InitialItemDescription": "Just a nice can of ripe peaches swimming in their own juices.",
+        "InitialItemName": "консервированные персики",
+        "InitialItemDescription": "Просто красивая банка спелых персиков, плавающих в собственном соку.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15312,8 +15312,8 @@
     {
       "itemName": "CannedSnackBase",
       "itemData": {
-        "InitialItemName": "Canned Air",
-        "InitialItemDescription": "If you ever wondered where air came from...",
+        "InitialItemName": "Консервированный воздух",
+        "InitialItemDescription": "Если вы когда-нибудь задумывались, откуда берется воздух ...",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15321,8 +15321,8 @@
     {
       "itemName": "CarneAsadaBurrito",
       "itemData": {
-        "InitialItemName": "carne asada burrito",
-        "InitialItemDescription": "The best burrito for meat lovers.",
+        "Initial ItemName": "carne asada burrito",
+        "Initial Item Description": "Лучший буррито для любителей мяса.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15330,8 +15330,8 @@
     {
       "itemName": "CarrotFries",
       "itemData": {
-        "InitialItemName": "carrot fries",
-        "InitialItemDescription": "Tasty fries from fresh carrots.",
+        "Initial ItemName": "морковный картофель",
+        "InitialItemDescription": "Вкусный картофель фри из свежей моркови.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15339,8 +15339,8 @@
     {
       "itemName": "CheeseWedge",
       "itemData": {
-        "InitialItemName": "cheese wedge",
-        "InitialItemDescription": "A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far.",
+        "InitialItemName": "сырный клин",
+        "InitialItemDescription": "Кусок восхитительного чеддера. Сырный круг, из которого он был вырезан, не мог уйти далеко.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15348,8 +15348,8 @@
     {
       "itemName": "CheeseWheel",
       "itemData": {
-        "InitialItemName": "cheese wheel",
-        "InitialItemDescription": "A big wheel of delcious Cheddar.",
+        "Initial ItemName": "сырное колесо",
+        "InitialItemDescription": "Большое колесо вкусного чеддера.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15357,8 +15357,8 @@
     {
       "itemName": "CheesieHonkers",
       "itemData": {
-        "InitialItemName": "cheesie honkers",
-        "InitialItemDescription": "Bite sized cheesie snacks that will honk all over your mouth.",
+        "InitialItemName": "чизи гудки",
+        "InitialItemDescription": "Небольшие сырные закуски, которые будут гудеть по всему рту.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15366,8 +15366,8 @@
     {
       "itemName": "CheesyBurrito",
       "itemData": {
-        "InitialItemName": "cheesy burrito",
-        "InitialItemDescription": "It's a burrito filled with cheese.",
+        "InitialItemName": "сырный буррито",
+        "InitialItemDescription": "Это буррито с сыром.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15375,8 +15375,8 @@
     {
       "itemName": "CheesyFries",
       "itemData": {
-        "InitialItemName": "cheesy fries",
-        "InitialItemDescription": "Fries. Covered in cheese. Duh.",
+        "InitialItemName": "сырный картофель фри",
+        "InitialItemDescription": "Жареный картофель. Покрытый сыром. Ага.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15384,8 +15384,8 @@
     {
       "itemName": "CheesyNachos",
       "itemData": {
-        "InitialItemName": "cheesy nachos",
-        "InitialItemDescription": "The delicious combination of nachos and melting cheese.",
+        "InitialItemName": "сырный начо",
+        "InitialItemDescription": "Восхитительное сочетание начо и плавящегося сыра.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15393,8 +15393,8 @@
     {
       "itemName": "Chips",
       "itemData": {
-        "InitialItemName": "chips",
-        "InitialItemDescription": "Commander Riker's What-The-Crisps.",
+        "InitialItemName": "фишки",
+        "InitialItemDescription": "What-The-Crisps коммандера Райкера.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15402,8 +15402,8 @@
     {
       "itemName": "ChocolateBar",
       "itemData": {
-        "InitialItemName": "chocolate bar",
-        "InitialItemDescription": "Such, sweet, fattening food.",
+        "InitialItemName": "плитка шоколада",
+        "InitialItemDescription": "Такая сладкая, жирная пища.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15411,8 +15411,8 @@
     {
       "itemName": "ChocolateCoin",
       "itemData": {
-        "InitialItemName": "chocolate coin",
-        "InitialItemDescription": "A completely edible but nonflippable festive coin.",
+        "InitialItemName": "шоколадная монета",
+        "InitialItemDescription": "Полностью съедобная, но ненадежная праздничная монета.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15420,8 +15420,8 @@
     {
       "itemName": "ChocolateOrange",
       "itemData": {
-        "InitialItemName": "chocolate orange",
-        "InitialItemDescription": "A festive chocolate orange.",
+        "InitialItemName": "шоколадный апельсин",
+        "InitialItemDescription": "Праздничный шоколадный апельсин.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15429,8 +15429,8 @@
     {
       "itemName": "CrabRangoon",
       "itemData": {
-        "InitialItemName": "crab rangoon",
-        "InitialItemDescription": "Has many names, like crab puffs, cheese won'tons, crab dumplings? Whatever you call them, they're a fabulous blast of cream cheesy crab.",
+        "InitialItemName": "краб-рангун",
+        "InitialItemDescription": "Имеет много названий, таких как крабовые слоенки, сырные пельмени, крабовые клецки? Как бы вы их ни называли, это потрясающий взрыв сливочно-сырного краба.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15438,8 +15438,8 @@
     {
       "itemName": "CubanNachos",
       "itemData": {
-        "InitialItemName": "Cuban nachos",
-        "InitialItemDescription": "That's some dangerously spicy nachos.",
+        "InitialItemName": "Кубинские начо",
+        "InitialItemDescription": "Это опасно пряный начо.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15447,8 +15447,8 @@
     {
       "itemName": "DeadFacehugger",
       "itemData": {
-        "InitialItemName": "dead facehugger",
-        "InitialItemDescription": "This looks disgusting... but edible?",
+        "InitialItemName": "мёртвый Facehugger",
+        "InitialItemDescription": "Выглядит отвратительно ... но съедобно?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15456,8 +15456,8 @@
     {
       "itemName": "DeadMouseGray",
       "itemData": {
-        "InitialItemName": "dead mouse",
-        "InitialItemDescription": "It looks like somebody dropped the bass on it. A lizard's favorite meal.",
+        "InitialItemName": "мертвая мышь",
+        "InitialItemDescription": "Похоже, кто-то уронил на него окуня. Любимое блюдо ящерицы.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15465,8 +15465,8 @@
     {
       "itemName": "Bun",
       "itemData": {
-        "InitialItemName": "bun",
-        "InitialItemDescription": "A base for any self-respecting burger.",
+        "InitialItemName": "булочка",
+        "InitialItemDescription": "Основа для любого уважающего себя бургера.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15474,8 +15474,8 @@
     {
       "itemName": "CakeBatter",
       "itemData": {
-        "InitialItemName": "cake batter",
-        "InitialItemDescription": "Cook it to get a cake.",
+        "InitialItemName": "тесто для торта",
+        "InitialItemDescription": "Готовь, чтобы получить торт.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15483,8 +15483,8 @@
     {
       "itemName": "Dough",
       "itemData": {
-        "InitialItemName": "dough",
-        "InitialItemDescription": "A piece of dough.",
+        "InitialItemName": "тесто",
+        "InitialItemDescription": "Кусок теста.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15492,8 +15492,8 @@
     {
       "itemName": "DoughSlice",
       "itemData": {
-        "InitialItemName": "dough slice",
-        "InitialItemDescription": "A slice of dough. Can be cooked into a bun.",
+        "InitialItemName": "кусок теста",
+        "InitialItemDescription": "Ломтик теста. Можно приготовить булочку.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15501,8 +15501,8 @@
     {
       "itemName": "FlatDough",
       "itemData": {
-        "InitialItemName": "flat dough",
-        "InitialItemDescription": "A flattened dough.",
+        "InitialItemName": "тесто",
+        "InitialItemDescription": "Ровное тесто.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15510,8 +15510,8 @@
     {
       "itemName": "PastryBase",
       "itemData": {
-        "InitialItemName": "pastry base",
-        "InitialItemDescription": "A base for any self-respecting pastry.",
+        "InitialItemName": "кондитерская основа",
+        "InitialItemDescription": "Основа для любой уважающей себя выпечки.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15519,8 +15519,8 @@
     {
       "itemName": "PieDough",
       "itemData": {
-        "InitialItemName": "pie dough",
-        "InitialItemDescription": "Cook it to get a pie.",
+        "InitialItemName": "тесто для пирога",
+        "InitialItemDescription": "Готовьте, чтобы получить пирог.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15528,8 +15528,8 @@
     {
       "itemName": "PizzaBread",
       "itemData": {
-        "InitialItemName": "pizza bread",
-        "InitialItemDescription": "Add ingredients to make a pizza.",
+        "InitialItemName": "хлеб для пиццы",
+        "InitialItemDescription": "Добавьте ингредиенты для приготовления пиццы.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15537,8 +15537,8 @@
     {
       "itemName": "RawPastryBase",
       "itemData": {
-        "InitialItemName": "raw pastry base",
-        "InitialItemDescription": "Must be cooked before use.",
+        "InitialItemName": "основа из сырого теста",
+        "InitialItemDescription": "Перед использованием необходимо приготовить.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15546,8 +15546,8 @@
     {
       "itemName": "EggplantParmigiana",
       "itemData": {
-        "InitialItemName": "eggplant parmigiana",
-        "InitialItemDescription": "The only good recipe for eggplant.",
+        "InitialItemName": "пармезан из баклажанов",
+        "InitialItemDescription": "Единственный хороший рецепт баклажанов.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15555,8 +15555,8 @@
     {
       "itemName": "BoiledEgg",
       "itemData": {
-        "InitialItemName": "boiled egg",
-        "InitialItemDescription": "A hard boiled egg.",
+        "InitialItemName": "вареное яйцо",
+        "InitialItemDescription": "Сваренное вкрутую яйцо.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15564,8 +15564,8 @@
     {
       "itemName": "ChocolateEgg",
       "itemData": {
-        "InitialItemName": "chocolate egg",
-        "InitialItemDescription": "Such, sweet, fattening food.",
+        "InitialItemName": "шоколадное яйцо",
+        "InitialItemDescription": "Такая сладкая, жирная пища.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15573,8 +15573,8 @@
     {
       "itemName": "Egg",
       "itemData": {
-        "InitialItemName": "egg",
-        "InitialItemDescription": "An egg!",
+        "InitialItemName": "яйцо",
+        "InitialItemDescription": "Яйцо!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15582,8 +15582,8 @@
     {
       "itemName": "EggsBenedict",
       "itemData": {
-        "InitialItemName": "eggs benedict",
-        "InitialItemDescription": "There is only one egg on this, how rude.",
+        "InitialItemName": "яйца Бенедикт",
+        "InitialItemDescription": "На этом только одно яйцо, как грубо.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15591,8 +15591,8 @@
     {
       "itemName": "FriedEgg",
       "itemData": {
-        "InitialItemName": "fried egg",
-        "InitialItemDescription": "A fried egg, with a touch of salt and pepper.",
+        "InitialItemName": "жареное яйцо",
+        "InitialItemDescription": "Жареное яйцо с добавлением соли и перца.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15600,8 +15600,8 @@
     {
       "itemName": "OmeletteDuFromage",
       "itemData": {
-        "InitialItemName": "omlette du fromage",
-        "InitialItemDescription": "That's all you can say!",
+        "Initial ItemName": "omelette du fromage",
+        "InitialItemDescription": "Это все, что вы можете сказать!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15609,8 +15609,8 @@
     {
       "itemName": "EggWrap",
       "itemData": {
-        "InitialItemName": "egg wrap",
-        "InitialItemDescription": "The precursor to Pigs in a Blanket.",
+        "InitialItemName": "упаковка для яиц",
+        "InitialItemDescription": "Предшественник свиней в одеяле.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15618,8 +15618,8 @@
     {
       "itemName": "FriedFacehugger",
       "itemData": {
-        "InitialItemName": "fried facehugger",
-        "InitialItemDescription": "This looks... slightly less disgusting?",
+        "InitialItemName": "жареный Facehugger",
+        "InitialItemDescription": "Это выглядит ... немного менее отвратительно?",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15627,8 +15627,8 @@
     {
       "itemName": "BerryCreamsicle",
       "itemData": {
-        "InitialItemName": "berry creamsicle",
-        "InitialItemDescription": "A vibrant berry creamsicle. A berry good frozen treat.",
+        "InitialItemName": "ягодный крем",
+        "InitialItemDescription": "Яркое ягодное кремовое блюдо. Ягодное вкусное замороженное лакомство.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15636,8 +15636,8 @@
     {
       "itemName": "Cornuto",
       "itemData": {
-        "InitialItemName": "cornuto",
-        "InitialItemDescription": "A neapolitan vanilla and chocolate icecream cone. It menaces with a sprinkling of caramelized nuts.",
+        "InitialItemName": "корнуто",
+        "InitialItemDescription": "Неаполитанский ванильно-шоколадный рожок мороженого. Угрожает посыпкой карамелизированных орехов.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15646,7 +15646,7 @@
       "itemName": "Honkdae",
       "itemData": {
         "InitialItemName": "honkdae",
-        "InitialItemDescription": "The clown's favorite dessert.",
+        "InitialItemDescription": "Любимый десерт клоуна.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15654,8 +15654,8 @@
     {
       "itemName": "IceCreamSandwich",
       "itemData": {
-        "InitialItemName": "ice cream sandwich",
-        "InitialItemDescription": "Portable Ice-cream in its own packaging.",
+        "InitialItemName": "бутерброд с мороженым",
+        "InitialItemDescription": "Портативное мороженое в собственной упаковке.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15663,8 +15663,8 @@
     {
       "itemName": "JumboIcecream",
       "itemData": {
-        "InitialItemName": "jumbo icecream",
-        "InitialItemDescription": "A luxurious icecream covered in rich chocolate. It seems smaller than you remember it being.",
+        "InitialItemName": "гигантское мороженое",
+        "InitialItemDescription": "Роскошное мороженое, покрытое насыщенным шоколадом. Оно кажется меньше, чем вы помните.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15672,8 +15672,8 @@
     {
       "itemName": "NoggaBlack",
       "itemData": {
-        "InitialItemName": "nogga black",
-        "InitialItemDescription": "A salty licorice icecream recently reintroduced due to all the records of the controversy being lost to time. Those who cannot remember the past are doomed to repeat it.",
+        "InitialItemName": "черный ноготь",
+        "InitialItemDescription": "Мороженое с соленым лакричником, которое недавно появилось вновь, поскольку все записи о споре утеряны во времени. Те, кто не может вспомнить прошлое, обречены повторить его.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15681,8 +15681,8 @@
     {
       "itemName": "OrangeCreamsicle",
       "itemData": {
-        "InitialItemName": "orange creamsicle",
-        "InitialItemDescription": "A classic orange creamsicle. A sunny frozen treat.",
+        "InitialItemName": "апельсиновый крем",
+        "InitialItemDescription": "Классический апельсиновый крем. Солнечное замороженное лакомство.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15690,8 +15690,8 @@
     {
       "itemName": "PopsicleBase",
       "itemData": {
-        "InitialItemName": "bug popsicle",
-        "InitialItemDescription": "Mmmm, this should not exist.",
+        "InitialItemName": "эскимо с ошибкой",
+        "InitialItemDescription": "Мммм, этого не должно быть.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15699,8 +15699,8 @@
     {
       "itemName": "PopsicleStick",
       "itemData": {
-        "InitialItemName": "popsicle stick",
-        "InitialItemDescription": "This humble little stick usually carries a frozen treat, at the moment it seems freed from this atlassian burden.",
+        "InitialItemName": "палочка от мороженого",
+        "InitialItemDescription": "Эта скромная маленькая палочка обычно несет в себе замороженное лакомство, на данный момент она кажется освобожденной от этого атласского бремени.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15708,8 +15708,8 @@
     {
       "itemName": "SnowconeApple",
       "itemData": {
-        "InitialItemName": "apple snowcone",
-        "InitialItemDescription": "Apple syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежная шишка из яблока",
+        "InitialItemDescription": "Яблочный сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15717,8 +15717,8 @@
     {
       "itemName": "SnowconeBerry",
       "itemData": {
-        "InitialItemName": "berry snowcone",
-        "InitialItemDescription": "Berry syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "ягодный снежный конус",
+        "InitialItemDescription": "Ягодный сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15726,8 +15726,8 @@
     {
       "itemName": "SnowconeBluecherry",
       "itemData": {
-        "InitialItemName": "bluecherry snowcone",
-        "InitialItemDescription": "Bluecherry syrup drizzled over a snowball in a paper cup, how rare!",
+        "InitialItemName": "снежный конус синей вишни",
+        "InitialItemDescription": "Сироп блючри, сбрызнутый снежком в бумажном стаканчике, какая редкость!",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15735,8 +15735,8 @@
     {
       "itemName": "SnowconeCherry",
       "itemData": {
-        "InitialItemName": "cherry snowcone",
-        "InitialItemDescription": "Cherry syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежная шишка вишни",
+        "InitialItemDescription": "Вишневый сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15744,8 +15744,8 @@
     {
       "itemName": "SnowconeClown",
       "itemData": {
-        "InitialItemName": "clown snowcone",
-        "InitialItemDescription": "Laughter drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежный конус клоуна",
+        "InitialItemDescription": "Смех рассыпался над снежком в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15753,8 +15753,8 @@
     {
       "itemName": "SnowconeFlavorless",
       "itemData": {
-        "InitialItemName": "flavorless snowcone",
-        "InitialItemDescription": "It's just shaved ice. Still fun to chew on.",
+        "InitialItemName": "снежный рожок без запаха",
+        "InitialItemDescription": "Это просто ледяная стружка. По-прежнему весело жевать.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15762,8 +15762,8 @@
     {
       "itemName": "SnowconeFruitSalad",
       "itemData": {
-        "InitialItemName": "fruit salad snowcone",
-        "InitialItemDescription": "A delightful mix of citrus syrups drizzled over a snowball in a paper cup.",
+        "InitialItemName": "шишка из фруктового салата",
+        "InitialItemDescription": "Восхитительная смесь цитрусовых сиропов, сбрызнутая снежком в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15771,8 +15771,8 @@
     {
       "itemName": "SnowconeGrape",
       "itemData": {
-        "InitialItemName": "grape snowcone",
-        "InitialItemDescription": "Grape syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежная шишка из винограда",
+        "InitialItemDescription": "Виноградный сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15780,8 +15780,8 @@
     {
       "itemName": "SnowconeHoney",
       "itemData": {
-        "InitialItemName": "honey snowcone",
-        "InitialItemDescription": "Honey drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежинка меда",
+        "InitialItemDescription": "Мед моросил снежком в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15789,8 +15789,8 @@
     {
       "itemName": "SnowconeLemon",
       "itemData": {
-        "InitialItemName": "lemon snowcone",
-        "InitialItemDescription": "Lemon syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежинка лимона",
+        "InitialItemDescription": "Лимонный сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15798,8 +15798,8 @@
     {
       "itemName": "SnowconeLime",
       "itemData": {
-        "InitialItemName": "lime snowcone",
-        "InitialItemDescription": "Lime syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "снежный конус извести",
+        "InitialItemDescription": "Лаймовый сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15807,7 +15807,7 @@
     {
       "itemName": "SnowconeMime",
       "itemData": {
-        "InitialItemName": "mime snowcone",
+        "InitialItemName": "снежный конус",
         "InitialItemDescription": "...",
         "ExportName": "",
         "ExportMessage": ""
@@ -15816,8 +15816,8 @@
     {
       "itemName": "SnowconeOrange",
       "itemData": {
-        "InitialItemName": "orange snowcone",
-        "InitialItemDescription": "Orange syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "оранжевый снежный конус",
+        "InitialItemDescription": "Апельсиновый сироп брызнул на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15825,8 +15825,8 @@
     {
       "itemName": "SnowconePineapple",
       "itemData": {
-        "InitialItemName": "pineapple snowcone",
-        "InitialItemDescription": "Pineapple syrup drizzled over a snowball in a paper cup.",
+        "InitialItemName": "шишка из ананаса",
+        "InitialItemDescription": "Ананасовый сироп, сбрызнутый снежком в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15834,8 +15834,8 @@
     {
       "itemName": "SnowconePwrGame",
       "itemData": {
-        "InitialItemName": "Pwr Game snowcone",
-        "InitialItemDescription": "Pwr Game soda drizzled over a snowball in a paper cup.",
+        "InitialItemName": "Снежный конус Pwr Game",
+        "InitialItemDescription": "Сода Pwr Game пролилась на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15843,8 +15843,8 @@
     {
       "itemName": "SnowconeRainbow",
       "itemData": {
-        "InitialItemName": "rainbow snowcone",
-        "InitialItemDescription": "A very colorful snowball in a paper cup.",
+        "InitialItemName": "снежный конус радуги",
+        "InitialItemDescription": "Очень красочный снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15852,8 +15852,8 @@
     {
       "itemName": "SnowconeSpaceCola",
       "itemData": {
-        "InitialItemName": "Space Cola snowcone",
-        "InitialItemDescription": "Space Cola drizzled over a snowball in a paper cup.",
+        "InitialItemName": "Снежный конус космической колы",
+        "InitialItemDescription": "Космическая кола пролилась на снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15861,8 +15861,8 @@
     {
       "itemName": "SnowconeSpaceMountainWind",
       "itemData": {
-        "InitialItemName": "Space Mountain Wind snowcone",
-        "InitialItemDescription": "Space Mountain Wind drizzled over a snowball in a paper cup.",
+        "InitialItemName": "Снежный конус космического горного ветра",
+        "InitialItemDescription": "Ветер космических гор моросил снежок в бумажном стаканчике.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15870,8 +15870,8 @@
     {
       "itemName": "SpaceFreezy",
       "itemData": {
-        "InitialItemName": "space freezy",
-        "InitialItemDescription": "The best icecream in space.",
+        "Initial ItemName": "космомороженое",
+        "InitialItemDescription": "Лучшее мороженое в космосе.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15879,8 +15879,8 @@
     {
       "itemName": "StrawberryIceCreamSandwich",
       "itemData": {
-        "InitialItemName": "strawberry ice cream sandwich",
-        "InitialItemDescription": "Portable ice-cream in its own packaging of the strawberry variety.",
+        "InitialItemName": "бутерброд с клубничным мороженым",
+        "InitialItemDescription": "Портативное мороженое в собственной упаковке из сорта клубники.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15888,8 +15888,8 @@
     {
       "itemName": "Sundae",
       "itemData": {
-        "InitialItemName": "sundae",
-        "InitialItemDescription": "A classic dessert.",
+        "InitialItemName": "мороженое с фруктами",
+        "InitialItemDescription": "Классический десерт.",
         "ExportName": "",
         "ExportMessage": ""
       }
@@ -15897,8 +15897,8 @@
     {
       "itemName": "FudgeDice",
       "itemData": {
-        "InitialItemName": "fudge dice",
-        "InitialItemDescription": "A little cube of chocolate that tends to have a less intense taste if you eat too many at once.",
+        "InitialItemName": "выдумка игральных костей",
+        "InitialItemDescription": "Маленький кусочек шоколада, который имеет менее интенсивный вкус, если вы съедите слишком много за один раз.",
         "ExportName": "",
         "ExportMessage": ""
       }
