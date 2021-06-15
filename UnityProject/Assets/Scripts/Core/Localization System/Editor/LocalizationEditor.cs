@@ -116,9 +116,11 @@ namespace Localization
 			var i = 0;
 			foreach (var itemUI in localizationUIDataFilter)
 			{
-				LocalizationUIItem item = new LocalizationUIItem();
-				item.Key = itemUI.Key;
-				item.Value = itemUI.Value;
+				LocalizationUIItem item = new LocalizationUIItem
+				{
+					Key = itemUI.Key,
+					Value = itemUI.Value
+				};
 				localizationUIData.Items[i] = item;
 				i++;
 			}
@@ -208,9 +210,11 @@ namespace Localization
 			int i = 0;
 			foreach(var exportItem in exportItemData)
 			{
-				Item item = new Item();
-				item.ItemName = exportItem.Key;
-				item.ItemData = exportItem.Value;
+				Item item = new Item
+				{
+					ItemName = exportItem.Key,
+					ItemData = exportItem.Value
+				};
 				itemDataExportStructure.ItemsData[i] = item;
 
 				i++;
@@ -272,9 +276,11 @@ namespace Localization
 			int i = 0;
 			foreach (var exportObject in exportObjectData)
 			{
-				Object obj = new Object();
-				obj.ObjectName = exportObject.Key;
-				obj.ObjectData = exportObject.Value;
+				Object obj = new Object
+				{
+					ObjectName = exportObject.Key,
+					ObjectData = exportObject.Value
+				};
 				objectDataExportStructure.ObjectsData[i] = obj;
 
 				i++;

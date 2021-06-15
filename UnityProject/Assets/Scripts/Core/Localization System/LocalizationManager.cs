@@ -175,7 +175,6 @@ namespace Localization
 			isReady = true;
 		}
 
-
 		public void OnWakeGameObjectUICacheForLocalization(LocalizedText component)
 		{
 			cacheLocalizedGameObjectsUIComponents.Add(component);
@@ -205,7 +204,7 @@ namespace Localization
 			foreach (FileInfo f in LocalizedFilesCache)
 			{
 				//Check for current file is a base Localisation file
-				if (!f.Name.Contains("_items"))
+				if (!f.Name.Contains("_items") & !f.Name.Contains("_objects"))
 				{
 					//If true - add file name in dropdown list
 					optionData = new Dropdown.OptionData(f.Name.Remove(f.Name.Length - f.Extension.Length), null);
